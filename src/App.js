@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
+import WelcomePage from './pages/welcome'
+import InfoAkademik from './pages/infoAkademik'
+import InfoKampus from './pages/infoKampus'
+import InfoPacil from './pages/infoPacil'
+import KanalInformasi from './pages/kanalInfo'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/akademik"><InfoAkademik /></Route>
+        <Route path="/UI"><InfoKampus /></Route>
+        <Route path="/fasilkom"><InfoPacil /></Route>
+        <Route path="/informasi"><KanalInformasi /></Route>
+        <Route path="/"><WelcomePage /></Route>
+      </Switch>
+    </Router>
   );
 }
 

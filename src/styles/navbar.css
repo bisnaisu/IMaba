@@ -1,0 +1,15 @@
+a {
+    color: black;
+    font-weight: bold;
+}
+
+#navbar a {
+    padding: 2px .75rem;
+}
+
+#navbar a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
