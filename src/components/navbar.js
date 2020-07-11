@@ -12,21 +12,25 @@ const selected = {
         color: "rgba(0, 0, 0, .3)"
     }
 
-const navbar = () => {
+const navbar = (props) => {
     return (
         <Navbar variant="light" expand="md" sticky="top">
             <Container className="d-flex justify-content-between">
                 <Navbar.Brand><Link to="/"><img src={Brand} alt="iMaba"/></Link></Navbar.Brand>
                 
-                <Navbar.Toggle aria-controls="navbar" />
-                <Navbar.Collapse id="navbar" className="justify-content-end">
-                    <Nav>
-                        <NavLink to="/akademik" activeStyle={selected}>Akademik</NavLink>
-                        <NavLink to="/UI" activeStyle={selected}>Info Kampus</NavLink>
-                        <NavLink to="/fasilkom" activeStyle={selected}>Info Fasilkom</NavLink>
-                        <NavLink to="/informasi" activeStyle={selected}>Kanal informasi</NavLink>
-                    </Nav>
-                </Navbar.Collapse>
+                {!props.welcome && (
+                    <React.Fragment>
+                        <Navbar.Toggle aria-controls="navbar" />
+                        <Navbar.Collapse id="navbar" className="justify-content-end">
+                            <Nav>
+                                <NavLink to="/akademik" activeStyle={selected}>Akademik</NavLink>
+                                <NavLink to="/UI" activeStyle={selected}>Info Kampus</NavLink>
+                                <NavLink to="/fasilkom" activeStyle={selected}>Info Fasilkom</NavLink>
+                                <NavLink to="/informasi" activeStyle={selected}>Kanal informasi</NavLink>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </React.Fragment>
+                ) }                
             </Container>
         </Navbar>
     )
