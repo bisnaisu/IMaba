@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Styles = styled.div`
-    background-color: #FFCFF6;
+    background-color: #FC9CD6;
     min-height: 100vh;
 
     .navbar-light{
