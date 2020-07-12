@@ -1,0 +1,31 @@
+{
+	"info": [
+		{
+            "logo": "Bem.svg",
+            "title": "BEM Fasilkom UI",
+            "desc": "BEM Fasilkom UI adalah badan eksekutif mahasiswa tingkat fakultas yang berada di Fakultas Ilmu Komputer UI. BEM Fasilkom UI memiliki 6 bidang, yaitu bidang relasi, internal, keuangan, kesejahteraan mahasiswa, minat bakat, dan sosial politik, serta satu kontrol internal.",
+            "contacts": [
+                {
+                    "narahubung": [
+                        {
+                            "nama": "Azhar Difa",
+                            "hp": "082115917118",
+                            "line": "allnewazrdfa"
+                        }
+                    ]
+                },
+                {
+                    "socmed": {
+                        "telp": "",
+                        "fax": "",
+                        "email": "",
+                        "twitter": " @BEMFasilkomUI",
+                        "ig": "@bemfasilkomui",
+                        "fb": "bemfasilkomui",
+                        "web": "bem.cs.ui.ac.id"
+                    }
+                }
+            ]
+        }
+	]
+}
