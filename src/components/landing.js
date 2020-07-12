@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Container from 'react-bootstrap/container'
+import Container from 'react-bootstrap/Container'
 
 export default function landing(props) {
 
