@@ -27,7 +27,7 @@ export default function kanalInfo() {
                         <Card>
                             <Card.Body> 
                                 <div className="cardHeader">
-                                    <img alt={item.title} src={ require(`../assets/logo/${item.logo}`) } />
+                                    <img alt={item.title} src={ require(`../assets/iconlogo/${item.logo}`) } />
                                     <h2>{item.title}</h2>
                                 </div>           
                                 <Row>
@@ -37,7 +37,7 @@ export default function kanalInfo() {
                                             <span>
                                                 {person.nama}<br />
                                                 <i class="fas fa-phone-square-alt"></i> {person.hp}<br />
-                                                <img alt="line" src={ require(`../assets/logo/line.svg`) } /> {person.line}<br/>
+                                                <img alt="line" src={ require(`../assets/iconlogo/line.svg`) } /> {person.line}<br/>
                                             </span>
                                         ))}<br/>
                                         {item.contacts[1].socmed.telp && (<span><i class="fas fa-phone-volume"></i> {item.contacts[1].socmed.telp}<br/></span>)}
