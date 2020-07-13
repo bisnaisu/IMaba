@@ -24,3 +24,9 @@ h3 {
     box-shadow: 3px 3px 50px rgba(24, 24, 24, 0.15);
     padding: 2rem;
 }
+
+@media (max-width:576px) {
+  .card {
+      padding: 1rem;
+  }
+} 

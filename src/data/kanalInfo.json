@@ -16,13 +16,126 @@
                 },
                 {
                     "socmed": {
-                        "telp": "",
-                        "fax": "",
-                        "email": "",
-                        "twitter": " @BEMFasilkomUI",
-                        "ig": "@bemfasilkomui",
+                        "twitter": "BEMFasilkomUI",
+                        "ig": "bemfasilkomui",
                         "fb": "bemfasilkomui",
                         "web": "bem.cs.ui.ac.id"
+                    }
+                }
+            ]
+        },
+        {
+            "logo": "kontingen.svg",
+            "title": "Kontingen CSUI",
+            "desc": "Kontingen CSUI adalah bidang minat bakat dari BEM Fasilkom UI yang bertujuan mewadahi dan menyalurkan minat dan bakat mahasiswa Fasilkom di bidang seni budaya, keilmuan, dan olahraga, serta penyelenggaraan Unit Kegiatan Fakultas (UKF) dan Unit Kegiatan Olahraga (Ukor).",
+            "contacts": [
+                {
+                    "narahubung": []
+                },
+                {
+                    "socmed": {
+                        "line": "@kontingencsui",
+                        "ig": "kontingencsui"
+                    }
+                }
+            ]
+        },
+        {
+            "logo": "dpm.svg",
+            "title": "DPM Fasilkom UI",
+            "desc": "DPM (Dewan Perwakilan Mahasiswa) Fasilkom UI merupakan lembaga yang berperan sebagai lembaga legislatif dan memiliki fungsi yudikatif, maka merupakan suatu kewajiban DPM Fasilkom UI untuk melayani IKM Fasilkom UI.",
+            "contacts": [
+                {
+                    "narahubung": [
+                        {
+                            "nama": "Fairuza Raryasdya",
+                            "hp": "085810648889",
+                            "line": "fairuzafe"
+                        }
+                    ]
+                },
+                {
+                    "socmed": {
+                        "twitter": "DPMFasilkomUI",
+                        "ig": "dpmfasilkomui"
+                    }
+                }
+            ]
+        },
+        {
+            "logo": "adkesma.svg",
+            "title": "Adkesma Fasilkom UI",
+            "desc": "Advokasi Kesejahteraan Mahasiswa (Adkesma) adalah salah satu departemen di BEM yang mewadahi aspirasi mahasiswa dan akan membantu kamu dalam menghadapi permasalahan seputar akademis, finansial, psikologis, serta fasilitas di Fasilkom UI yang dirasa kurang memadai.",
+            "contacts": [
+                {
+                    "narahubung": [
+                        {
+                            "nama": "Rifqy Zulkarnaen",
+                            "hp": "087777535288",
+                            "line": "mrifqyz17"
+                        },
+                        {
+                            "nama": "Fikra Shafna",
+                            "hp": "085692139792",
+                            "line": "shafnafkr"
+                        },
+                        {
+                            "nama": "Siti Nurfitriyah",
+                            "hp": "081807558961",
+                            "line": "snfitriiii"
+                        }
+                    ]
+                },
+                {
+                    "socmed": {
+                        "line": "@lmc0672o"
+                    }
+                }
+            ]
+        },
+        {
+            "logo": "pmb.svg",
+            "title": "PMB",
+            "desc": "PMB Fasilkom adalah acara untuk mahasiswa baru dari elemen Fasilkom UI dalam rangka mengenalkan kehidupan kuliah serta budaya-budaya yang ada di Fasilkom.",
+            "contacts": [
+                {
+                    "narahubung": [
+                        {
+                            "nama": "Rafi Muhammad Daffa",
+                            "hp": "08119764988",
+                            "line": "flyhigher2208"
+                        },
+                        {
+                            "nama": "Nurhafizatun Nisa",
+                            "hp": "082297432305",
+                            "line": "nrhfztn_nisa"
+                        }
+                    ]
+                },
+                {
+                    "socmed": {
+                        "line": "@xyv7855o",
+                        "ig": "pmbfasilkomui",
+                        "web": "pmb.cs.ui.ac.id"
+                    }
+                }
+            ]
+        },
+        {
+            "logo": "cs.svg",
+            "title": "Fasilkom UI",
+            "desc": "Fakultas Ilmu Komputer UI (Fasilkom UI) merupakan salah satu fakultas Rumpun Ilmu Sains dan Teknologi di Universitas Indonesia. Fasilkom UI menyelenggarakan program studi pada jenjang Sarjana (S1), Magister (S2), dan Doktoral (S3).",
+            "contacts": [
+                {
+                    "narahubung": []
+                },
+                {
+                    "socmed": {
+                        "telp": "+62217863419",
+                        "fax": "+62217863415",
+                        "twitter": "FASILKOM_UI",
+                        "ig": "fasilkomuiofficial",
+                        "web": "cs.ui.ac.id"
                     }
                 }
             ]

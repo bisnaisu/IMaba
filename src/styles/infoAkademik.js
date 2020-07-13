@@ -53,12 +53,6 @@ const Styles = styled.div`
         color: #FFF;
         border-color: #05AC72;
     }
-
-    @media (max-width:576px) {
-        .card {
-            padding: 1rem;
-        }
-    }
 `
 
 
