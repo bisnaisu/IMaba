@@ -49,7 +49,7 @@ export default function kanalInfo() {
                                         {item.contacts[1].socmed.twitter && (<span><i className="fab fa-twitter"></i>{item.contacts[1].socmed.twitter}<br/></span>)}
                                         {item.contacts[1].socmed.ig && (<span><i className="fab fa-instagram"></i> {item.contacts[1].socmed.ig}<br/></span>)}
                                         {item.contacts[1].socmed.fb && (<span><i className="fab fa-facebook-square"></i> {item.contacts[1].socmed.fb}<br/></span>)}
-                                        {item.contacts[1].socmed.web && (<span><i className="fas fa-globe"></i> <a href={`http://${item.contacts[1].socmed.web}`}>{item.contacts[1].socmed.web}</a> <br/></span>)}
+                                        {item.contacts[1].socmed.web && (<span><i className="fas fa-globe"></i> <a href={`http://${item.contacts[1].socmed.web}`} target="blank">{item.contacts[1].socmed.web}</a> <br/></span>)}
                                     </Col>   
                                 </Row>  
                             </Card.Body>                            
