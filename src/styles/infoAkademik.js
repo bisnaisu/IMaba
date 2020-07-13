@@ -7,6 +7,26 @@ const Styles = styled.div`
     .navbar-light{
         background: #05AC72;
     }
+
+    h2 {
+        margin: 0 0 1.5rem 0;
+    }
+
+    .subcard {
+        background: #C8ECE0;
+        border-radius: 10px;
+        padding: 32px;
+
+        p {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        img {
+            margin: 1rem;
+        }
+    }
 `
 export default Styles
 

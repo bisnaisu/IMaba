@@ -7,11 +7,7 @@ const Styles = styled.div`
     .navbar-light{
         background: #FF62D1;
     }
-
-    h2 {
-        font-weight: bold;
-    }
-
+    
     span img {
         height: 18px;
     }
@@ -29,13 +25,6 @@ const Styles = styled.div`
 
     .card-columns {
         column-count: 1;
-    }
-
-    .card {
-        border-radius: 30px;
-        border: none;
-        box-shadow: 3px 3px 50px rgba(24, 24, 24, 0.15);
-        padding: 1rem;
     }
 
     .card:hover{

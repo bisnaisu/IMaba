@@ -58,16 +58,6 @@ const Styles = styled.div`
         max-width: 500px;
         margin: 2rem auto 5rem auto;
     }
-
-    h3 {
-        font-weight: bold;
-    }
-
-    .card {
-        border-radius: 30px;
-        border: none;
-        box-shadow: 3px 3px 50px rgba(24, 24, 24, 0.15);
-    }
     
     .card-img-top {
         border-radius: 30px;

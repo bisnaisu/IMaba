@@ -1,0 +1,19 @@
+{
+    "belajar": [
+        {
+            "title": "Programming",
+            "asset": "programming.svg",
+            "desc": "Dalam programming, kita belajar berbagai macam bahasa pemrograman untuk menyusun algoritma dengan tujuan mengembangkan sebuah program, aplikasi, atau software. Di Fasilkom, kamu akan belajar beberapa bahasa pemrograman seperti Python pada mata kuliah Dasar-Dasar Pemrograman 1 dan Java pada mata kuliah Dasar-Dasar Pemrograman 2."
+        },
+        {
+            "title": "Matematika",
+            "asset": "math.svg",
+            "desc": "Tentunya dalam programming kita dituntut untuk memiliki logika yang kuat. Oleh karena itu, untuk melatih logika-mu, beberapa mata kuliah di Fasilkom mengajarkan ilmu matematika. Contoh mata kuliahnya adalah Matematika Dasar 1 dan Matematika Diskret 1."
+        },
+        {
+            "title": "Manajemen",
+            "asset": "manajemen.svg",
+            "desc": "Di Fasilkom kamu akan belajar manajemen agar dapat mengolah suatu ide bisnis dalam mengembangkan proyek. Selain itu, kamu juga akan belajar menganalisis kebutuhan suatu perusahaan sehingga tujuan yang telah ditetapkan dapat tercapai secara efektif dan efisien."
+        }
+    ]
+}
