@@ -4,6 +4,10 @@ const Styles = styled.div`
     background-color: #20CB91;
     min-height: 100vh;
 
+    .card img {
+        width: 100%;
+    }
+
     .navbar-light{
         background: #05AC72;
     }
@@ -15,7 +19,7 @@ const Styles = styled.div`
     .subcard {
         background: #C8ECE0;
         border-radius: 10px;
-        padding: 32px;
+        padding: 1rem;
         box-shadow: none;
 
         p {
@@ -25,9 +29,38 @@ const Styles = styled.div`
         }
 
         img {
-            margin: 1rem;
+            margin: 1rem 0;
+            width: 100%;
+        }
+    }
+
+    .btn-primary {
+        margin: 0 .5rem;
+        background: #FFF;
+        color: #05AC72;
+        border-color: #05AC72;
+        font-weight: bold;
+    }
+
+    .btn-primary:hover {
+        color: white;
+        background-color: rgba(5, 172, 114, 0.5);
+        border-color: rgba(5, 172, 114, 0.5);
+    }
+
+    .btn-primary:not(:disabled):not(.disabled).active,.btn-primary:not(:disabled):not(.disabled):active {
+        background: #05AC72;
+        color: #FFF;
+        border-color: #05AC72;
+    }
+
+    @media (max-width:576px) {
+        .card {
+            padding: 1rem;
         }
     }
 `
+
+
 export default Styles
 

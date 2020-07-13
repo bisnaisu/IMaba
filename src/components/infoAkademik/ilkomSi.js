@@ -7,16 +7,16 @@ import Col from 'react-bootstrap/Col'
 
 export default function ilkomSi() {
     return (
-        <Card className="mt-4 mb-2 text-center">
+        <Card id="ilkomSI" className="mt-5 mb-5 text-center">
             <h2>Ilmu Komputer dan Sistem Informasi</h2>
             <Row>
-                <Col>                    
+                <Col sm={6}>                    
                     <img alt="Ilkom" src={ require("../../assets/infoAkademik/ilkom.svg")} /><br /><br />
                     <h3>Ilmu Komputer</h3>
                     <p>Jurusan Ilmu Komputer (Computer Science) mengkaji pemanfaatan Ilmu Komputer, antara lain desain algoritma dan penerapannya untuk mengembangkan perangkat lunak (software) yang berkualitas hingga pemutakhiran aplikasi berbasis kecerdasan buatan, robotika, pengolahan informasi multimedia, keamanan informasi dan jaringan, serta pengolahan data besar.</p>
                     <p>Ilmu Komputer mencakup fondasi bidang komputasi, meliputi pemrograman, perancangan dan analisis algoritma, arsitektur komputer, sistem operasi, jaringan komputer, teori komputasi, sistem cerdas, rekayasa perangkat lunak, analisis numerik, dan sebagainya. Jurusan tersebut juga membahas praktik dengan berbagai bahasa pemrograman.  Prospek alumnus dapat menjadi Full Stack Developer, Android Developer, Software Engineer, Data Scientist, dll.</p>
                 </Col> 
-                <Col>                    
+                <Col sm={6}>                    
                     <img alt="SI" src={ require("../../assets/infoAkademik/si.svg")} />
                     <br /><br /><br />
                     <h3>Sistem Informasi</h3>

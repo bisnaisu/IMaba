@@ -9,7 +9,7 @@ const subcards = data.belajar
 
 export default function BelajarApa() {
     return (
-        <Card className="text-center">
+        <Card id="belajarApa" className="text-center">
             <h2>Belajar apa aja di Fasilkom?</h2>
             <CardDeck>
                 {subcards.map( subcard => (
