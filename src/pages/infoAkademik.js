@@ -6,7 +6,7 @@ import Footer from '../components/footer'
 import Landing from '../components/landing'
 
 import BelajarApa from '../components/infoAkademik/belajarApa'
-// import IlkomSI from '../components/infoAkademik/ilkomSi'
+import IlkomSI from '../components/infoAkademik/ilkomSi'
 // import Kurikulum from '../components/infoAkademik/kurikulum'
 // import Matkul from '../components/infoAkademik/matkul'
 // import Scele from '../components/infoAkademik/scele'
@@ -23,8 +23,8 @@ export default function infoAkademik() {
             <Landing page="infoAkademik" color="#05AC72" title={title} desc={desc} />
             <Container>
                 <BelajarApa />
-                {/* <IlkomSI />
-                <Matkul />
+                <IlkomSI />
+                {/* <Matkul />
                 <Kurikulum />
                 <Scele /> */}
             </Container>

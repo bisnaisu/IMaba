@@ -16,6 +16,7 @@ const Styles = styled.div`
         background: #C8ECE0;
         border-radius: 10px;
         padding: 32px;
+        box-shadow: none;
 
         p {
             font-weight: normal;

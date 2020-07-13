@@ -63,6 +63,10 @@ const Styles = styled.div`
         border-radius: 30px;
     }
 
+    .card {
+        padding: 0;
+    }
+
     .card:hover {
         position: relative;
         animation: up;
