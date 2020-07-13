@@ -7,9 +7,9 @@ import Landing from '../components/landing'
 
 import BelajarApa from '../components/infoAkademik/belajarApa'
 import IlkomSI from '../components/infoAkademik/ilkomSi'
-// import Kurikulum from '../components/infoAkademik/kurikulum'
+import Kurikulum from '../components/infoAkademik/kurikulum'
 import Matkul from '../components/infoAkademik/matkul'
-// import Scele from '../components/infoAkademik/scele'
+import Scele from '../components/infoAkademik/scele'
 
 import Styles from '../styles/infoAkademik'
 
@@ -25,8 +25,8 @@ export default function infoAkademik() {
                 <BelajarApa />
                 <IlkomSI />
                 <Matkul />
-                {/* <Kurikulum />
-                <Scele /> */}
+                <Kurikulum />
+                <Scele />
             </Container>
             <div className="gap"></div>
             <Footer />

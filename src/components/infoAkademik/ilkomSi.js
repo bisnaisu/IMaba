@@ -14,14 +14,13 @@ export default function ilkomSi() {
                     <img alt="Ilkom" src={ require("../../assets/infoAkademik/ilkom.svg")} /><br /><br />
                     <h3>Ilmu Komputer</h3>
                     <p>Jurusan Ilmu Komputer (Computer Science) mengkaji pemanfaatan Ilmu Komputer, antara lain desain algoritma dan penerapannya untuk mengembangkan perangkat lunak (software) yang berkualitas hingga pemutakhiran aplikasi berbasis kecerdasan buatan, robotika, pengolahan informasi multimedia, keamanan informasi dan jaringan, serta pengolahan data besar.</p>
-                    <p>Ilmu Komputer mencakup fondasi bidang komputasi, meliputi pemrograman, perancangan dan analisis algoritma, arsitektur komputer, sistem operasi, jaringan komputer, teori komputasi, sistem cerdas, rekayasa perangkat lunak, analisis numerik, dan sebagainya. Jurusan tersebut juga membahas praktik dengan berbagai bahasa pemrograman.  Prospek alumnus dapat menjadi Full Stack Developer, Android Developer, Software Engineer, Data Scientist, dll.</p>
+                    <p>Prospek alumnus dapat menjadi Full Stack Developer, Android Developer, Software Engineer, Data Scientist, dll.</p>
                 </Col> 
                 <Col sm={6}>                    
                     <img alt="SI" src={ require("../../assets/infoAkademik/si.svg")} />
                     <br /><br /><br />
                     <h3>Sistem Informasi</h3>
                     <p>Jurusan Sistem Informasi (Information Systems) mengkaji pengembangan, pemanfaatan, dan pengelolaan Sistem Informasi dalam suatu organisasi. Jurusan tersebut memadukan konsep komputer dengan bisnis dan manajemen dengan tujuan menjembatani kebutuhan bisnis dengan aplikasi yang dirancang.</p>
-                    <p>Sistem Informasi mencakup fondasi bidang bisnis, meliputi administrasi bisnis, prinsip-prinsip manajemen, sistem informasi, sistem informasi akuntansi dan keuangan, sistem-sistem perusahaan, arsitektur dan pemrograman aplikasi perusahaan, dan sebagainya.</p>
                     <p>Prospek alumnus dapat menjadi Data Analyst, Database Administrator, UI/UX Developer, Graphic Designer, dll. </p>
                 </Col>    
             </Row>
