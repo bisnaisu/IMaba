@@ -77,6 +77,11 @@ const Styles = styled.div`
         font-weight: bold;
     }
 
+    .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .btn-primary:not(:disabled):not(.disabled):active:focus {
+        box-shadow:0 0 0 .2rem rgba(5, 172, 114, 0.5);
+    }
+
     @media (max-width:990px) and (min-width:576px) {
         #belajarApa {        
 

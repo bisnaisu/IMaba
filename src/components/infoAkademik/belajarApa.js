@@ -3,7 +3,7 @@ import React from 'react'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
 
-import data from '../../data/infoAkademik/belajarApa.json'
+import data from '../../data/akademik-belajarApa.json'
 
 const subcards = data.belajar
 

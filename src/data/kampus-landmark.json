@@ -1,0 +1,28 @@
+{
+    "landmarks": [
+        { 
+            "name": "rektorat",
+            "title": "Rektorat UI",
+            "desc": "Gedung Rektorat UI sangat terkenal karena bentuk arsitekturnya yang sangat iconic sehingga gedung ini sering sekali dijadikan background untuk foto-foto. Di dekat Gedung Rektorat ini ada Danau Kenanga yang membuat pemandangan gedung rektorat ini indah banget!",
+            "credits": "Foto: ui.ac.id"
+        },
+        { 
+            "name": "balairung",
+            "title": "Balairung UI",
+            "desc": "Balairung untuk para maba pasti pertama-tama diingat sebagai tempat dilaksanakannya segala acara penerimaan mahasiswa baru. Selain itu Balairung juga merupakan tempat diselenggarakannya acara-acara penting, seperti OKK UI, Dies Natalis UI, dll.",
+            "credits": "Foto: zhaliilaa/indoplaces"
+        },
+        { 
+            "name": "perpusat",
+            "title": "Perpustakaan UI",
+            "desc": "Perpustakaan pusat UI sangat terkenal dengan bentuknya yang unik. Dalam perpusatnya juga tidak kalah loh! Di lantai satu, terdapat banyak tempat nongkrong dan makan-makan. Di lantai 2 sampai 4 adalah tempat disimpannya buku-buku seperti naskah, buku kuno, novel-novel, dan lain-lain. Disini juga terdapat tempat berdiskusi yang nyaman banget kalau lagi nugas!",
+            "credits": "Foto: ui.ac.id"
+        },
+        { 
+            "name": "tamling",
+            "title": "Taman Lingkar",
+            "desc": "Taman Lingkar adalah taman yang berada di tengah-tengah Perpusat. Disini juga terkenal sebagai titik kumpul dan tempat berdiskusi. Lokasinya yang sangat dekat dengan Perpusat juga membuat taman lingkar menjadi tempat nongkrong yang sangat nyaman.",
+            "credits": "Foto: 5beat.com"
+        }
+    ]
+}

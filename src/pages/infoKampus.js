@@ -5,6 +5,14 @@ import Footer from '../components/footer'
 import Landing from '../components/landing'
 import Container from 'react-bootstrap/Container'
 
+// import Beasiswa from '../components/infoKampus/beasiswa'
+import Fakultas from '../components/infoKampus/fakultas'
+// import FiturSivitas from '../components/infoKampus/fiturSivitas'
+import InfoKehidupan from '../components/infoKampus/infoKehidupan'
+import Landmark from '../components/infoKampus/landmark'
+import PetaUI from '../components/infoKampus/petaUI'
+import Transportasi from '../components/infoKampus/transportasi'
+
 import Styles from '../styles/infoKampus'
 
 export default function infoKampus() {
@@ -16,7 +24,13 @@ export default function infoKampus() {
             <Navbar/>
             <Landing page="infoKampus" color="#FFB400" title={title} desc={desc} />
             <Container>
-                <h1>Info Kampus</h1>
+                <Fakultas />
+                <PetaUI />
+                <Landmark />
+                <Transportasi />
+                <InfoKehidupan />
+                {/* <FiturSivitas />
+                <Beasiswa /> */}
             </Container>
             <div className="gap"></div>
             <Footer />
