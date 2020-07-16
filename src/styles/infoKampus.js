@@ -158,48 +158,76 @@ const Styles = styled.div`
     }
 
     #infoKehidupan {
-        padding-right: 0!important;
-        padding-left: 0!important;
-        .carousel-lg .card-deck {
-            width: 85%;
-            margin: 0 7.5%;
-        }
-        .subcard { padding: 0; }
-        .card-footer { 
-            background: #FFB400;
-            color: white;
-            border: none;
-            border-radius: 0 0 10px 10px;
-            text-align: center;
-        }
-        .glue {
-            background: transparent;
-            box-shadow: none!important;
-            padding:0;
-            width: 100%;
-            height: 200px;
-            perspective: 1000px;
-        }
-        .flipcard {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            transition: transform .8s;
-            transform-style: preserve-3d;
-        }
-        .glue:hover .flipcard {
-            transform: rotateY(180deg);
-        }
-        .flipcard-f, .flipcard-b {
-            position: absolute;
-            width: 100%;
-            height:100%;
-            -webkit-backface-visibility: hidden; /* Safari */
-            backface-visibility: hidden;
-        }
-        .flipcard-b{
-            transform: rotateY(180deg);
-        }
+        #kostan {
+            h2 { margin-bottom: .5rem!important }
+            small { opacity: .5 }
+            padding-right: 0!important;
+            padding-left: 0!important;
+            .carousel-lg, .carousel-md {
+                .card-deck  {
+                    width: 85%;
+                    margin: 0 7.5%;
+                }
+            }
+            .carousel-lg, .carousel-md { display: none }
+            .carousel-sm { 
+                display: block;
+                margin: 0 1rem;
+                .carousel-item { height: 320px }
+            }
+            @media (min-width: 768px) {
+                .carousel-lg, .carousel-sm { display: none }
+                .carousel-md { display: block }
+            }
+            @media (min-width: 992px) {
+                .carousel-md, .carousel-sm { display: none }
+                .carousel-lg { display: block }
+            }
+            .subcard { padding: 0; }
+            .card-footer { 
+                background: #FFB400;
+                color: white;
+                border: none;
+                border-radius: 0 0 10px 10px;
+                text-align: center;
+            }
+            .glue {
+                background: transparent;
+                box-shadow: none!important;
+                padding:0;
+                width: 100%;
+                height: 300px;
+                perspective: 1000px;
+            }
+            .flipcard {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                transition: transform .8s;
+                transform-style: preserve-3d;
+            }
+            .glue:hover .flipcard {
+                transform: rotateY(180deg);
+            }
+            .flipcard-f, .flipcard-b {
+                .card-body {
+                    height: 250px;
+                    display: flex; 
+                    align-items: center;
+                    img {
+                        height: 210px;
+                    }
+                }
+                position: absolute;
+                width: 100%;
+                height:100%;
+                -webkit-backface-visibility: hidden; /* Safari */
+                backface-visibility: hidden;
+            }
+            .flipcard-b{
+                transform: rotateY(180deg);
+            }
+        }        
     }
     
 `

@@ -1,0 +1,18 @@
+{
+    "fitur": [
+        {
+            "name": "gdrive",
+            "icon": "gdrive",
+            "title": "Google Drive",
+            "desc": "Kamu bisa memiliki penyimpanan Google Drive secara unlimited dengan cara mengubah domain email.",
+            "link": "https://imgur.com/r/indonesia/QbsHA"
+        },
+        {
+            "name": "penerimaan",
+            "icon": "ui",
+            "title": "Informasi Penerimaan Mahasiswa",
+            "desc": "Kamu bisa memiliki penyimpanan Google Drive secara unlimited dengan cara mengubah domain email.",
+            "link": "https://imgur.com/r/indonesia/QbsHA"
+        }
+    ]
+}

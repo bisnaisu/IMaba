@@ -1,0 +1,40 @@
+{
+    "kost": [
+        {
+            "name": "kober",
+            "loc": "Kober",
+            "desc": "Kober terletak di Jalan Margonda. Kamu bisa menggunakan bikun untuk menuju Fasilkom dan membutuhkan waktu sekitar 15 menit.",
+            "price": "Rp500.000 - Rp1.500.000"
+        },
+        {
+            "name": "barel",
+            "loc": "Barel",
+            "desc": "Barel terletak di seberang rel, dan lokasinya paling dekat dari Fasilkom. Butuh waktu sekitar 5 menit dengan jalan kaki untuk menuju Fasilkom.",
+            "price": "Rp600.000 - Rp2.500.000"
+        },
+        {
+            "name": "pocin",
+            "loc": "Pocin",
+            "desc": "Pocin letaknya dekat dengan stasiun Pondok Cina. Kamu bisa menggunakan bikun, spekun, atau berjalan kaki dan membutuhkan waktu sekitar 10 menit untuk menuju Fasilkom.",
+            "price": "Rp500.000 - Rp1.500.000"
+        },
+        {
+            "name": "kukel",
+            "loc": "Kukel",
+            "desc": "Kukel atau kukusan kelurahan letaknya dekat dengan Vokasi. Kamu bisa menggunakan bikun atau motor untuk menuju Fasilkom dan diperlukan 15-20 menit.",
+            "price": "Rp500.000 - Rp1.500.000"
+        },
+        {
+            "name": "kutek",
+            "loc": "Kutek",
+            "desc": "Kukusan teknik letaknya di dekat Fakultas Teknik. Kamu bisa naik bikun, ojek, spekun, atau jalan kaki lewat Teksas untuk menuju Fasilkom. Waktu perjalanan sekitar 15 menit.",
+            "price": "Rp500.000 - Rp1.800.000"
+        },
+        {
+            "name": "asrama",
+            "loc": "Asrama",
+            "desc": "Buat kamu, terutama yang dari daerah, bisa juga tinggal di Asrama UI. Untuk menuju Fasilkom dari asrama bisa menggunakan bikun atau motor dan membutuhkan waktu sekitar 15 menit.",
+            "price": "Rp200.000 - Rp400.000"
+        }
+    ]
+}
