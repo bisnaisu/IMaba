@@ -1,7 +1,7 @@
 {
 	"info": [
 		{
-            "logo": "bem.svg",
+            "logo": "bem.png",
             "title": "BEM Fasilkom UI",
             "desc": "BEM Fasilkom UI adalah badan eksekutif mahasiswa tingkat fakultas yang berada di Fakultas Ilmu Komputer UI. BEM Fasilkom UI memiliki 6 bidang, yaitu bidang relasi, internal, keuangan, kesejahteraan mahasiswa, minat bakat, dan sosial politik, serta satu kontrol internal.",
             "contacts": [
@@ -25,7 +25,7 @@
             ]
         },
         {
-            "logo": "kontingen.svg",
+            "logo": "kontingen.png",
             "title": "Kontingen CSUI",
             "desc": "Kontingen CSUI adalah bidang minat bakat dari BEM Fasilkom UI yang bertujuan mewadahi dan menyalurkan minat dan bakat mahasiswa Fasilkom di bidang seni budaya, keilmuan, dan olahraga, serta penyelenggaraan Unit Kegiatan Fakultas (UKF) dan Unit Kegiatan Olahraga (Ukor).",
             "contacts": [
@@ -41,7 +41,7 @@
             ]
         },
         {
-            "logo": "dpm.svg",
+            "logo": "dpm.png",
             "title": "DPM Fasilkom UI",
             "desc": "DPM (Dewan Perwakilan Mahasiswa) Fasilkom UI merupakan lembaga yang berperan sebagai lembaga legislatif dan memiliki fungsi yudikatif, maka merupakan suatu kewajiban DPM Fasilkom UI untuk melayani IKM Fasilkom UI.",
             "contacts": [
@@ -63,7 +63,7 @@
             ]
         },
         {
-            "logo": "adkesma.svg",
+            "logo": "adkesma.png",
             "title": "Adkesma Fasilkom UI",
             "desc": "Advokasi Kesejahteraan Mahasiswa (Adkesma) adalah salah satu departemen di BEM yang mewadahi aspirasi mahasiswa dan akan membantu kamu dalam menghadapi permasalahan seputar akademis, finansial, psikologis, serta fasilitas di Fasilkom UI yang dirasa kurang memadai.",
             "contacts": [
@@ -94,7 +94,7 @@
             ]
         },
         {
-            "logo": "pmb.svg",
+            "logo": "pmb.png",
             "title": "PMB",
             "desc": "PMB Fasilkom adalah acara untuk mahasiswa baru dari elemen Fasilkom UI dalam rangka mengenalkan kehidupan kuliah serta budaya-budaya yang ada di Fasilkom.",
             "contacts": [
@@ -122,7 +122,7 @@
             ]
         },
         {
-            "logo": "cs.svg",
+            "logo": "cs.png",
             "title": "Fasilkom UI",
             "desc": "Fakultas Ilmu Komputer UI (Fasilkom UI) merupakan salah satu fakultas Rumpun Ilmu Sains dan Teknologi di Universitas Indonesia. Fasilkom UI menyelenggarakan program studi pada jenjang Sarjana (S1), Magister (S2), dan Doktoral (S3).",
             "contacts": [
