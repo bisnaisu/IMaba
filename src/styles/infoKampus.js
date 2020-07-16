@@ -230,5 +230,16 @@ const Styles = styled.div`
         }        
     }
     
+
+    #beasiswa {
+        a {
+            font-weight: bold;
+            color: #FFB400; 
+        }
+
+        a:hover {
+            color: #FFDB00;
+        }
+    }
 `
 export default Styles
