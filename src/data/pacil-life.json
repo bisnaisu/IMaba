@@ -1,0 +1,44 @@
+{
+    "life": [
+        {
+            "title": "Jangan telat masuk kelas",
+            "p": "Hal ini akan membuatmu sulit fokus dan tertinggal"            
+        },
+        {
+            "title": "Bangun relasi",
+            "p": "Join organisasi dan kepanitiaan di fakultas bisa jadi solusi"            
+        },
+        {
+            "title": "Bawa laptop di manapun, kapanpun kalian berada",
+            "p": "Tugas dadakan siap dikerjakan"            
+        },
+        {
+            "title": "Tidur yang cukup dan jangan memaksakan diri",
+            "p": "Istirahat bisa me-refresh otak yang lagi stuck ngoding"            
+        },
+        {
+            "title": "Prioritaskan yang urgensi lebih tinggi",
+            "p": "Dengan begitu kamu bisa menghindari jadi deadliner gaada obat"            
+        },
+        {
+            "title": "Bertanggung jawab atas tugasmu",
+            "p": "Jangan malas ngerjain tugas, jangan plagiat, dan jangan jadi deadliner (kamu bisa manfaatkan platform scheduling)"            
+        },
+        {
+            "title": "Jangan lupa review materi bareng temen dan tanya kating",
+            "p": "Ujian auto A"            
+        },
+        {
+            "title": "Latihan magang dan bangun portofolio",
+            "p": "Ini bisa jadi bekalmu di masa depan lho!"            
+        },
+        {
+            "title": "Tentukan standar, target, hindari gangguan, dan fokus",
+            "p": "Hindari hal menghalangi kesuksesanmu"            
+        },
+        {
+            "title": "Overview materi sebelum perkuliahan",
+            "p": "At least kalau kamu udah baca materi, apa yang diajarin dosen cepat masuk ke otak"            
+        }
+    ]
+}

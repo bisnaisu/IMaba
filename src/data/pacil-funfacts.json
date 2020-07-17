@@ -1,0 +1,44 @@
+{
+    "funfacts": [
+        {
+            "name": "yoshinoya",
+            "title": "Yoshinoya",
+            "desc": "Kamu mau makanan fast food tapi malas jauh-jauh pergi ke Mall??? Tenang, Fasilkom punya nih gerai Yoshinoya, cuma satu-satunya di UI lho!"
+        },
+        {
+            "name": "wifi",
+            "title": "Hostspot Kilat",
+            "desc": "Dengan kecepatan maksimal 100mbps, hotspot di Fasilkom merupakan hotspot tercepat se-UI! Tidak hanya itu, jaringannya juga tersebar rata di seluruh penjuru gedung Fasilkom. Cocok buat kamu yang lagi krisis kuota!"
+        },
+        {
+            "name": "cs",
+            "title": "SCELE Fasilkom",
+            "desc": "Penerapan PJJ membuat kita sangat bergantung pada SCELE untuk mendapatkan materi kuliah. Uniknya, SCELE yang digunakan mahasiswa Fasilkom berbeda lho dengan SCELE yang digunakan mahasiswa fakultas lain."
+        },
+        {
+            "name": "wisuda",
+            "title": "Skripsi Bukan Satu-Satunya Syarat untuk Lulus",
+            "desc": "Berbeda dengan fakultas lain yang menjadikan skripsi sebagai syarat untuk lulus, di Fasilkom kamu tidak harus membuat skripsi saat semester akhir nanti. Untuk detailnya, kamu akan diberikan penjelasannya setelah masuk kuliah."
+        },
+        {
+            "name": "cs",
+            "title": "Sate Fasilkom",
+            "desc": "Makanan di kantin Fasilkom itu murah dan bikin kenyang lho! Contohnya sate Fasilkom yang merupakan salah satu jajanan paling terkenal di UI. Selain rasanya yang enak, harganya juga murah. Bahkan kurang lengkap rasanya kalau kamu berkunjung ke Fasilkom tapi tidak mencoba sate ini."
+        },
+        {
+            "name": "kontingen",
+            "title": "Maskot Panda",
+            "desc": "Maskot dari Fasilkom adalah seekor panda. Nah kebanyakan mahasiswa Fasilkom sibuk dengan tugas yang menumpuk hingga kantung mata mereka hitam akibat kurang tidur, mirip seekor panda. Maka hewan panda-lah yang dijadikan maskot fakultas ini."
+        },
+        {
+            "name": "gebun",
+            "title": "Gedung Bundar",
+            "desc": "Tahukah kamu? Gedung lama Fasilkom merupakan satu-satunya gedung di UI yang berbentuk bundar. Selain arsitektur yang unik, letak gedung ini juga sangat strategis karena berlokasi di tengah kawasan UI. Jadi mudah deh pergi kemana-mana!"
+        },
+        {
+            "name": "copyright",
+            "title": "Anti Plagiarisme",
+            "desc": "Fasilkom sangat ketat dengan tindakan plagiarisme dalam tugas ataupun lainnya. Jadi jangan pernah melakukan plagiarisme yaa!! atau akibat terburuknya kamu akan mendapat nilai E pada mata kuliah bersangkutan."
+        }
+    ]
+}

@@ -56,7 +56,9 @@ const Styles = styled.div`
     }
 
     .btn-primary:not(:disabled):not(.disabled).active:focus,
-    .btn-primary:not(:disabled):not(.disabled):active:focus {
+    .btn-primary:not(:disabled):not(.disabled):active:focus,
+    .btn-secondary:not(:disabled):not(.disabled).active:focus,
+    .btn-secondary:not(:disabled):not(.disabled):active:focus {
         box-shadow:0 0 0 .2rem rgba(255, 180, 0, 0.5);
     }
 

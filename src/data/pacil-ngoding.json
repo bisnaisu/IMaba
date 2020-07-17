@@ -1,0 +1,20 @@
+{
+        "latihan": [
+            {"name": "iconlogo/hackerrank", "title": "HackerRank"},
+            {"name": "iconlogo/codingbat", "title": "CodingBat"},
+            {"name": "iconlogo/snakify", "title": "Snakify"},
+            {"name": "infoPacil/filler", "title": ""}
+        ],
+        "belajar": [
+            {"name": "iconlogo/w3schools", "title": "W3Schools"},
+            {"name": "iconlogo/edx", "title": "edX"},
+            {"name": "iconlogo/sololearn", "title": "SoloLearn"},
+            {"name": "iconlogo/codecademy", "title": "Codecademy"}
+        ],
+        "tips": [
+            "Dengarkan baik-baik materi yang disampaikan oleh dosen saat kelas!",
+            "Belajar bersama teman-teman dan kakak tingkat akan membuat kamu semakin jago!",
+            "Kalau kamu stuck saat mengerjakan suatu problem, kamu bisa mencari permasalahan serupa di Google ataupun YouTube!",
+            "Jangan lupa untuk terus melatih dirimu agar semakin terbiasa untuk ngoding!"
+        ]
+    }
