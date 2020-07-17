@@ -15,7 +15,7 @@
         {
             "name": "ristek",
             "title": "RISTEK", 
-            "desc": ["RISTEK adalah organisasi Independen di Fasilkom UI yang bertujuan untuk meningkatkan minat dan mengembangkan potensi mahasiswa di dalam teknologi sehingga mahasiswa dapat berkontribusi di dalam teknologi.","RISTEK terbagi dalam beberapa Special Interest Group (SIG) yaitu App Development, Data Science, Embedded System, Game Development, NetSOS, UI/UX, dan Web Development."],
+            "desc": ["RISTEK adalah organisasi Independen di Fasilkom UI yang bertujuan untuk meningkatkan minat dan mengembangkan potensi mahasiswa dalam teknologi sehingga mahasiswa dapat berkontribusi dalam teknologi.","RISTEK terbagi dalam beberapa Special Interest Group (SIG) yaitu App Development, Data Science, Embedded System, Game Development, NetSOS, UI/UX, dan Web Development."],
             "socmed": {
                 "line": "@ristekfasilkomui",
                 "ig": "ristek.csui",

@@ -8,12 +8,12 @@
         {
             "title": "Matematika",
             "asset": "math.svg",
-            "desc": "Untuk melatih pemecaha masalah dan logikamu, beberapa mata kuliah di Fasilkom mengajarkan ilmu matematika. Contoh mata kuliahnya adalah Matematika Dasar 1 dan Matematika Diskret 1."
+            "desc": "Untuk melatih pemecahan masalah dan logikamu, beberapa mata kuliah di Fasilkom mengajarkan ilmu matematika. Contohnya Matematika Dasar dan Matematika Diskret."
         },
         {
             "title": "Manajemen",
             "asset": "manajemen.svg",
-            "desc": "Di Fasilkom kamu akan belajar manajemen agar dapat mengolah suatu ide bisnis dalam mengembangkan proyek danmenganalisis kebutuhan suatu perusahaan."
+            "desc": "Di Fasilkom kamu akan belajar manajemen agar dapat mengolah suatu ide bisnis dalam mengembangkan proyek dan menganalisis kebutuhan suatu perusahaan."
         }
     ]
 }

@@ -2,7 +2,7 @@
     "life": [
         {
             "title": "Jangan telat masuk kelas",
-            "p": "Hal ini akan membuatmu sulit fokus dan tertinggal"            
+            "p": "Hal ini akan membuatmu sulit fokus dan tertinggal pelajaran"            
         },
         {
             "title": "Bangun relasi",
@@ -34,11 +34,11 @@
         },
         {
             "title": "Tentukan standar, target, hindari gangguan, dan fokus",
-            "p": "Hindari hal menghalangi kesuksesanmu"            
+            "p": "Katakan tidak pada hal yang menghalangi kesuksesanmu"            
         },
         {
             "title": "Overview materi sebelum perkuliahan",
-            "p": "At least kalau kamu udah baca materi, apa yang diajarin dosen cepat masuk ke otak"            
+            "p": "At least kalau kamu udah baca materi, apa yang diajarin dosen bisa cepat masuk ke otak"            
         }
     ]
 }
