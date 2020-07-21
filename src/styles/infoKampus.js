@@ -11,7 +11,6 @@ const Styles = styled.div`
     h2 {
         margin: 0 0 1.5rem 0;
     }
-
     .subcard {
         background: #FAF5CB;
         border-radius: 10px;
@@ -231,16 +230,44 @@ const Styles = styled.div`
             }
         }        
     }
-    
-
-    #beasiswa {
+    #beasiswa, #fitur {
         a {
             font-weight: bold;
             color: #FFB400; 
         }
-
+    
         a:hover {
             color: #FFDB00;
+        }
+    }
+    #fitur {
+        a { font-weight: normal }
+        .imgtopper {
+            width: 30%;
+            margin-top: -20%;
+        }
+        .card-columns {
+            .card:not(:nth-child(odd)) {
+                margin-top: 10%;
+            }
+        }
+        @media (max-width:768px){
+            .card-columns {
+                column-count: 2;
+            }
+            .card:not(:nth-child(4n+0)) {
+                margin-top: 10%;
+            }
+        }
+        @media (max-width:576px){
+            .card-columns {
+                margin-top: 15%;
+                column-count: 1;
+                .card { margin-top: 0 }
+                .card:not(:nth-child(1)) {
+                    margin-top: 20%;
+                }
+            }
         }
     }
 `

@@ -15,8 +15,8 @@ export default function transportasi() {
                     <Card key={vehicle.name} className="subcard mx-3">
                         <img alt="" src={ require(`../../assets/infoKampus/transport-${vehicle.name}.svg`) } style={{height:"10rem", margin:"1rem auto"}} />
                         <h3 className="text-center"><b>{vehicle.title}</b></h3>
-                        {vehicle.desc.map( p => 
-                          <p style={{padding:"0 1rem"}}>{p}</p>
+                        {vehicle.desc.map( (p, idx) => 
+                          <p key={idx} style={{padding:"0 1rem"}}>{p}</p>
                         )}
                     </Card>
                 ))}                

@@ -2,17 +2,39 @@
     "fitur": [
         {
             "name": "gdrive",
-            "icon": "gdrive",
             "title": "Google Drive",
             "desc": "Kamu bisa memiliki penyimpanan Google Drive secara unlimited dengan cara mengubah domain email.",
             "link": "https://imgur.com/r/indonesia/QbsHA"
         },
         {
-            "name": "penerimaan",
-            "icon": "ui",
-            "title": "Informasi Penerimaan Mahasiswa",
-            "desc": "Kamu bisa memiliki penyimpanan Google Drive secara unlimited dengan cara mengubah domain email.",
-            "link": "https://imgur.com/r/indonesia/QbsHA"
+            "name": "minecraft",
+            "title": "Minecraft Education",
+            "desc": "Dengan email UI, kamu bisa mendapatkan Minecraft Education version dan belajar sambil bermain bersama teman-temanmu!",
+            "link": "https://meeppe.westus.cloudapp.azure.com/"
+        },
+        {
+            "name": "windows",
+            "title": "Windows 10 EDU",
+            "desc": "Kamu bisa mendapatkan Windows 10 Edu yang merupakan sebuah sistem operasional yang dibuat khusus untuk edukasi",
+            "link": "http://dsti.ui.ac.id/sites/default/files/Get%20Activation%20Key.pdf"
+        },
+        {
+            "name": "fasilkom",
+            "title": "SCeLE Fasilkom",
+            "desc": "Media pembelajaran online khusus mahasiswa Fasilkom UI.",
+            "link": "https://scele.cs.ui.ac.id/"
+        },
+        {
+            "name": "ui",
+            "title": "SCeLE UI",
+            "desc": "SCeLE atau Student Centered eLearning Environment merupakan media pembelajaran online untuk seluruh fakultas yang ada di UI.",
+            "link": "https://scele.ui.ac.id/"
+        },
+        {
+            "name": "figma",
+            "title": "Figma",
+            "desc": "Kamu bisa mendapatkan Student Plan Figma dengan menggunakan email UI kamu. Dengan Student Plan, project Figma dapat dikerjakan bersama dengan account lain.",
+            "link": "https://www.figma.com/education/"
         }
     ]
 }

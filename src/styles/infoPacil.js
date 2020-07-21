@@ -92,10 +92,16 @@ const Styles = styled.div`
         .subcard { padding: 1.5rem }
     }
 
-    #pacilLife {
+    #pacilLife {  
         .kiri, .kanan {
             .row { height: 130px }
-        }
+            @media (max-width: 576px) {
+                .row { 
+                    height: fit-content;
+                    flex-direction: row-reverse; 
+                }
+            }
+        }     
         .kiri {
             text-align: right;
             @media (max-width:768px) { 
@@ -104,7 +110,11 @@ const Styles = styled.div`
                     flex-direction: row-reverse; 
                 }
             }
-        }
+            @media (max-width: 576px) {
+                .row { flex-direction: row }
+            }
+        }        
+        
         @media (min-width:768px) {
             padding: 2rem 5rem 2rem 5rem; 
         }
@@ -177,7 +187,27 @@ const Styles = styled.div`
             .ddp p { max-width: 80%; margin: 0 10% 20px 10%; }
         }
     }
-
+    #denah {
+        .subcard {
+            padding: 0;
+            .card-header {                
+                background-color: #6699FF;
+                border-bottom: 1px solid transparent;
+                border-radius: 10px 10px 0 0;
+                .nav-link {
+                    color: #6666FF;
+                    background-color: #A3BFFA;
+                    border: 2px solid #6699FF;
+                    border-bottom: 2px solid transparent;
+                    border-radius: 10px 10px 0 0;
+                }
+                .nav-link.active {
+                    background-color: #E0E6F5;
+                }
+            }
+            .card-body { padding: 1rem; }
+        }
+    }
     #yelyel {
         .card-deck {
             .card {
