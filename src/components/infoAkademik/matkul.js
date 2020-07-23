@@ -1,43 +1,114 @@
 import React, { Component } from 'react'
 
+import Badge from 'react-bootstrap/Badge'
+import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import Button from 'react-bootstrap/Button'
+import Carousel from 'react-bootstrap/Carousel'
+
+import data from '../../data/akademik-matkul.json'
 
 export default class matkul extends Component {
     state = { term: 1 }
 
+    matkulCard = (name, prodi, sks, desc) => {
+        return (
+            <Card key={name} className="subcard">
+                <div className="header">
+                    <h3>{name}</h3>
+                    <div className="badgewrapper">
+                        <Badge>{prodi}</Badge>
+                        <Badge>{sks} SKS</Badge>
+                    </div>                    
+                </div>
+                <p>{desc}</p>
+            </Card>
+        )
+    }
+
+    displayCarousel = (term) => {
+        return (
+            <div>
+                <Carousel controls indicators className="carousel-xl">
+                    <Carousel.Item>
+                        <CardDeck className="my-3">
+                            { term.slice(0,3).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <CardDeck className="my-3">
+                            { term.slice(3,6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                    <Carousel.Item className={`term${this.state.term}`}>
+                        <CardDeck className="my-3">
+                            { term.slice(6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                </Carousel>
+                <Carousel controls indicators className="carousel-lg">
+                    <Carousel.Item>
+                        <CardDeck className="my-3">
+                            { term.slice(0,2).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <CardDeck className="my-3">
+                            { term.slice(2,4).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <CardDeck className="my-3">
+                            { term.slice(4,6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                    <Carousel.Item className={`term${this.state.term}`}>
+                        <CardDeck className="my-3">
+                            { term.slice(6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                </Carousel>
+                <Carousel controls={false} indicators className="carousel-md">
+                    <Carousel.Item>
+                        <CardDeck className="my-3">
+                            { term.slice(0,2).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <CardDeck className="my-3">
+                            { term.slice(2,4).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <CardDeck className="my-3">
+                            { term.slice(4,6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                    <Carousel.Item className={`term${this.state.term}`}>
+                        <CardDeck className="my-3">
+                            { term.slice(6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
+                        </CardDeck>
+                    </Carousel.Item>
+                </Carousel>
+                <Carousel controls={false} indicators className="carousel-sm">
+                    { term.map( item => (
+                        <Carousel.Item key={item.name}>
+                            <CardDeck className="my-3">
+                                {this.matkulCard(item.name, item.prodi, item.sks, item.desc)}
+                            </CardDeck>
+                        </Carousel.Item>
+                    ))}
+                </Carousel>
+            </div>
+        )
+    }
+
     displayTerm = () => {
+        const { term1, term2 } = data
         if (this.state.term === 1) {
-            return (
-                <div>
-                    <CardDeck className="my-3">
-                        <Card className="subcard">a</Card>
-                        <Card className="subcard">b</Card>
-                        <Card className="subcard">c</Card>
-                    </CardDeck>
-                    <CardDeck className="my-3">
-                        <Card className="subcard">d</Card>
-                        <Card className="subcard">e</Card>
-                        <Card className="subcard">f</Card>
-                    </CardDeck>
-                </div>
-            )
+            return this.displayCarousel(term1)
         } else {
-            return (
-                <div>
-                    <CardDeck className="my-3">
-                        <Card className="subcard">g</Card>
-                        <Card className="subcard">h</Card>
-                        <Card className="subcard">i</Card>
-                    </CardDeck>
-                    <CardDeck className="my-3">
-                        <Card className="subcard">j</Card>
-                        <Card className="subcard">k</Card>
-                        <Card className="subcard">l</Card>
-                    </CardDeck>
-                </div>
-            )
+            return this.displayCarousel(term2)
         }
     }
 

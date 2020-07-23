@@ -82,6 +82,40 @@ const Styles = styled.div`
         box-shadow:0 0 0 .2rem rgba(5, 172, 114, 0.5);
     }
 
+    .carousel-control-next, .carousel-control-prev{
+        width: 5%;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 45px;
+        height: 45px;
+
+        @media (max-width:576px) {
+            display: none;
+        }
+    }
+
+    .carousel-control-next-icon {
+        background-image: url(${require(`../assets/infoAkademik/carousel-next.png`)});
+    }
+    .carousel-control-prev-icon {
+        background-image: url(${require(`../assets/infoAkademik/carousel-prev.png`)});
+    }
+
+    .carousel-indicators li {
+        background-color: #05AC72;
+    }
+
+    ol {
+        margin-bottom: -.5rem;
+    }
+
+    @media (min-width: 1200px) {
+        ol {
+            margin-bottom: -1rem;
+        }
+    }
+
     @media (max-width:990px) and (min-width:576px) {
         #belajarApa {        
 
@@ -105,6 +139,51 @@ const Styles = styled.div`
                 }
             }
         }        
+    }
+
+    #matkul {
+        p { text-align: left }
+        .carousel-xl, .carousel-lg {
+            .card-deck  {
+                width: 90%;
+                margin: 0 5%;
+            }
+        }
+        .carousel-xl {
+            .term1 {
+                width: 35%; 
+                margin: 0 32.5%;
+            }
+            .term2 {
+                width: 70%; 
+                margin: 0 15%;
+            }
+        }
+        .carousel-lg .term1, 
+        .carousel-md .term1 {
+            width: 50%;
+            margin: 0 25%;             
+        }
+        .carousel-xl, .carousel-lg, .carousel-md { display: none }
+        .carousel-sm { 
+            display: block;
+            margin: 0 1rem;
+        }
+        @media (min-width: 768px) {
+            .carousel-xl, .carousel-lg, .carousel-sm { display: none }
+            .carousel-md { display: block }
+        }
+        @media (min-width: 992px) {
+            .carousel-xl, .carousel-md, .carousel-sm { display: none }
+            .carousel-lg { display: block }
+        }
+        @media (min-width: 1200px) {
+            .carousel-lg, .carousel-md, .carousel-sm { display: none }
+            .carousel-xl { display: block }
+        }
+        @media (max-width:375px) {
+            padding: 1rem 0;
+        }
     }
 
     #ilkomSI {
