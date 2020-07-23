@@ -11,7 +11,7 @@ import Styles from '../styles/welcome'
 
 const directory = [
         { title: ["Info", "Akademik"], imgName: "akademikCard.svg", to: "/akademik", class:"akademik" },
-        { title: ["Info", "Kampus"], imgName: "kampusCard.svg", to: "/UI", class:"kampus" },
+        { title: ["Info", "Kampus"], imgName: "kampusCard.svg", to: "/kampus", class:"kampus" },
         { title: ["Info", "Fasilkom"], imgName: "fasilkomCard.svg", to: "/fasilkom", class:"fasilkom" },
         { title: ["Kanal", "Informasi"], imgName: "informasiCard.svg", to: "/informasi", class:"informasi" },
     ]

@@ -4,9 +4,9 @@ const Styles = styled.div`
     background-color: #FFDB00;
     min-height: 100vh;
 
-    .navbar-light{
-        background: #FFB400;
-    }
+    .navbar-light{ background: #FFB400 }
+    .dropdown-menu { background-color: #FFDB00; border: none }
+    .dropdown-item.active, .dropdown-item:active { background-color: #FFB400 }
 
     h2 {
         margin: 0 0 1.5rem 0;

@@ -4,9 +4,8 @@ const Styles = styled.div`
     background-color: #FC9CD6;
     min-height: 100vh;
 
-    .navbar-light{
-        background: #FF62D1;
-    }
+    .navbar-light{ background: #FF62D1 }
+    .dropdown-menu { background-color: #FC9CD6; border: none; }
     
     span img {
         height: 18px;
