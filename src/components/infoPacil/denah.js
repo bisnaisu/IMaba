@@ -15,57 +15,53 @@ export default class denah extends Component {
     state = { gedung: "lama", key: 0, lantai: 0 }
 
     displayDenah(idx) {
-        const old = data.old[idx]
-        if (this.state.gedung === "lama") {
-            if (Number(idx) === Number(2)) {
-                const lantai = this.state.lantai
-                return (
-                    <div>
-                        <div className="navigasi d-flex align-items-center">
-                            {lantai > 0 && 
-                            <span onClick={() => this.setState({ lantai: parseInt(lantai-1) })}><img alt="prev" src={prev} /></span>}
-                            <h3 className="mx-4 mb-0 text-center">
-                                Lantai {this.state.lantai + parseInt(1)}<br/>
-                                {old.title}
-                            </h3>
-                            {lantai < parseInt(old.lantai.length-1) && 
-                            <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next} /></span>}
-                        </div>
-                        <Row>
-                            <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.lantai[lantai].key}.png`)} /></Col>
-                            <Col lg={6} md={10}>
-                                <h4 className="mt-2">Keterangan: </h4>
-                                <ul>{ old.lantai[lantai].desc.map( (i, idx) => (<li key={idx}>{i}</li>))}</ul>
-                            </Col>
-                        </Row>
+    const old = data.old[idx]
+        if (Number(idx) === Number(2)) {
+            const lantai = this.state.lantai
+            return (
+                <div>
+                    <div className="navigasi d-flex align-items-center">
+                        {lantai > 0 && 
+                        <span onClick={() => this.setState({ lantai: parseInt(lantai-1) })}><img alt="prev" src={prev} /></span>}
+                        <h3>
+                            Lantai {this.state.lantai + parseInt(1)}<br/>
+                            {old.title}
+                        </h3>
+                        {lantai < parseInt(old.lantai.length-1) && 
+                        <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next} /></span>}
                     </div>
-                )
-            } else {
-                return (
-                    <div>
-                        <h3 className="text-center">{old.title}</h3>
-                        <Row>
-                            <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.key}.png`)} /></Col>
-                            <Col lg={6} md={10}>
-                                <h4 className="mt-2">Keterangan: </h4>
-                                { old.desc.map( (i, idx) => (
-                                    <div key={idx}>
-                                        <b>{i.head}</b>
-                                        <ul>{ i.body.map( (j, id) => <li key={id}>{j}</li> )}</ul>
-                                    </div>
-                                ))}
-                            </Col>
-                        </Row>
-                    </div>
-                )
-            } 
+                    <Row>
+                        <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.lantai[lantai].key}.png`)} /></Col>
+                        <Col lg={6} md={10}>
+                            <h4 className="mt-2">Keterangan: </h4>
+                            <ul>{ old.lantai[lantai].desc.map( (i, idx) => (<li key={idx}>{i}</li>))}</ul>
+                        </Col>
+                    </Row>
+                </div>
+            )
         } else {
-            return "denah gedung baru"
-        }
+            return (
+                <div>
+                    <h3 className="text-center">{old.title}</h3>
+                    <Row>
+                        <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.key}.png`)} /></Col>
+                        <Col lg={6} md={10}>
+                            <h4 className="mt-2">Keterangan: </h4>
+                            { old.desc.map( (i, idx) => (
+                                <div key={idx}>
+                                    <b>{i.head}</b>
+                                    <ul>{ i.body.map( (j, id) => <li key={id}>{j}</li> )}</ul>
+                                </div>
+                            ))}
+                        </Col>
+                    </Row>
+                </div>
+            )
+        } 
     }
 
     displayGedung() {        
-        const { old } = data
+        const { old, baru } = data
         if (this.state.gedung === "lama") {
             return (
                 <Card className="subcard">
@@ -84,7 +80,30 @@ export default class denah extends Component {
                 </Card>
             )
         } else {
-            return this.displayDenah()
+            const lantai = this.state.lantai
+            const disp = [true,true,true,true,false,false,true,true,false]
+            return (
+                <Card className="subcard">
+                    <Card.Body>
+                    <div className="navigasi d-flex align-items-center">
+                        {lantai > 0 && 
+                        <span onClick={() => this.setState({ lantai: parseInt(lantai-1) })}><img alt="prev" src={prev} /></span>}
+                        <h3>
+                            Lantai {lantai > 0 ? lantai : "Dasar"}
+                        </h3>
+                        {lantai < parseInt(baru.length-1) && 
+                        <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next} /></span>}
+                    </div>
+                    <Row>
+                        <Col lg={8} md={10}>{ disp[lantai] && <img alt="denah" src={require(`../../assets/infoPacil/denah/new-${lantai}.png`)} />}</Col>
+                        <Col lg={4} md={10}>
+                            <h4 className="mt-2">Keterangan: </h4>
+                            <ul>{ baru[lantai].desc.map( (i, idx) => (<li key={idx}>{i}</li>))}</ul>
+                        </Col>
+                    </Row>
+                    </Card.Body>
+                </Card>
+            )
         }
     }
 

@@ -117,5 +117,90 @@
             ]
         }
     ],
-    "new": []
+    "baru": [
+        {
+            "desc": [
+                "A. Halaman depan",
+                "B. Plaza",
+                "C. Pos Informasi dan Security",
+                "D. Ruang Pompa",
+                "\n",
+                "1. Ruang Arsip",
+                "2. Ruang SDM",
+                "3. Loket Akademik",
+                "4. Ruang Sekre Akademik",
+                "5. Ruang Keuangan",
+                "6. Ruang Monitor",
+                "7. Ruang IT",
+                "8. Ruang Server",
+                "9. Ruang & Gudang Fasum",
+                "10. Ruang Kontrol",
+                "11. Mushola Pria",
+                "12. Mushola Wanita",
+                "13. Ruang Panel"
+            ]
+        },
+        {
+            "desc": [
+                "A. Plaza (Balkon)",
+                "B. Balkon",
+                "\n",
+                "1. R. Humas",
+                "2. Lab Komputer (A101-A106)",
+                "3. R. Kelas (A107-A110)",
+                "4. R. Panel"
+            ]
+        },
+        {
+            "desc": [
+                "1 : Beldit (Belakang Audit)",
+                "2 : Ruang Janitor",
+                "3 : Pagur (Papan Nganggur)",
+                "4 : Toilet Difable Unisex",
+                "\n",
+                "A201 : Auditorium",
+                "A206 - A209 : Ruang Kelas"
+            ]
+        },
+        {
+            "desc": [
+                "A301 - 1304 : Lab",
+                "A305 dan A306 : Ruang Kelas"
+            ]
+        },
+        {
+            "desc": []
+        },
+        {
+            "desc": []
+        },
+        {
+            "desc": [
+                "1 : Ruang Janitor",
+                "2 : Toilet Difable Unisex",
+                "\n",
+                "A601 : Lab Riset",
+                "A602 : Lab Tugas Akhir",
+                "A603-A606 dan A613-1615 : Ruang Dosen",
+                "A607-A612 : Ruang Kelas"
+            ]
+        },
+        {
+            "desc": [
+                "1 : Ruang Janitor",
+                "2 : Toilet Difable Unisex",
+                "\n",
+                "A701 : Lab Riset",
+                "A702 : Ruang Pascasarjana",
+                "A703-A710 : Ruang Dosen",
+                "A711 : Ruang Kelas Pascasarjana",
+                "A712-A713 : Ruang Kelas Internasional",
+                "A714-A715 : Ruang Seminar",
+                "A716 : Lounge Pascasarjana"
+            ]
+        },
+        {
+            "desc": []
+        }
+    ]
 }

@@ -214,6 +214,10 @@ const Styles = styled.div`
         .navigasi {
             justify-content: center;
             span { cursor: pointer; }
+            h3 { 
+                text-align: center; 
+                margin: 0 3rem;
+            }
         }
         .row {
             @media (max-width:992px) {
