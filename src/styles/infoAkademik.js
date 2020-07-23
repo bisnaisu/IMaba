@@ -142,7 +142,24 @@ const Styles = styled.div`
     }
 
     #matkul {
+        h3 { margin-bottom: 2px }
         p { text-align: left }
+        .badge { 
+            width: 60px; 
+            height: 25px; 
+            border-radius: .5rem; 
+            margin: 0 3px 5px; 
+            display: flex; 
+            align-items: center;
+            justify-content: center; 
+        }
+        .badge-primary { background-color:#48DFC4 }
+        .badge-secondary { background-color:#13EBA2 }
+        .badge-success { background-color:#05AC72 }
+        .badgewrapper {
+            display: flex;
+            justify-content: center;
+        }
         .carousel-xl, .carousel-lg {
             .card-deck  {
                 width: 90%;

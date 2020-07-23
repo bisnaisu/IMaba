@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/akademik"><InfoAkademik /></Route>
-        <Route path="/UI"><InfoKampus /></Route>
+        <Route path="/kampus"><InfoKampus /></Route>
         <Route path="/fasilkom"><InfoPacil /></Route>
         <Route path="/informasi"><KanalInformasi /></Route>
         <Route path="/"><WelcomePage /></Route>

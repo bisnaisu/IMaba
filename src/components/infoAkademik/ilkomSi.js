@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col'
 
 export default function ilkomSi() {
     return (
-        <Card id="ilkomSI" className="mt-5 mb-5 text-center">
+        <Card id="ilkomSI" className="my-4 text-center">
             <h2>Ilmu Komputer dan Sistem Informasi</h2>
             <Row>
                 <Col sm={6}>                    

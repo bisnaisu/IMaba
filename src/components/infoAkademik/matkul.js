@@ -17,8 +17,8 @@ export default class matkul extends Component {
                 <div className="header">
                     <h3>{name}</h3>
                     <div className="badgewrapper">
-                        <Badge>{prodi}</Badge>
-                        <Badge>{sks} SKS</Badge>
+                        <Badge variant={prodi === "IK/SI" ? "success" : (prodi === "IK" ? "primary" : "secondary")}>{prodi}</Badge>
+                        <Badge variant="success">{sks} SKS</Badge>
                     </div>                    
                 </div>
                 <p>{desc}</p>
@@ -114,7 +114,7 @@ export default class matkul extends Component {
 
     render() {
         return (
-            <Card id="matkul" className="mb-5 text-center">
+            <Card id="matkul" className="mb-4 text-center">
                 <h2>Mata Kuliah Tahun Pertama</h2>
                 <div className="btnwrapper">
                     <Button active={this.state.term === 1} onClick={() => this.setState({term:1})}>Term 1</Button>

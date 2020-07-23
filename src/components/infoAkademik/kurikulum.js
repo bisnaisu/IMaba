@@ -24,7 +24,7 @@ export default class kurikulum extends Component {
         ]
 
         return (
-            <Card id="kurikulum" className="mb-5">
+            <Card id="kurikulum" className="mb-4">
                 <h2 className="text-center">Kurikulum</h2>
                 <Row>
                     <Col md={5}><img alt="kurikulum" src={asset} /></Col>
