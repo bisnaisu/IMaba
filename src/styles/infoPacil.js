@@ -207,6 +207,19 @@ const Styles = styled.div`
             }
             .card-body { padding: 1rem; }
         }
+        li {
+            list-style: none;
+            margin-left: -20px;
+        }
+        .navigasi {
+            justify-content: center;
+            span { cursor: pointer; }
+        }
+        .row {
+            @media (max-width:992px) {
+                justify-content: center;
+            }
+        }
     }
     #yelyel {
         .card-deck {

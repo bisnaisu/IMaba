@@ -2,25 +2,70 @@ import React, { Component } from 'react'
 
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
-// import Col from 'react-bootstrap/Col'
-// import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 
-export default class denah extends Component {
-    state = { gedung: "lama", key: "gedung" }
+import data from '../../data/pacil-denah.json'
+import next from '../../assets/infoPacil/carousel-next.png'
+import prev from '../../assets/infoPacil/carousel-prev.png'
 
-    displayDenah() {
-        switch (this.state.key) {
-            case "gedung": return(<span>denah gedung</span>);
-            case "a": return(<span>denah gedung a</span>);
-            case "b": return(<span>denah gedung b</span>);
-            case "c": return(<span>denah gedung c</span>);
-            default: break;
+export default class denah extends Component {
+    state = { gedung: "lama", key: 0, lantai: 0 }
+
+    displayDenah(idx) {
+        const old = data.old[idx]
+        if (this.state.gedung === "lama") {
+            if (Number(idx) === Number(2)) {
+                const lantai = this.state.lantai
+                return (
+                    <div>
+                        <div className="navigasi d-flex align-items-center">
+                            {lantai > 0 && 
+                            <span onClick={() => this.setState({ lantai: parseInt(lantai-1) })}><img alt="prev" src={prev} /></span>}
+                            <h3 className="mx-4 mb-0 text-center">
+                                Lantai {this.state.lantai + parseInt(1)}<br/>
+                                {old.title}
+                            </h3>
+                            {lantai < parseInt(old.lantai.length-1) && 
+                            <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next} /></span>}
+                        </div>
+                        <Row>
+                            <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.lantai[lantai].key}.png`)} /></Col>
+                            <Col lg={6} md={10}>
+                                <h4 className="mt-2">Keterangan: </h4>
+                                <ul>{ old.lantai[lantai].desc.map( (i, idx) => (<li key={idx}>{i}</li>))}</ul>
+                            </Col>
+                        </Row>
+                    </div>
+                )
+            } else {
+                return (
+                    <div>
+                        <h3 className="text-center">{old.title}</h3>
+                        <Row>
+                            <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.key}.png`)} /></Col>
+                            <Col lg={6} md={10}>
+                                <h4 className="mt-2">Keterangan: </h4>
+                                { old.desc.map( (i, idx) => (
+                                    <div key={idx}>
+                                        <b>{i.head}</b>
+                                        <ul>{ i.body.map( (j, id) => <li key={id}>{j}</li> )}</ul>
+                                    </div>
+                                ))}
+                            </Col>
+                        </Row>
+                    </div>
+                )
+            } 
+        } else {
+            return "denah gedung baru"
         }
     }
 
     displayGedung() {        
+        const { old } = data
         if (this.state.gedung === "lama") {
             return (
                 <Card className="subcard">
@@ -28,23 +73,18 @@ export default class denah extends Component {
                         <Tabs
                             id="controlled-tab"
                             activeKey={this.state.key}
-                            onSelect={(k) => this.setState({ key: k })}
+                            onSelect={(k) => this.setState({ key: k, lantai: 0 })}
                         >
-                            <Tab eventKey="gedung" title="Denah Gedung"></Tab>
-                            <Tab eventKey="a" title="Gedung A"></Tab>
-                            <Tab eventKey="b" title="Gedung B"></Tab>
-                            <Tab eventKey="c" title="Gedung C"></Tab>
+                            { old.map( (gedung, idx) => (<Tab key={idx} eventKey={idx} title={gedung.title}></Tab>))}
                         </Tabs>
                     </Card.Header>
                     <Card.Body>
-                        {this.displayDenah()}
+                        {this.displayDenah(this.state.key)}
                     </Card.Body>
                 </Card>
             )
         } else {
-            return (
-                <span>denah gedung baru</span>
-            )
+            return this.displayDenah()
         }
     }
 
