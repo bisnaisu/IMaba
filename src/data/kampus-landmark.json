@@ -23,6 +23,24 @@
             "title": "Taman Lingkar",
             "desc": "Taman Lingkar adalah taman yang berada di tengah-tengah Perpusat. Disini juga terkenal sebagai titik kumpul dan tempat berdiskusi. Lokasinya yang sangat dekat dengan Perpusat juga membuat taman lingkar menjadi tempat nongkrong yang sangat nyaman.",
             "credits": "Foto: 5beat.com"
+        },
+        { 
+            "name": "teksas",
+            "title": "Jembatan Teksas",
+            "desc": "Jembatan Teksas (Teknik-Sastra) adalah jembatan yang menyeberangi Danau Mahoni dan menjadi jalan penghubung antara Fakultas Teknik dan Fakultas Ilmu Pengetahuian Budaya. Jembatan Teksas juga merupakan jalan alternatif yang sering digunakan untuk mahasiswa yang ngekos di Kutek (Kukusan Teknik).",
+            "credits": "Foto: cerpin.com"
+        },
+        { 
+            "name": "pusgiwa",
+            "title": "Pusgiwa",
+            "desc": "Pusgiwa adalah singkatan dari Pusat Kegiatan Mahasiswa. Seperti namanya, gedung ini dipergunakan sebagai tempat kegiatan para mahasiswa dan tempat kerja para staf Universitas Indonesia. Pusgiwa terdiri dari dua gedung, yaitu pusgiwa lama dan pusgiwa baru. Dua-duanya terletak bersebelahan di dekat Vokasi.",
+            "credits": "Foto: ui.ac.id"
+        },
+        { 
+            "name": "felfest",
+            "title": "Felfest UI",
+            "desc": "Felfest (Felicity Festival) UI adalah salah satu fasilitas dari Universitas Indonesia yang digunakan untuk mendukung pelaksanaan aktivitas kampus. Selain itu, Felfest juga bisa menjadi tempat meeting point, kegiatan olahraga indoor maupun outdoor, berkumpul bahkan resepsi nikah.",
+            "credits": "Foto: Dessy Savitri"
         }
     ]
 }
