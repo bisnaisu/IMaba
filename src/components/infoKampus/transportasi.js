@@ -24,7 +24,7 @@ export default function transportasi() {
             <CardDeck>
                 { transport.slice(2).map( vehicle => (
                     <Card key={vehicle.name} className="subcard mx-3">
-                        <img alt="" src={ require(`../../assets/infoKampus/transport-${vehicle.name}.svg`) } style={{height:"10rem", margin:"1rem auto"}} />
+                        <img alt="" className="lozad" src={ require(`../../assets/infoKampus/transport-${vehicle.name}.svg`) } style={{height:"10rem", margin:"1rem auto"}} />
                         <h3 className="text-center"><b>{vehicle.title}</b></h3>
                         <p style={{padding:"0 1rem"}}>{vehicle.desc}</p>
                     </Card>

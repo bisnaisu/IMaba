@@ -14,7 +14,7 @@ import Styles from '../styles/kanalInfo'
 
 export default function kanalInfo() {
     const title = "Kanal Informasi"
-    const desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum ab voluptates ullam excepturi doloribus nihil voluptate quos consectetur delectus?"
+    const desc = "Ingin tahu lebih banyak tentnang informasi birokrasi dan advokasi di Fasilkom? Di halaman ini, kamu dapat menyimak beberapa kanal informasi yang dapat kamu hubungin di Fasilkom!"
     const data = kanal.info
 
     return (

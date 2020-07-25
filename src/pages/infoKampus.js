@@ -17,7 +17,7 @@ import Styles from '../styles/infoKampus'
 
 export default function infoKampus() {
     const title = "Info Kampus"
-    const desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum ab voluptates ullam excepturi doloribus nihil voluptate quos consectetur delectus?"
+    const desc = "Mau keliling UI tapi tidak tahu jalan? Mau ngekost tapi bingung di mana? Ingin tahu tempat-tempat iconic di UI? Semua pertanyaanmu akan terjawab di halaman ini. Ayo, makin kenal dengan kampus kita!"
 
     return (
         <Styles>

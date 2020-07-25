@@ -7,7 +7,7 @@ import InfoKampus from './pages/infoKampus'
 import InfoPacil from './pages/infoPacil'
 import KanalInformasi from './pages/kanalInfo'
 
-function App() {
+function App() {  
   return (
     <Router>
       <Switch>

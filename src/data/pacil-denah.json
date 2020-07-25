@@ -154,12 +154,14 @@
         {
             "desc": [
                 "1 : Beldit (Belakang Audit)",
-                "2 : Ruang Janitor",
+                "2 : Ruang Panel",
                 "3 : Pagur (Papan Nganggur)",
                 "4 : Toilet Difable Unisex",
                 "---",
                 "A201 : Auditorium",
-                "A206 - A209 : Ruang Kelas"
+                "A205 : Ruang Persiapan",
+                "A206 - A209 : Ruang Kelas",
+                "A210 : Ruang Tutorial I"
             ]
         },
         {
@@ -176,8 +178,8 @@
         },
         {
             "desc": [
-                "1 : Ruang Janitor",
-                "2 : Toilet Difable Unisex",
+                "1 : Toilet Difable Unisex",
+                "2 : Ruang Panel",
                 "---",
                 "A601 : Lab Riset",
                 "A602 : Lab Tugas Akhir",
@@ -188,8 +190,8 @@
         },
         {
             "desc": [
-                "1 : Ruang Janitor",
-                "2 : Toilet Difable Unisex",
+                "1 : Toilet Difable Unisex",
+                "2 : Ruang Panel",
                 "---",
                 "A701 : Lab Riset",
                 "A702 : Ruang Pascasarjana",

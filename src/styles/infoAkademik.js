@@ -44,9 +44,12 @@ const Styles = styled.div`
         }
     }
 
-    #kurikulum img {
-        width: 90%;
-        margin: 5%;
+    #kurikulum {
+        img {
+            width: 90%;
+            margin: 5%;
+        }
+        .btnwrapper button { margin: 5px }
     }
 
     .btn-primary {

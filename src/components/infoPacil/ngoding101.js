@@ -34,9 +34,9 @@ export default class ngoding101 extends Component {
                             </ListGroup>
                         </Col>
                     </Row>
-                    <Row className="mt-3 ddp">
+                    <Row className="mt-3 ddp justify-content-center">
                         <p>Buat kamu yang belum pernah ngoding sebelumnya atau ingin latihan ngoding, bisa banget nih daftar <b>DDP0</b>. Di DDP0 kamu akan belajar bersama kakak tingkat mengenai dasar-dasar dalam pemrograman.</p>
-                        <Button size="lg" variant="secondary" className="mx-auto">Daftar DDP0 Sekarang!</Button>
+                        <a href="https://line.me/R/ti/p/@gcu4092j" target="blank"><Button variant="secondary">Daftar DDP0 Sekarang!</Button></a>
                     </Row>
                 </div>
             )

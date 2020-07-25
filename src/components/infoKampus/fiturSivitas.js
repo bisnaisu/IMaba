@@ -20,10 +20,10 @@ export default function fiturSivitas() {
             <CardColumns>
                 { fitur.map( item => (
                     <Card className="subcard" key={item.name}>
-                    <img alt="" src={require(`../../assets/infoKampus/fitur-${item.name}.png`)} className="imgtopper" />
+                    <img alt="" className="imgtopper" src={require(`../../assets/infoKampus/fitur-${item.name}.png`)} />
                     <h3>{item.title}</h3>
                     <p>{item.desc}</p>
-                    <p>More info: <a href={item.link}>{item.link}</a></p>
+                    <p>More info: <a href={item.link} target="blank">{item.link}</a></p>
                 </Card>
                 ))}                
             </CardColumns> 

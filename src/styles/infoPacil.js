@@ -226,14 +226,16 @@ const Styles = styled.div`
         }
     }
     #yelyel {
-        .card-deck {
-            .card {
-                margin: 0 15px 0 15px;
-            }
+        @media (max-width:576px) { padding: 1rem }
+        .card-deck {            
             @media (max-width:768px) { 
                 flex-direction: column;
                 .card { margin: 10px 15px } 
-            }            
+            }    
+            .card {
+                margin: 0 15px 0 15px;
+                @media (max-width:576px) { margin: .5rem 0 } 
+            }                   
         }
     }
 

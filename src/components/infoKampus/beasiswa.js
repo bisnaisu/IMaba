@@ -15,7 +15,7 @@ export default function beasiswa() {
                 <Col md={7}>
                     <p>Siapa sih yang tidak mau mendapat beasiswa?<br/>Di UI, kita menerima banyak sekali beasiswa dari berbagai instansi. Beasiswa yang ditawarkan juga sangat beragam loh!</p>
                     <p>Dengan website Beasiswa UI, kamu dapat mengetahui beasiswa apa saja yang sedang dibuka. Setiap beasiswa akan mempunyai syarat-syarat tertentu jika kamu ingin melamar.</p>
-                    <p>Jika kamu tertarik untuk melihat apa saja beasiswa-beasiswa yang sedang ditawarkan, kamu bisa lihat dari website: <a href="http://beasiswa.ui.ac.id/">http://beasiswa.ui.ac.id/</a></p>
+                    <p>Jika kamu tertarik untuk melihat apa saja beasiswa-beasiswa yang sedang ditawarkan, kamu bisa lihat dari website: <a href="http://beasiswa.ui.ac.id/" target="blank">http://beasiswa.ui.ac.id/</a></p>
                     <p>Beasiswa yang tersedia akan terus diupdate, jadi yuk dipantau terus websitenya! Siapa tahu ada beasiswa yang cocok buat kamu!</p>
                 </Col>
             </Row>

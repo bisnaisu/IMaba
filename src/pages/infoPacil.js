@@ -18,7 +18,7 @@ import Styles from '../styles/infoPacil'
 
 export default function infoPacil() {
     const title = "Info Fasilkom"
-    const desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum ab voluptates ullam excepturi doloribus nihil voluptate quos consectetur delectus?"
+    const desc = "Tak kenal maka tak sayang, Yuk, kenali makin dalam tentang Fasilkom! Halaman ini akan menjelaskan berbagai macam hal tentang fakultas tercinta kita."
 
     return (
         <Styles>

@@ -23,7 +23,7 @@ export default class kepanitiaan extends Component {
                                     <h2>{item.title}</h2>
                                 </div>
                                 <p>{item.desc}</p>                          
-                                <a href={item.link}>{item.link}</a>  
+                                <a href={item.link} target="blank">{item.link}</a>  
                             </Card.Body>
                         </Card>
                     ))}                    
@@ -40,7 +40,7 @@ export default class kepanitiaan extends Component {
                                     <h2>{item.title}</h2>
                                 </div>
                                 <p>{item.desc}</p>                          
-                                <a href={item.link}>{item.link}</a>   
+                                <a href={item.link} target="blank">{item.link}</a>   
                             </Card.Body>
                         </Card>
                     ))}                    
