@@ -3,14 +3,18 @@ import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Carousel from 'react-bootstrap/Carousel'
+import Col from 'react-bootstrap/Col'
 import FlipCard from './flipCard'
+import ListGroup from 'react-bootstrap/ListGroup'
+import Row from 'react-bootstrap/Row'
 
 import data from '../../data/kampus-kost.json'
+import asset from '../../assets/infoKampus/biaya.png'
 
 export default class infoKehidupan extends Component {
     
     render() {
-        const kost = data.kost
+        const { kost, biaya } = data
         return (
             <Card id="infoKehidupan" className="mb-4">
                 <h2 className="text-center">Info Kehidupan</h2>
@@ -91,8 +95,24 @@ export default class infoKehidupan extends Component {
                 </div>
                 <div id="biaya">
                     <p className="text-center mt-4"><b>Biaya Hidup</b></p>
-                    <Card className="subcard">
-                        <p>Katanya belum tau mau diisi apa :(</p>
+                    <Card className="subcard" id="biaya">
+                        <p>Untuk kamu yang memilih untuk ngekost, jangan lupa pertimbangkan juga biaya-biaya di bawah ini. </p>
+                        <Row>                            
+                            <Col lg={8}>
+                                <ListGroup variant="flush" className="tips">
+                                    { biaya.map( (item, idx) => (
+                                        <ListGroup.Item key={idx} className="d-flex align-items-center biaya">
+                                            <div><div className="circle">{idx+1}</div></div>
+                                            <div>
+                                                <p><b>Biaya {item.title}</b><br/>
+                                                {item.desc}</p>
+                                            </div>
+                                        </ListGroup.Item>
+                                    ))}                            
+                                </ListGroup>
+                            </Col>
+                            <Col lg={4}><img alt="asset" src={asset} className="asset" /></Col>
+                        </Row>
                     </Card>
                 </div>
             </Card>

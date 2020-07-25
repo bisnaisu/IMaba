@@ -228,7 +228,42 @@ const Styles = styled.div`
             .flipcard-b{
                 transform: rotateY(180deg);
             }
-        }        
+        }   
+        #biaya {
+            @media (min-width:768px) {
+                .subcard { padding: 2rem }
+            }
+            .list-group-item {
+                background: transparent;
+                border: none;
+            }
+            .circle {
+                font-weight: medium;
+                width: 60px; 
+                height: 60px;
+                border-radius: 50%;
+                background: #FFB400;
+                margin-right: 1rem;
+                display: flex; 
+                align-items: center;
+                justify-content: center;
+                color: white;
+            }     
+            .biaya {
+                @media (max-width:576px) { 
+                    flex-direction: column; 
+                    .circle { margin-bottom: 10px }
+                }
+            }
+            @media (max-width:992px) {
+                .row { flex-direction: column-reverse }
+                img { max-width: 50%; margin: 10px 25%; }
+            }
+            @media (max-width:425px) {
+                img { max-width: 70%; margin: 10px 15%; }
+                .list-group-item { padding-left: 0; padding-right: 0; }
+            }
+        }
     }
     #beasiswa, #fitur {
         a {

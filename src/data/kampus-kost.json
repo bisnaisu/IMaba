@@ -36,5 +36,27 @@
             "desc": "Buat kamu, terutama yang dari daerah, bisa juga tinggal di Asrama UI. Untuk menuju Fasilkom dari asrama bisa menggunakan bikun atau motor dan membutuhkan waktu sekitar 15 menit.",
             "price": "Rp200.000 - Rp400.000"
         }
+    ],
+    "biaya": [
+        {
+            "title": "Kost",
+            "desc": "Uang bulanan untuk kamar kost, biaya listrik (kalau kostanmu dibayar terpisah), dan biaya laundry kalau kamu nggak ada mesin cuci atau ngga mau nyuci sendiri."
+        },
+        {
+            "title": "Makan",
+            "desc": "Makan berat (3x sehari), biaya galon isi ulang (bisa dihemat kalau kamu memanfaatkan dispenser air minum gratis di sekitar kampus), stok makanan instan & camilan."
+        },
+        {
+            "title": "Transportasi",
+            "desc": "Ini untuk kamu yang memilih lokasi kostan yang agak jauh, atau nggak mau jalan kaki ke kampus. Ini juga termasuk biaya bensin dan parkir untuk kamu yang bawa kendaraan pribadi."
+        },
+        {
+            "title": "Kebutuhan Kuliah",
+            "desc": "Kertas binder, alat tulis, ongkos fotokopi dan print, buku teks (ini bisa dihemat dengan meminjam di perpustakaan, dan biaya kuota atau wifi untuk saat kamu berkegiatan di luar kampus."
+        },
+        {
+            "title": "Kebutuhan Pribadi",
+            "desc": "Jangan lupakan juga sabun, sampo, sabun cuci piring, cairan pel, sikat gigi, pasta gigi. Barang-barang ini sudah biasa tersedia di rumah, tapi kalau ngekost, kamu harus beli sendiri."
+        }
     ]
 }
