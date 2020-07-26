@@ -81,7 +81,6 @@ export default class denah extends Component {
             )
         } else {
             const lantai = this.state.lantai
-            const disp = [true,true,true,true,false,false,true,true,false]
             return (
                 <Card className="subcard">
                     <Card.Body>
@@ -95,7 +94,7 @@ export default class denah extends Component {
                         <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next} /></span>}
                     </div>
                     <Row>
-                        <Col lg={8} md={10}>{ disp[lantai] && <img alt="denah" src={require(`../../assets/infoPacil/denah/new-${lantai}.svg`)} />}</Col>
+                        <Col lg={8} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/new-${lantai}.svg`)} /></Col>
                         <Col lg={4} md={10}>
                             <h4 className="mt-2">Keterangan: </h4>
                             <ul>{ baru[lantai].desc.map( (i, idx) => (<li key={idx}>{i}</li>))}</ul>
