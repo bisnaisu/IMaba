@@ -137,7 +137,8 @@
                 "10. Ruang Kontrol",
                 "11. Mushola Pria",
                 "12. Mushola Wanita",
-                "13. Ruang Panel"
+                "13. Toilet Difabel Unisex",
+                "14. Ruang Panel"
             ]
         },
         {
@@ -148,62 +149,76 @@
                 "1. R. Humas",
                 "2. Lab Komputer (A101-A106)",
                 "3. R. Kelas (A107-A110)",
-                "4. R. Panel"
+                "4. Toilet Difabel Unisex",
+                "5. R. Panel"
             ]
         },
         {
             "desc": [
-                "1 : Beldit (Belakang Audit)",
-                "2 : Ruang Panel",
-                "3 : Pagur (Papan Nganggur)",
-                "4 : Toilet Difable Unisex",
+                "A. Plaza (Beldit/Belakang Audit)",
+                "B. Balkon",
                 "---",
-                "A201 : Auditorium",
-                "A205 : Ruang Persiapan",
-                "A206 - A209 : Ruang Kelas",
-                "A210 : Ruang Tutorial I"
+                "1. Auditorium Dr. Indro Suwandi",
+                "2. R. Proyektor (Auditorium)",
+                "3. R. Persiapan (Auditorium)",
+                "4. R. Kelas (A206-A209)",
+                "5. R. Tutorial",
+                "6. Toilet Difabel Unisex",
+                "7. R. Panel"
             ]
         },
         {
             "desc": [
-                "A301 - 1304 : Lab",
-                "A305 dan A306 : Ruang Kelas"
-            ]
-        },
-        {
-            "desc": []
-        },
-        {
-            "desc": []
-        },
-        {
-            "desc": [
-                "1 : Toilet Difable Unisex",
-                "2 : Ruang Panel",
-                "---",
-                "A601 : Lab Riset",
-                "A602 : Lab Tugas Akhir",
-                "A603-A606 : Ruang Dosen",
-                "A607-A612 : Ruang Kelas",
-                "A613-1615 : Ruang Dosen"
+                "1. Auditorium Dr. Indro Suwandi",
+                "2. R. Proyektor (Auditorium)",
+                "3. Lab Komputer (A301-A304)",
+                "4. R. Kelas (A305-A306)"
             ]
         },
         {
             "desc": [
-                "1 : Toilet Difable Unisex",
-                "2 : Ruang Panel",
-                "---",
-                "A701 : Lab Riset",
-                "A702 : Ruang Pascasarjana",
-                "A703-A710 : Ruang Dosen",
-                "A711 : Ruang Kelas Pascasarjana",
-                "A712-A713 : Ruang Kelas Internasional",
-                "A714-A715 : Ruang Seminar",
-                "A716 : Lounge Pascasarjana"
+                "1. R. Dekan",
+                "2. R. Wakil Dekan (A403-A404)",
+                "3. R. Sekretaris Dekan",
+                "4. R. Kaprodi (*01-02, *07-08)",
+                "5. Faculty Lounge",
+                "6. R. Rapat (A438-A439)",
+                "7. R. Dosen (A410-A437)",
+                "8. Toilet Difabel Unisex",
+                "9. R. Panel"
             ]
         },
         {
-            "desc": []
+            "desc": [
+                "1. R. Rapat Besar",
+                "2. Lab Riset (*01-04, *19-21)",
+                "3. R. Dosen (A505-A516)",
+                "4. Toilet Difabel Unisex",
+                "5. R. Panel"
+            ]
+        },
+        {
+            "desc": [
+                "1. Lab Tugas Akhir",
+                "2. Lab Riset",
+                "3. R. Dosen (*03-06, *13-14)",
+                "4. R. Kelas (A607-A612)",
+                "5. Toilet Difabel Unisex",
+                "6. R. Panel"
+            ]
+        },
+        {
+            "desc": [
+                "1. Lab Riset",
+                "2. R. Seminar (A714-A715)",
+                "3. R. Dosen (A703-A710)",
+                "4. R. Postgraduate",
+                "5. R. Kelas Postgrad",
+                "6. Lounge Postgrad",
+                "7. R. Kelas KI (A712-A713)",
+                "8. Toilet Difabel Unisex",
+                "9. R. Panel"
+            ]
         }
     ]
 }

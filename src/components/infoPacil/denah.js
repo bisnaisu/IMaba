@@ -31,7 +31,7 @@ export default class denah extends Component {
                         <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next} /></span>}
                     </div>
                     <Row>
-                        <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.lantai[lantai].key}.png`)} /></Col>
+                        <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.lantai[lantai].key}.svg`)} /></Col>
                         <Col lg={6} md={10}>
                             <h4 className="mt-2">Keterangan: </h4>
                             <ul>{ old.lantai[lantai].desc.map( (i, idx) => (<li key={idx}>{i}</li>))}</ul>
@@ -44,7 +44,7 @@ export default class denah extends Component {
                 <div>
                     <h3 className="text-center">{old.title}</h3>
                     <Row>
-                        <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.key}.png`)} /></Col>
+                        <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.key}.svg`)} /></Col>
                         <Col lg={6} md={10}>
                             <h4 className="mt-2">Keterangan: </h4>
                             { old.desc.map( (i, idx) => (
@@ -95,7 +95,7 @@ export default class denah extends Component {
                         <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next} /></span>}
                     </div>
                     <Row>
-                        <Col lg={8} md={10}>{ disp[lantai] && <img alt="denah" src={require(`../../assets/infoPacil/denah/new-${lantai}.png`)} />}</Col>
+                        <Col lg={8} md={10}>{ disp[lantai] && <img alt="denah" src={require(`../../assets/infoPacil/denah/new-${lantai}.svg`)} />}</Col>
                         <Col lg={4} md={10}>
                             <h4 className="mt-2">Keterangan: </h4>
                             <ul>{ baru[lantai].desc.map( (i, idx) => (<li key={idx}>{i}</li>))}</ul>
