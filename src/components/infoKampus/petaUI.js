@@ -5,11 +5,11 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 
-import petaTempat from '../../assets/infoKampus/peta-ui.png'
-import petaTransport from '../../assets/infoKampus/peta-transport.png'
+import petaTempat from '../../assets/infoKampus/peta-ui.svg'
+import petaTransport from '../../assets/infoKampus/peta-transport.svg'
 import petaBikun from '../../assets/infoKampus/peta-bikun.svg'
-import rute from '../../assets/infoKampus/peta-rute.png'
-import legenda from '../../assets/infoKampus/peta-legenda.png'
+import rute from '../../assets/infoKampus/peta-rute.svg'
+import legenda from '../../assets/infoKampus/peta-legenda.svg'
 
 export default class petaUI extends Component {
     state = { slide:"tempat"}

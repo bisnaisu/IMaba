@@ -79,6 +79,7 @@ const Styles = styled.div`
     .card a:hover {        
         color: white;
         text-decoration: none;
+        transition: all .7s ease; 
     }
 
     .akademik:hover {

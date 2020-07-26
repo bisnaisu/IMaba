@@ -166,7 +166,15 @@ const Styles = styled.div`
                 @media (max-width:768px) {
                     .card-footer { padding: 0 0 1rem 0 }
                     margin: 0 5px 2rem 5px;
-                }                
+                }  
+                a {
+                    font-weight: medium;
+                    color: #000; 
+                }
+        
+                a:hover {
+                    color: #66CCFF;
+                }              
             }
         }
         @media (max-width:576px) {            

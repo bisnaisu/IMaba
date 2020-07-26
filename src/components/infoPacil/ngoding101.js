@@ -45,11 +45,11 @@ export default class ngoding101 extends Component {
                 <div className="resource">
                     <div className="headcard">Untuk Belajar Ngoding</div>
                     <CardDeck>
-                        { belajar.map( site => (
-                            <Card key={site.name} className="subcard">
-                                <Card.Body className="d-flex flex-column justify-content-center"><img alt="" src={require(`../../assets/${site.name}.png`)} /></Card.Body>
-                                <Card.Footer>{site.title}</Card.Footer>
-                            </Card>
+                        { belajar.map( site => (                            
+                                <Card key={site.name} className="subcard">                                    
+                                    <Card.Body className="d-flex flex-column justify-content-center"><img alt="" src={require(`../../assets/${site.name}.png`)} /></Card.Body>
+                                    <a href={site.to} target="blank"><Card.Footer>{site.title}</Card.Footer></a>
+                                </Card>                            
                         ))}                        
                     </CardDeck>
                     <div className="headcard">Untuk Latihan Ngoding</div>
@@ -57,7 +57,7 @@ export default class ngoding101 extends Component {
                         { latihan.map( site => (
                             <Card key={site.name} className="subcard">
                                 <Card.Body className="d-flex flex-column justify-content-center"><img alt="" src={require(`../../assets/${site.name}.png`)} /></Card.Body>
-                                {site.title && <Card.Footer>{site.title}</Card.Footer>}
+                                {site.title && <a href={site.to} target="blank"><Card.Footer>{site.title}</Card.Footer></a>}
                             </Card>
                         ))}                        
                     </CardDeck>

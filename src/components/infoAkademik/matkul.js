@@ -40,8 +40,8 @@ export default class matkul extends Component {
                             { term.slice(3,6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
                         </CardDeck>
                     </Carousel.Item>
-                    <Carousel.Item className={`term${this.state.term}`}>
-                        <CardDeck className="my-3">
+                    <Carousel.Item>
+                        <CardDeck className={`my-3 term${this.state.term}`}>
                             { term.slice(6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
                         </CardDeck>
                     </Carousel.Item>
@@ -62,8 +62,8 @@ export default class matkul extends Component {
                             { term.slice(4,6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
                         </CardDeck>
                     </Carousel.Item>
-                    <Carousel.Item className={`term${this.state.term}`}>
-                        <CardDeck className="my-3">
+                    <Carousel.Item>
+                        <CardDeck className={`my-3 term${this.state.term}`}>
                             { term.slice(6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
                         </CardDeck>
                     </Carousel.Item>
@@ -84,8 +84,8 @@ export default class matkul extends Component {
                             { term.slice(4,6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
                         </CardDeck>
                     </Carousel.Item>
-                    <Carousel.Item className={`term${this.state.term}`}>
-                        <CardDeck className="my-3">
+                    <Carousel.Item>
+                        <CardDeck className={`my-3 term${this.state.term}`}>
                             { term.slice(6).map( item => this.matkulCard(item.name, item.prodi, item.sks, item.desc))}
                         </CardDeck>
                     </Carousel.Item>

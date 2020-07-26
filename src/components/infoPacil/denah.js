@@ -20,15 +20,17 @@ export default class denah extends Component {
             const lantai = this.state.lantai
             return (
                 <div>
-                    <div className="navigasi d-flex align-items-center">
-                        {lantai > 0 && 
-                        <span onClick={() => this.setState({ lantai: parseInt(lantai-1) })}><img alt="prev" src={prev} /></span>}
+                    <div className="navigasi d-flex align-items-center">  
+                        { lantai > 0 ? 
+                        <span onClick={() => this.setState({ lantai: parseInt(lantai-1) })}><img alt="prev" src={prev}/></span> :
+                        <span><img alt="prev" src={prev} style={{opacity: ".1"}} /></span>}                                             
                         <h3>
                             Lantai {this.state.lantai + parseInt(1)}<br/>
                             {old.title}
                         </h3>
-                        {lantai < parseInt(old.lantai.length-1) && 
-                        <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next} /></span>}
+                        { lantai < parseInt(old.lantai.length-1) ? 
+                        <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next}/></span> :
+                        <span><img alt="next" src={next} style={{opacity: ".1"}} /></span>} 
                     </div>
                     <Row>
                         <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.lantai[lantai].key}.svg`)} /></Col>
@@ -85,13 +87,15 @@ export default class denah extends Component {
                 <Card className="subcard">
                     <Card.Body>
                     <div className="navigasi d-flex align-items-center">
-                        {lantai > 0 && 
-                        <span onClick={() => this.setState({ lantai: parseInt(lantai-1) })}><img alt="prev" src={prev} /></span>}
+                        { lantai > 0 ? 
+                        <span onClick={() => this.setState({ lantai: parseInt(lantai-1) })}><img alt="prev" src={prev}/></span> :
+                        <span><img alt="prev" src={prev} style={{opacity: ".1"}} /></span>}
                         <h3>
                             Lantai {lantai > 0 ? lantai : "Dasar"}
                         </h3>
-                        {lantai < parseInt(baru.length-1) && 
-                        <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next} /></span>}
+                        { lantai < parseInt(baru.length-1) ? 
+                        <span onClick={() => this.setState({ lantai: parseInt(lantai+1) })}><img alt="next" src={next}/></span> :
+                        <span><img alt="next" src={next} style={{opacity: ".1"}} /></span>} 
                     </div>
                     <Row>
                         <Col lg={8} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/new-${lantai}.svg`)} /></Col>

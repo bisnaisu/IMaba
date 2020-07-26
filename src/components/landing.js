@@ -6,15 +6,16 @@ export default class landing extends Component {
 
     bg = require(`../assets/${this.props.page}/bg.jpg`)
     
+    
 
     render() {
         const Landing = styled.div`
             height: 100vh; 
             background: url(${this.bg});
-            -webkit-background-position: bottom left;
-            -moz-background-position: bottom left;
-            -o-background-position: bottom left;
-            background-position: bottom left;
+            -webkit-background-position: ${this.props.title === "Info Kampus" ? "top" : "bottom" } left;
+            -moz-background-position: ${this.props.title === "Info Kampus" ? "top" : "bottom" } left;
+            -o-background-position: ${this.props.title === "Info Kampus" ? "top" : "bottom" } left;
+            background-position: ${this.props.title === "Info Kampus" ? "top" : "bottom" } left;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;

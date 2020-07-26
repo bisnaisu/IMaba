@@ -1,15 +1,15 @@
 {
         "latihan": [
-            {"name": "iconlogo/hackerrank", "title": "HackerRank"},
-            {"name": "iconlogo/codingbat", "title": "CodingBat"},
-            {"name": "iconlogo/snakify", "title": "Snakify"},
+            {"name": "iconlogo/hackerrank", "title": "HackerRank", "to": "https://www.hackerrank.com/"},
+            {"name": "iconlogo/codingbat", "title": "CodingBat", "to": "https://codingbat.com/"},
+            {"name": "iconlogo/snakify", "title": "Snakify", "to": "https://snakify.org/"},
             {"name": "infoPacil/filler", "title": ""}
         ],
         "belajar": [
-            {"name": "iconlogo/w3schools", "title": "W3Schools"},
-            {"name": "iconlogo/edx", "title": "edX"},
-            {"name": "iconlogo/sololearn", "title": "SoloLearn"},
-            {"name": "iconlogo/codecademy", "title": "Codecademy"}
+            {"name": "iconlogo/w3schools", "title": "W3Schools", "to": "https://www.w3schools.com/"},
+            {"name": "iconlogo/edx", "title": "edX", "to": "https://www.edx.org/"},
+            {"name": "iconlogo/sololearn", "title": "SoloLearn", "to": "https://www.sololearn.com/"},
+            {"name": "iconlogo/codecademy", "title": "Codecademy", "to": "https://www.codecademy.com/"}
         ],
         "tips": [
             "Dengarkan baik-baik materi yang disampaikan oleh dosen saat kelas!",
