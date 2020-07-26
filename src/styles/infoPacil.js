@@ -233,7 +233,7 @@ const Styles = styled.div`
                 .card { margin: 10px 15px } 
             }    
             .card {
-                margin: 0 15px 0 15px;
+                margin: 0 15px 10px 15px;
                 @media (max-width:576px) { margin: .5rem 0 } 
             }                   
         }
@@ -262,7 +262,7 @@ const Styles = styled.div`
                 height: 100px;
                 width: auto;
                 margin: 0 1rem 0 0;
-                @media (max-width:768px) { 
+                @media (max-width:992px) { 
                     height: 85px;
                     margin: 0 .5rem 0 0; 
                 }
