@@ -120,6 +120,7 @@ export default class matkul extends Component {
                     <Button active={this.state.term === 1} onClick={() => this.setState({term:1})}>Term 1</Button>
                     <Button active={this.state.term === 2} onClick={() => this.setState({term:2})}>Term 2</Button>
                 </div>
+                <div className="mt-1">*IK: Ilmu Komputer, SI: Sistem Informasi</div>
                 {this.displayTerm()}
             </Card>
         )

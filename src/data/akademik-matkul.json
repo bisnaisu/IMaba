@@ -16,7 +16,7 @@
             "name": "FisDas",
             "prodi": "IK/SI",
             "sks": "3",
-            "desc": "Fisika Dasar atau FisDas adalah mata kuliah wajib universitas yang belajar tentang fisika. Fisika yang dipelajari adalah fisika yang mungkin sudah kamu pelajari sebelumnya, misalnya besaran dan satuan, gaya, energi, dan lain-lain. Ett..! Tapi jangan salah, walaupun kesannya sangat mendasar, tingkat kesulitan soal-soalnya tentu lebih susah saat kuliah."
+            "desc": "Fisika Dasar atau FisDas adalah mata kuliah wajib rumpun yang belajar tentang fisika. Fisika yang dipelajari adalah fisika yang mungkin sudah kamu pelajari sebelumnya, misalnya besaran dan satuan, gaya, energi, dan lain-lain. Ett..! Tapi jangan salah, walaupun kesannya sangat mendasar, tingkat kesulitan soal-soalnya tentu lebih susah saat kuliah."
         },
         {
             "name": "MPKT-B",
@@ -65,7 +65,7 @@
         {
             "name": "PSD",
             "prodi": "IK",
-            "sks": "3",
+            "sks": "4",
             "desc": "Pengantar Sistem Digital atau singkatnya PSD adalah mata kuliah wajib prodi Ilmu Komputer dimana kamu akan belajar tentang perangkat keras sistem digital dan komputer digital. Disini kamu akan belajar mengenai bilangan biner, dasar rangkaian digital, dan cara merangkai sebuah sirkuit. "
         },
         {
@@ -88,7 +88,7 @@
         },
         {
             "name": "MPKS/MPKO",
-            "prodi": "IK",
+            "prodi": "SI",
             "sks": "1",
             "desc": "MPK Seni dan Olahraga merupakan mata kuliah wajib universitas yang fokus terhadap skill seni maupun olahraga kamu. Beberapa orang lebih memilih MPK Olahraga, namun ada juga orang yang lebih memilih MPK Seni. Di sini, kamu bebas memilih seni atau olahraga, ikuti saja passionmu!"
         }
