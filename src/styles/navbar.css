@@ -17,3 +17,7 @@ a {
 .dropdown-toggle {
     cursor: pointer;
 }
+
+.dropdown-toggle:hover {
+    color: white;
+}
