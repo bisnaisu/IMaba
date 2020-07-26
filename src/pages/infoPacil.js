@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
@@ -16,27 +16,32 @@ import YelYel from '../components/infoPacil/yelyel'
 
 import Styles from '../styles/infoPacil'
 
-export default function infoPacil() {
-    const title = "Info Fasilkom"
-    const desc = "Tak kenal maka tak sayang, Yuk, kenali makin dalam tentang Fasilkom! Halaman ini akan menjelaskan berbagai macam hal tentang fakultas tercinta kita."
+export default class infoPacil extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+      
+    render() {
+        const title = "Info Fasilkom"
+        const desc = "Tak kenal maka tak sayang, Yuk, kenali makin dalam tentang Fasilkom! Halaman ini akan menjelaskan berbagai macam hal tentang fakultas tercinta kita."
 
-    return (
-        <Styles>
-            <Navbar/>
-            <Landing page="infoPacil" color="#6699FF" title={title} desc={desc} />
-            <Container>
-                <Budaya />
-                <PacilLife />
-                <Ngoding101 />
-                <Denah />
-                <YelYel />
-                <BadanOtonom />
-                <Kepanitiaan />
-                <FunFacts />
-            </Container>
-            <div className="gap"></div>
-            <Footer />
-        </Styles>
-    )
+        return (
+            <Styles>
+                <Navbar/>
+                <Landing page="infoPacil" color="#6699FF" title={title} desc={desc} />
+                <Container>
+                    <Budaya />
+                    <PacilLife />
+                    <Ngoding101 />
+                    <Denah />
+                    <YelYel />
+                    <BadanOtonom />
+                    <Kepanitiaan />
+                    <FunFacts />
+                </Container>
+                <div className="gap"></div>
+                <Footer />
+            </Styles>
+        )
+    }
 }
-
