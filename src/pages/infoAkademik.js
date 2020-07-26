@@ -15,7 +15,7 @@ import Styles from '../styles/infoAkademik'
 
 export default function infoAkademik() {
     const title = "Info Akademik"
-    const desc = "Di halaman ini, kamu dapat mengetahui seperti apa pembelajaran di Fasilkom, mulai dari jurusan, mata kuliah, sampai kurikulum. Simak halaman ini dan ersiapkan kehidupan kuliahmu!"
+    const desc = "Di halaman ini, kamu dapat mengetahui seperti apa pembelajaran di Fasilkom, mulai dari jurusan, mata kuliah, sampai kurikulum. Simak halaman ini dan persiapkan kehidupan kuliahmu!"
 
     return (
         <Styles>

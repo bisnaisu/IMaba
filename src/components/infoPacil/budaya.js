@@ -15,7 +15,7 @@ export default function budaya() {
             <h2 className="text-center">Kebudayaan Fasilkom</h2>
             <Row className="d-flex justify-content-center align-items-center">
                 <Col md={4}><img alt="asset" src={asset} style={{width:"100%"}} /></Col>
-                <Col md={5}> <p>Karena kamu sudah menjadi bagian dari Fasilkom, Yuk kenali dan terapkan budaya-budaya yang ada di Fasilkom berikut!</p> </Col>
+                <Col md={5}> <p>Karena kamu sudah menjadi bagian dari Fasilkom, yuk kenali dan terapkan budaya-budaya yang ada di Fasilkom berikut!</p> </Col>
             </Row>
             <CardColumns>
                 { budayas.map( (budaya, idx) => (

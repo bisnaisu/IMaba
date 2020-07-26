@@ -15,25 +15,25 @@
         {
             "name": "pocin",
             "loc": "Pocin",
-            "desc": "Pocin letaknya dekat dengan stasiun Pondok Cina. Kamu bisa menggunakan bikun, spekun, atau berjalan kaki dan membutuhkan waktu sekitar 10 menit untuk menuju Fasilkom.",
+            "desc": "Pocin letaknya dekat dengan stasiun Pondok Cina. Kamu bisa menggunakan bikun, spekun, atau berjalan kaki dan perlu waktu sekitar 10 menit untuk menuju Fasilkom.",
             "price": "Rp500.000 - Rp1.500.000"
         },
         {
             "name": "kukel",
             "loc": "Kukel",
-            "desc": "Kukel atau kukusan kelurahan letaknya dekat dengan Vokasi. Kamu bisa menggunakan bikun atau motor untuk menuju Fasilkom dan diperlukan 15-20 menit.",
+            "desc": "Kukel atau kukusan kelurahan letaknya dekat dengan Vokasi. Kamu bisa naik bikun atau motor untuk menuju Fasilkom dan dibutuhkan waktu sekitar 15-20 menit.",
             "price": "Rp500.000 - Rp1.500.000"
         },
         {
             "name": "kutek",
             "loc": "Kutek",
-            "desc": "Kukusan teknik letaknya di dekat Fakultas Teknik. Kamu bisa naik bikun, ojek, spekun, atau jalan kaki lewat Teksas untuk menuju Fasilkom. Waktu perjalanan sekitar 15 menit.",
+            "desc": "Kukusan teknik letaknya di dekat FT. Kamu bisa naik bikun, ojek, spekun, atau jalan kaki lewat Teksas untuk menuju Fasilkom. Waktu perjalanan sekitar 15 menit.",
             "price": "Rp500.000 - Rp1.800.000"
         },
         {
             "name": "asrama",
             "loc": "Asrama",
-            "desc": "Buat kamu, terutama yang dari daerah, bisa juga tinggal di Asrama UI. Untuk menuju Fasilkom dari asrama bisa menggunakan bikun atau motor dan membutuhkan waktu sekitar 15 menit.",
+            "desc": "Buat kamu, terutama yang dari daerah, bisa juga tinggal di Asrama UI. Untuk ke Fasilkom, kamu bisa naik bikun atau motor dan butuh waktu sekitar 15 menit.",
             "price": "Rp200.000 - Rp400.000"
         }
     ],
@@ -48,7 +48,7 @@
         },
         {
             "title": "Transportasi",
-            "desc": "Ini untuk kamu yang memilih lokasi kostan yang agak jauh, atau nggak mau jalan kaki ke kampus. Ini juga termasuk biaya bensin dan parkir untuk kamu yang bawa kendaraan pribadi."
+            "desc": "Ini untuk kamu yang memilih lokasi kostan yang agak jauh atau nggak mau jalan kaki ke kampus. Ini juga termasuk biaya bensin dan parkir untuk kamu yang bawa kendaraan pribadi."
         },
         {
             "title": "Kebutuhan Kuliah",
@@ -56,7 +56,7 @@
         },
         {
             "title": "Kebutuhan Pribadi",
-            "desc": "Jangan lupakan juga sabun, sampo, sabun cuci piring, cairan pel, sikat gigi, pasta gigi. Barang-barang ini sudah biasa tersedia di rumah, tapi kalau ngekost, kamu harus beli sendiri."
+            "desc": "Jangan lupakan juga sabun, sampo, sabun cuci piring, cairan pel, sikat gigi, dan pasta gigi. Barang-barang ini sudah biasa tersedia di rumah, tapi kalau ngekost, kamu harus beli sendiri."
         }
     ]
 }

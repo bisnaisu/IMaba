@@ -13,7 +13,7 @@ export default function ilkomSi() {
                 <Col sm={6}>                    
                     <img alt="Ilkom" src={ require("../../assets/infoAkademik/ilkom.svg")} /><br /><br />
                     <h3>Ilmu Komputer</h3>
-                    <p>Jurusan Ilmu Komputer (Computer Science) mengkaji pemanfaatan Ilmu Komputer, antara lain desain algoritma dan penerapannya untuk mengembangkan perangkat lunak (software) yang berkualitas hingga pemutakhiran aplikasi berbasis kecerdasan buatan, robotika, pengolahan informasi multimedia, keamanan informasi dan jaringan, serta pengolahan data besar.</p>
+                    <p>Jurusan Ilmu Komputer (Computer Science) mengkaji pemanfaatan Ilmu Komputer, antara lain desain algoritma dan penerapannya dalam pengembangan perangkat lunak (software) yang berkualitas hingga pemutakhiran aplikasi berbasis kecerdasan buatan, robotika, pengolahan informasi multimedia, keamanan informasi dan jaringan, serta pengolahan data besar.</p>
                     <p>Prospek alumnus dapat menjadi Full Stack Developer, Android Developer, Software Engineer, Data Scientist, dll.</p>
                 </Col> 
                 <Col sm={6}>                    
