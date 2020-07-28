@@ -36,8 +36,8 @@ export default class petaUI extends Component {
                 <Row className="d-flex align-items-center">
                     <Col sm={7}>
                         {this.state.slide === "tempat" ? 
-                        <Img alt="petaUI" src={petaTempat} loader={spinner} /> :
-                        <img alt="petaUI" src={petaTransport}/>}                                            
+                        <img alt="petaUI" src={petaTempat}/> :
+                        <Img alt="petaUI" src={petaTransport} loader={spinner} />}                                            
                     </Col>
                     <Col sm={5}>
                         <img alt="legenda" src={legenda} style={{borderRadius:"10px"}} />
