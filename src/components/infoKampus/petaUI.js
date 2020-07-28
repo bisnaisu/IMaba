@@ -35,9 +35,9 @@ export default class petaUI extends Component {
             return (
                 <Row className="d-flex align-items-center">
                     <Col sm={7}>
-                        {this.state.slide === "transportasi" ? 
-                        <Img alt="petaUI" src={petaTransport} loader={spinner} /> : 
-                        <Img alt="petaUI" src={petaTempat} loader={spinner} />}                        
+                        {this.state.slide === "tempat" ? 
+                        <Img alt="petaUI" src={petaTempat} loader={spinner} /> :
+                        <img alt="petaUI" src={petaTransport}/>}                                            
                     </Col>
                     <Col sm={5}>
                         <img alt="legenda" src={legenda} style={{borderRadius:"10px"}} />
@@ -53,7 +53,7 @@ export default class petaUI extends Component {
                 <h2>Peta UI</h2>
                 <div className="btnwrapper">
                     <Button onClick={() => this.setState({slide:"tempat"})} active={this.state.slide === "tempat"}>Tempat</Button>
-                    <Button onClick={() => this.setState({slide:"transportasi"})} active={this.state.slide === "transportasi"}>Transportasi</Button>
+                    <Button onClick={() => this.setState({slide:"transport"})} active={this.state.slide === "transport"}>Transportasi</Button>
                     <Button onClick={() => this.setState({slide:"bikun"})} active={this.state.slide === "bikun"}>Bikun</Button>
                 </div>
                 <div className="subcard">
