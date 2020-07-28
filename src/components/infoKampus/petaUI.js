@@ -1,9 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, Suspense } from 'react'
+import {Img} from 'react-image'
 
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
+import Spinner from 'react-bootstrap/Spinner'
 
 import petaTempat from '../../assets/infoKampus/peta-ui.svg'
 import petaTransport from '../../assets/infoKampus/peta-transport.svg'
@@ -15,14 +17,17 @@ export default class petaUI extends Component {
     state = { slide:"tempat"}
 
     displayPeta = () => {
+        const spinner = <Spinner variant="warning" animation="border" />
         if (this.state.slide === "bikun") {
             return (
                 <Row className="d-flex align-items-center">
                     <Col sm={8}>
-                        <img id="petaBikun" alt="petaBikun" src={petaBikun} />
+                        <Suspense>
+                        <Img id="petaBikun" alt="petaBikun" src={petaBikun} loader={spinner} />
+                        </Suspense>
                     </Col>
                     <Col sm={4}>
-                        <img alt="rute" src={rute} style={{borderRadius:"10px"}} />
+                        <Img alt="rute" src={rute} style={{borderRadius:"10px"}} loader={spinner} />
                     </Col>
                 </Row>
             )
@@ -31,8 +36,8 @@ export default class petaUI extends Component {
                 <Row className="d-flex align-items-center">
                     <Col sm={7}>
                         {this.state.slide === "transportasi" ? 
-                        <img alt="petaUI" src={petaTransport} /> : 
-                        <img alt="petaUI" src={petaTempat} />}                        
+                        <Img alt="petaUI" src={petaTransport} loader={spinner} /> : 
+                        <Img alt="petaUI" src={petaTempat} loader={spinner} />}                        
                     </Col>
                     <Col sm={5}>
                         <img alt="legenda" src={legenda} style={{borderRadius:"10px"}} />
