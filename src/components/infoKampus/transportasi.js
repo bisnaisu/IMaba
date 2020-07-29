@@ -9,7 +9,7 @@ export default function transportasi() {
     const transport = data.transport
     return (
         <Card id="transportasi" className="mb-4">
-            <h2 className="text-center">Transportasi Menuju UI</h2>
+            <h2 className="text-center">Info Transportasi</h2>
             <CardDeck>
                 { transport.slice(0,2).map( vehicle => (
                     <Card key={vehicle.name} className="subcard mx-3">

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {Img} from 'react-image'
 
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
@@ -7,7 +6,6 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
-import Spinner from 'react-bootstrap/Spinner'
 
 import data from '../../data/pacil-denah.json'
 import next from '../../assets/infoPacil/carousel-next.png'
@@ -18,7 +16,6 @@ export default class denah extends Component {
 
     displayDenah(idx) {
         const old = data.old[idx]
-        const spinner = <Spinner variant="primary" animation="border" />
 
         if (Number(idx) === Number(2)) {
             const lantai = this.state.lantai
@@ -37,7 +34,7 @@ export default class denah extends Component {
                         <span><img alt="next" src={next} style={{opacity: ".1"}} /></span>} 
                     </div>
                     <Row>
-                        <Col lg={6} md={10}><Img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.lantai[lantai].key}.svg`)} loader={spinner} /></Col>
+                        <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.lantai[lantai].key}.svg`)}/></Col>
                         <Col lg={6} md={10}>
                             <h4 className="mt-2">Keterangan: </h4>
                             <ul>{ old.lantai[lantai].desc.map( (i, idx) => (<li key={idx}>{i}</li>))}</ul>
@@ -50,7 +47,7 @@ export default class denah extends Component {
                 <div>
                     <h3 className="text-center">{old.title}</h3>
                     <Row>
-                        <Col lg={6} md={10}><Img loader={spinner} alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.key}.svg`)} /></Col>
+                        <Col lg={6} md={10}><img alt="denah" src={require(`../../assets/infoPacil/denah/old-${old.key}.svg`)} /></Col>
                         <Col lg={6} md={10}>
                             <h4 className="mt-2">Keterangan: </h4>
                             { old.desc.map( (i, idx) => (
@@ -68,7 +65,6 @@ export default class denah extends Component {
 
     displayGedung() {        
         const { old, baru } = data
-        const spinner = <Spinner variant="primary" animation="border" />
 
         if (this.state.gedung === "lama") {
             return (
@@ -107,7 +103,7 @@ export default class denah extends Component {
                         <Col lg={8} md={10}>
                             {Number(lantai) === Number(0) ? 
                             <img alt="denah" src={require(`../../assets/infoPacil/denah/new-${lantai}.svg`)} /> : 
-                            <Img loader={spinner} alt="denah" src={require(`../../assets/infoPacil/denah/new-${lantai}.svg`)} />}
+                            <img alt="denah" src={require(`../../assets/infoPacil/denah/new-${lantai}.svg`)} />}
                             
                         </Col>
                         <Col lg={4} md={10}>

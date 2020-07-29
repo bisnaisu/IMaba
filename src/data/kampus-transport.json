@@ -3,17 +3,17 @@
         {
             "name": "bikun",
             "title": "Bis Kuning (Bikun)",
-            "desc": ["Kamu bisa menuju Fasilkom dengan menggunakan bis kuning. Haltenya berada di beberapa titik yang bisa dilihat di peta transportasi. Tiap halte memiliki pasangan di sebrangnya kecuali halte FH dan MUI karena letaknya sudah berdekatan"]
+            "desc": ["Kamu bisa menuju Fasilkom dengan menggunakan bis kuning. Haltenya berada di beberapa titik yang bisa dilihat di peta transportasi. Tiap halte memiliki pasangan di sebrangnya kecuali halte FH dan Masjid UI karena letaknya sudah berdekatan"]
         },
         {
             "name": "sepeda",
             "title": "Ojek & Sepeda Kuning",
-            "desc": ["Kalau kamu ingin cepat dan lagi malas jalan, kamu bisa memakai jasa ojek di UI! Ada beberapa pangkalan ojek di UI yang di peta ditandakan dengan ikon helm.", "Atau kamu juga bisa menggunakan sepeda kuning (spekun) yang bisa dipakai setalah kamu sudah resmi menjadi mahasiswa UI."]
+            "desc": ["Kalau kamu ingin cepat dan lagi malas jalan, kamu bisa memakai jasa ojek di UI! Ada beberapa pangkalan ojek di UI yang di peta ditandakan dengan ikon helm.", "Atau kamu juga bisa menggunakan sepeda kuning (spekun) yang bisa dipakai setelah kamu sudah resmi menjadi mahasiswa UI."]
         },
         {
             "name": "motor",
             "title": "Motor",
-            "desc": ["Kalau kamu membawa motor, selain di Fasilkom, kamu bisa memarkirnya di Perpustakaan Pusat, parkiran MUI, atau Rektorat. Umumnya perkiran dibuka pukul 06.00. Di Perpusat, parkiran ditutup pada pukul 21.00 dan di MUI pada pukul 20.00."]
+            "desc": ["Kalau kamu membawa motor, selain di Fasilkom, kamu bisa memarkirnya di Perpustakaan Pusat, parkiran Masjid UI, atau Rektorat. Umumnya perkiran dibuka pukul 06.00. Di Perpusat, parkiran ditutup pada pukul 21.00 dan di Masjid UI pada pukul 20.00."]
         },
         {
             "name": "kereta",
