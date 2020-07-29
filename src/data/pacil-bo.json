@@ -2,8 +2,12 @@
     "bo": [
         {
             "name": "bem",
-            "title": "BEM Fasilkom UI", 
-            "desc": ["BEM (Badan Eksekutif Mahasiswa) Fasilkom UI adalah organisasi kemahasiswaan tingkat fakultas Ilmu Komputer Universitas Indonesia yang menjalankan peran eksekutif dalam lingkungan Fasilkom UI.","Organisasi ini menjadi wadah aktualisasi mahasiswa untuk memaksimalkan potensi minat bakat mahasiswa dan menjadi motor penggerak kegiatan yang memenuhi tridharma perguruan tinggi, serta menerapkan disiplin keilmuan berbasis IT.","Organisasi ini memiliki visi membangun BEM Fasilkom UI yang relevan dan bermanfaat bagi Fasilkom UI, UI, dan Indonesia."],
+            "title": "BEM Fasilkom UI",
+            "desc": [
+                "BEM (Badan Eksekutif Mahasiswa) Fasilkom UI adalah organisasi kemahasiswaan tingkat fakultas Ilmu Komputer Universitas Indonesia yang menjalankan peran eksekutif dalam lingkungan Fasilkom UI.",
+                "Organisasi ini menjadi wadah aktualisasi mahasiswa untuk memaksimalkan potensi minat bakat mahasiswa dan menjadi motor penggerak kegiatan yang memenuhi tridharma perguruan tinggi, serta menerapkan disiplin keilmuan berbasis IT.",
+                "Organisasi ini memiliki visi membangun BEM Fasilkom UI yang relevan dan bermanfaat bagi Fasilkom UI, UI, dan Indonesia."
+            ],
             "socmed": {
                 "line": "@BEMFasilkomUI",
                 "ig": "bemfasilkomui",
@@ -14,8 +18,11 @@
         },
         {
             "name": "ristek",
-            "title": "RISTEK", 
-            "desc": ["RISTEK adalah organisasi Independen di Fasilkom UI yang bertujuan untuk meningkatkan minat dan mengembangkan potensi mahasiswa dalam teknologi sehingga mahasiswa dapat berkontribusi dalam teknologi.","RISTEK terbagi dalam beberapa Special Interest Group (SIG) yaitu App Development, Data Science, Embedded System, Game Development, NetSOS, UI/UX, dan Web Development."],
+            "title": "RISTEK",
+            "desc": [
+                "RISTEK adalah organisasi Independen di Fasilkom UI yang bertujuan untuk meningkatkan minat dan mengembangkan potensi mahasiswa dalam teknologi sehingga mahasiswa dapat berkontribusi dalam teknologi.",
+                "RISTEK terbagi dalam beberapa Special Interest Group (SIG) yaitu App Development, Data Science, Embedded System, Game Development, NetSOS, UI/UX, dan Web Development."
+            ],
             "socmed": {
                 "line": "@ristekfasilkomui",
                 "ig": "ristek.csui",
@@ -26,8 +33,11 @@
         },
         {
             "name": "fuki",
-            "title": "FUKI", 
-            "desc": ["FUKI (Forum Ukhuwah dan Kajian Islam) adalah Lembaga Dakwah Fakultas yang berada di Fasilkom UI.","FUKI memiliki visi terwujudnya FUKI sebagai rumah muslim FASILKOM UI yang harmonis dan sinergis serta .menjadi teladan yang terdepan dalam mensyiarkan Islam."],
+            "title": "FUKI",
+            "desc": [
+                "FUKI (Forum Ukhuwah dan Kajian Islam) adalah Lembaga Dakwah Fakultas yang berada di Fasilkom UI.",
+                "FUKI memiliki visi terwujudnya FUKI sebagai rumah muslim FASILKOM UI yang harmonis dan sinergis serta .menjadi teladan yang terdepan dalam mensyiarkan Islam."
+            ],
             "socmed": {
                 "line": "@quf9771z",
                 "ig": "fukifasilkom",
@@ -38,8 +48,10 @@
         },
         {
             "name": "dpm",
-            "title": "DPM Fasilkom UI", 
-            "desc": ["DPM (Dewan Perwakilan Mahasiswa) Fasilkom UI adalah lembaga IKM Fasilkom UI yang berperan sebagai lembaga legislatif serta memiliki fungsi yudikatif. DPM memiliki visi berperan saksama dalam upaya membangun kesan berarti bagi IKM Fasilkom UI."],
+            "title": "DPM Fasilkom UI",
+            "desc": [
+                "DPM (Dewan Perwakilan Mahasiswa) Fasilkom UI adalah lembaga IKM Fasilkom UI yang berperan sebagai lembaga legislatif serta memiliki fungsi yudikatif. DPM memiliki visi berperan saksama dalam upaya membangun kesan berarti bagi IKM Fasilkom UI."
+            ],
             "socmed": {
                 "line": "@DPMFasilkomUI",
                 "ig": "dpmfasilkomui",
@@ -49,8 +61,11 @@
         },
         {
             "name": "sistem",
-            "title": "SISTEM", 
-            "desc": ["SISTEM adalah organisasi di Fasilkom UI yang terspesialisasi dalam penelitian terkait bisnis, teknologi informasi, dan sistem informasi, serta memfasilitasi mahasiswa yang memiliki minat di dalam bidang-bidang tersebut.", "SISTEM memiliki visi mengakselerasi kapabilitas mahasiswa fasilkom dari segi pengetahuan, kemampuan, dan pengalaman pada bidang minat bisnis, teknologi, dan sistem informasi."],
+            "title": "SISTEM",
+            "desc": [
+                "SISTEM adalah organisasi di Fasilkom UI yang terspesialisasi dalam penelitian terkait bisnis, teknologi informasi, dan sistem informasi, serta memfasilitasi mahasiswa yang memiliki minat di dalam bidang-bidang tersebut.",
+                "SISTEM memiliki visi mengakselerasi kapabilitas mahasiswa fasilkom dari segi pengetahuan, kemampuan, dan pengalaman pada bidang minat bisnis, teknologi, dan sistem informasi."
+            ],
             "socmed": {
                 "line": "@tfm4120l",
                 "ig": "sistem_fasilkomui"
@@ -58,8 +73,11 @@
         },
         {
             "name": "po",
-            "title": "PO", 
-            "desc": ["PO atau Persekutuan Oikumene adalah perkumpulan mahasiswa Kristen Fakultas Ilmu Komputer. PO bersifat terbuka bagi seluruh mahasiswa Fasilkom dari berbagai aliran atau denominasi gereja.","PO memiliki visi menghasilkan pribadi yang menjadikan Tuhan sebagai pusat hidupnya, menikmati persekutuan dalam Tuhan, dan mencerminkan pribadi Kristus dalam kehidupannya."],
+            "title": "PO",
+            "desc": [
+                "PO atau Persekutuan Oikumene adalah perkumpulan mahasiswa Kristen Fakultas Ilmu Komputer. PO bersifat terbuka bagi seluruh mahasiswa Fasilkom dari berbagai aliran atau denominasi gereja.",
+                "PO memiliki visi menghasilkan pribadi yang menjadikan Tuhan sebagai pusat hidupnya, menikmati persekutuan dalam Tuhan, dan mencerminkan pribadi Kristus dalam kehidupannya."
+            ],
             "socmed": {
                 "line": "@rqi6185h",
                 "ig": "pofasilkomui",
@@ -69,10 +87,16 @@
         },
         {
             "name": "kmk",
-            "title": "KMK", 
-            "desc": ["KMK atau Keluarga Mahasiswa Katolik merupakan perkumpulan mahasiswa Katolik Fakultas Ilmu Komputer."],
+            "title": "KMK Fasilkom UI",
+            "desc": [
+                "KMK Fasilkom UI adalah sebuah wadah bagi mahasiswa Fasilkom UI yang beragama Katolik untuk dapat saling berbagi kasih seperti dengan visi KMK Fasilkom UI 2020, yakni sebagai satu keluarga yang berlandaskan cinta kasih, saling mengayomi, dan semakin mendekatkan diri kepada Tuhan.",
+                "Pada kepengurusan tahun 2020 ini, KMK Fasilkom UI memiliki tagar yaitu,",
+                "“Servientes quasi unius familiae”",
+                "yang dalam bahasa Latin berarti “Melayani sebagai Satu Keluarga”."
+            ],
             "socmed": {
-                "ig": "kmk_fasilkomui"
+                "ig": "kmk_fasilkomui",
+                "email": "kmk.cs.ui@gmail.com"
             }
         }
     ]

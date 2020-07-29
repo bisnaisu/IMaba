@@ -43,7 +43,7 @@
         {
             "logo": "dpm.png",
             "title": "DPM Fasilkom UI",
-            "desc": "DPM (Dewan Perwakilan Mahasiswa) Fasilkom UI merupakan lembaga yang berperan sebagai lembaga legislatif dan memiliki fungsi yudikatif, maka merupakan suatu kewajiban DPM Fasilkom UI untuk melayani IKM Fasilkom UI.",
+            "desc": "DPM (Dewan Perwakilan Mahasiswa) Fasilkom UI merupakan lembaga yang berperan sebagai lembaga legislatif dan memiliki fungsi yudikatif di IKM Fasilkom UI.",
             "contacts": [
                 {
                     "narahubung": [
@@ -56,7 +56,7 @@
                 },
                 {
                     "socmed": {
-                        "twitter": "DPMFasilkomUI",
+                        "line": "dpmfasilkomui",
                         "ig": "dpmfasilkomui"
                     }
                 }

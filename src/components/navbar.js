@@ -10,7 +10,7 @@ import Brand from '../assets/iMaba.svg'
 import '../styles/navbar.css'
 
 const selected = {
-        color: "rgba(0, 0, 0, .3)"
+        color: "rgba(0,0,0,.4)"
     }
 
 const navbar = (props) => {

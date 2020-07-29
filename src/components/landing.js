@@ -5,21 +5,21 @@ import Container from 'react-bootstrap/Container'
 export default class landing extends Component {
 
     bg = require(`../assets/${this.props.page}/bg.jpg`)
-    
-    
+    mobile = require(`../assets/${this.props.page}/bg-mobile.jpg`)    
 
     render() {
         const Landing = styled.div`
             height: 100vh; 
             background: url(${this.bg});
-            -webkit-background-position: ${this.props.title === "Info Kampus" ? "top" : "bottom" } left;
-            -moz-background-position: ${this.props.title === "Info Kampus" ? "top" : "bottom" } left;
-            -o-background-position: ${this.props.title === "Info Kampus" ? "top" : "bottom" } left;
-            background-position: ${this.props.title === "Info Kampus" ? "top" : "bottom" } left;
+            -webkit-background-position: center ${this.props.title === "Info Kampus" ? "top" : "bottom"};
+            -moz-background-position: center ${this.props.title === "Info Kampus" ? "top" : "bottom"};
+            -o-background-position: center ${this.props.title === "Info Kampus" ? "top" : "bottom"};
+            background-position: center ${this.props.title === "Info Kampus" ? "top" : "bottom"};
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+            background-repeat: no-repeat;
 
             display: flex;
             align-items: center;
@@ -41,10 +41,22 @@ export default class landing extends Component {
             }
             
             @media (max-width:576px) {
-                h1 {
-                    max-width: 50%; 
+                background: url(${this.mobile});
+                align-items: flex-end;
+                justify-content: center;
+                text-align: center;
+                -webkit-background-size: contain;
+                -moz-background-size: contain;
+                -o-background-size: contain;
+                background-size: contain;
+                background-repeat: no-repeat;
+                .container {
+                    padding-bottom: 25vh;
                 }
-                
+                h1 {
+                    max-width: 80%;
+                    margin: 0 10% 1rem;
+                }
                 .bar {
                     max-width: 100%;
                 }

@@ -274,6 +274,14 @@ const Styles = styled.div`
         a:hover {
             color: #FFDB00;
         }
+        @media (max-width:767px) {
+            .subtitle {
+                flex-direction: column-reverse;
+            }
+            .asset {
+                margin-bottom: 1.5rem;
+            }
+        }
     }
     #fitur {
         a { font-weight: normal }
@@ -282,6 +290,9 @@ const Styles = styled.div`
             margin-top: -20%;
         }
         .card-columns {
+            .card {
+                margin-top: 0;
+            }
             .card:not(:nth-child(odd)) {
                 margin-top: 10%;
             }
@@ -289,17 +300,16 @@ const Styles = styled.div`
         @media (max-width:768px){
             .card-columns {
                 column-count: 2;
-            }
-            .card:not(:nth-child(4n+0)) {
-                margin-top: 10%;
-            }
+                .subcard { margin-top: 10% }
+                .subcard:nth-child(3n+1) {
+                    margin-top: 0;
+                }
+            }            
         }
         @media (max-width:576px){
             .card-columns {
-                margin-top: 15%;
                 column-count: 1;
-                .card { margin-top: 0 }
-                .card:not(:nth-child(1)) {
+                .subcard:not(:first-child) {
                     margin-top: 20%;
                 }
             }

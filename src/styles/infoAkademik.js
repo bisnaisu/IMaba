@@ -219,6 +219,9 @@ const Styles = styled.div`
             .row {
                 flex-direction: column-reverse; 
             }
+            .asset {
+                margin-bottom: 1.5rem;
+            }
         }
     }
 `

@@ -7,11 +7,11 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import Spinner from 'react-bootstrap/Spinner'
 
-import petaTempat from '../../assets/infoKampus/peta-ui.svg'
-import petaTransport from '../../assets/infoKampus/peta-transport.svg'
+import petaTempat from '../../assets/infoKampus/peta-ui.png'
+import petaTransport from '../../assets/infoKampus/peta-transport.png'
 import petaBikun from '../../assets/infoKampus/peta-bikun.svg'
-import rute from '../../assets/infoKampus/peta-rute.svg'
-import legenda from '../../assets/infoKampus/peta-legenda.svg'
+import rute from '../../assets/infoKampus/peta-rute.png'
+import legenda from '../../assets/infoKampus/peta-legenda.png'
 
 export default class petaUI extends Component {
     state = { slide:"tempat"}

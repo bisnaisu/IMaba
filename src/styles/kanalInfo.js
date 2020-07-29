@@ -5,11 +5,7 @@ const Styles = styled.div`
     min-height: 100vh;
 
     .navbar-light{ background: #FF62D1 }
-    .dropdown-menu { background-color: #FC9CD6; border: none; }
-    
-    span img {
-        height: 18px;
-    }
+    .dropdown-menu { background-color: #FC9CD6; border: none; }  
 
     .cardHeader {
         display: flex;
@@ -19,6 +15,7 @@ const Styles = styled.div`
 
         img {
             height: 125px;
+            margin-right: 10px;
         }
 
         @media (max-width:576px) {
@@ -39,6 +36,9 @@ const Styles = styled.div`
         }
 
         margin: .75rem 0;
+        span img {
+            height: 18px;
+        }
     }
 
     .card-columns {

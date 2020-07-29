@@ -23,7 +23,12 @@ h3 {
 }
 
 .dropdown-menu {
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,1);
+  border-color: rgba(0,0,0,.5);
 }
 
 .card {

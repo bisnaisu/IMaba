@@ -36,7 +36,7 @@ export default class ngoding101 extends Component {
                     </Row>
                     <Row className="mt-3 ddp justify-content-center">
                         <p>Buat kamu yang belum pernah ngoding sebelumnya atau ingin latihan ngoding, bisa banget nih daftar <b>DDP0</b>. Di DDP0 kamu akan belajar bersama kakak tingkat mengenai dasar-dasar dalam pemrograman.</p>
-                        <a href="https://line.me/R/ti/p/@gcu4092j" target="blank"><Button variant="secondary">Daftar DDP0 Sekarang!</Button></a>
+                        <a href="http://bit.ly/KuyJoinDDP0" target="blank"><Button variant="secondary">Daftar DDP0 Sekarang!</Button></a>
                     </Row>
                 </div>
             )
@@ -47,7 +47,7 @@ export default class ngoding101 extends Component {
                     <CardDeck>
                         { belajar.map( site => (                            
                                 <Card key={site.name} className="subcard">                                    
-                                    <Card.Body className="d-flex flex-column justify-content-center"><img alt="" src={require(`../../assets/${site.name}.png`)} /></Card.Body>
+                                    <Card.Body className="d-flex flex-column justify-content-center"><img alt="" src={require(`../../assets/iconlogo/${site.name}.png`)} /></Card.Body>
                                     <a href={site.to} target="blank"><Card.Footer>{site.title}</Card.Footer></a>
                                 </Card>                            
                         ))}                        
@@ -56,8 +56,8 @@ export default class ngoding101 extends Component {
                     <CardDeck>
                         { latihan.map( site => (
                             <Card key={site.name} className="subcard">
-                                <Card.Body className="d-flex flex-column justify-content-center"><img alt="" src={require(`../../assets/${site.name}.png`)} /></Card.Body>
-                                {site.title && <a href={site.to} target="blank"><Card.Footer>{site.title}</Card.Footer></a>}
+                                <Card.Body className="d-flex flex-column justify-content-center"><img alt="" src={require(`../../assets/iconlogo/${site.name}.png`)} /></Card.Body>
+                                <a href={site.to} target="blank"><Card.Footer>{site.title}</Card.Footer></a>
                             </Card>
                         ))}                        
                     </CardDeck>

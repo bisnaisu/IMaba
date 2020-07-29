@@ -302,7 +302,7 @@ const Styles = styled.div`
         .asset {
             width: 100%; 
             margin-bottom: 0;
-            @media (max-width:576px) { width: 60%; margin: 0 20% 0 20%; }
+            @media (max-width:767px) { width: 60%; margin: 0 20% 0 20%; }
         }
         .fact {
             .funfacts {

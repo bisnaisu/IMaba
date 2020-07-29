@@ -11,7 +11,7 @@ export default function beasiswa() {
         <Card id="beasiswa">
             <h2 className="text-center">Beasiswa</h2>
             <Row>
-                <Col md={5}><img alt="asset" src={asset} style={{width:"100%"}} /></Col> 
+                <Col md={5}><img className="asset" alt="asset" src={asset} style={{width:"100%"}} /></Col> 
                 <Col md={7}>
                     <p>Siapa sih yang tidak mau mendapat beasiswa?<br/>Di UI, kita menerima banyak sekali beasiswa dari berbagai instansi. Beasiswa yang ditawarkan juga sangat beragam loh!</p>
                     <p>Dengan website Beasiswa UI, kamu dapat mengetahui beasiswa apa saja yang sedang dibuka. Setiap beasiswa akan mempunyai syarat-syarat tertentu jika kamu ingin melamar.</p>

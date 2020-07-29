@@ -18,9 +18,11 @@ export default function badanOtonom() {
                                 <img alt={item.title} src={ require(`../../assets/iconlogo/${item.name}.png`) } />
                                 <h2>{item.title}</h2>
                             </div>
-                            {item.desc.map( (p, idx) => (
-                                <p key={idx}>{p}</p>
-                            ))}                             
+                            {!(item.name === "kmk") && 
+                            item.desc.map( (p, idx) => (<p key={idx}>{p}</p>))}
+                            {item.name === "kmk" && 
+                            <p>{item.desc[0]}</p> && 
+                            <p>{item.desc[1]} <i>{item.desc[2]}</i> {item.desc[3]}</p>}                             
                             <div>
                                 <b>Social Media:<br /></b>
                                 {item.socmed.line && (<span><img alt="line" src={ require(`../../assets/iconlogo/line.svg`) } /> {item.socmed.line}<br/></span>)}

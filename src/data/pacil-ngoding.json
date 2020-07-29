@@ -1,15 +1,15 @@
 {
         "latihan": [
-            {"name": "iconlogo/hackerrank", "title": "HackerRank", "to": "https://www.hackerrank.com/"},
-            {"name": "iconlogo/codingbat", "title": "CodingBat", "to": "https://codingbat.com/"},
-            {"name": "iconlogo/snakify", "title": "Snakify", "to": "https://snakify.org/"},
-            {"name": "infoPacil/filler", "title": ""}
+            {"name": "hackerrank", "title": "HackerRank", "to": "https://www.hackerrank.com/"},
+            {"name": "codingbat", "title": "CodingBat", "to": "https://codingbat.com/"},
+            {"name": "snakify", "title": "Snakify", "to": "https://snakify.org/"},
+            {"name": "leetcode", "title": "Leetcode", "to": "https://leetcode.com/"}
         ],
         "belajar": [
-            {"name": "iconlogo/w3schools", "title": "W3Schools", "to": "https://www.w3schools.com/"},
-            {"name": "iconlogo/edx", "title": "edX", "to": "https://www.edx.org/"},
-            {"name": "iconlogo/sololearn", "title": "SoloLearn", "to": "https://www.sololearn.com/"},
-            {"name": "iconlogo/codecademy", "title": "Codecademy", "to": "https://www.codecademy.com/"}
+            {"name": "w3schools", "title": "W3Schools", "to": "https://www.w3schools.com/"},
+            {"name": "edx", "title": "edX", "to": "https://www.edx.org/"},
+            {"name": "sololearn", "title": "SoloLearn", "to": "https://www.sololearn.com/"},
+            {"name": "codecademy", "title": "Codecademy", "to": "https://www.codecademy.com/"}
         ],
         "tips": [
             "Dengarkan baik-baik materi yang disampaikan oleh dosen saat kelas!",
