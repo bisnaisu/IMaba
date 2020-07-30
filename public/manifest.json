@@ -1,24 +1,25 @@
 {
   "short_name": "iMaba",
   "name": "iMaba",
+  "description" : "iMaba hadir untuk memberikan informasi-informasi penting dan menarik seputar akademik, kampus UI, Fasilkom, serta kanal informasi yang dapat kamu hubungi.",
   "icons": [
     {
-      "src": "iMaba.svg",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "icons/favicon.ico",
+      "sizes": "48x48",
       "type": "image/x-icon"
     },
     {
-      "src": "iMaba.svg",
-      "type": "image/svg",
+      "src": "icons/android-chrome-192x192.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "iMaba.svg",
-      "type": "image/svg",
+      "src": "icons/android-chrome-512x512.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
