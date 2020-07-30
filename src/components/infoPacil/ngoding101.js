@@ -46,9 +46,9 @@ export default class ngoding101 extends Component {
                     <div className="headcard">Untuk Belajar Ngoding</div>
                     <CardDeck>
                         { belajar.map( site => (                            
-                                <Card key={site.name} className="subcard">                                    
-                                    <Card.Body className="d-flex flex-column justify-content-center"><img alt="" src={require(`../../assets/iconlogo/${site.name}.png`)} /></Card.Body>
-                                    <a href={site.to} target="blank"><Card.Footer>{site.title}</Card.Footer></a>
+                                <Card key={site.name} className="subcard">                               
+                                    <Card.Body className="d-flex flex-column justify-content-center"><a href={site.to} target="blank"><img alt="" src={require(`../../assets/iconlogo/${site.name}.png`)} /></a></Card.Body>
+                                    <Card.Footer><a href={site.to} target="blank">{site.title}</a></Card.Footer>
                                 </Card>                            
                         ))}                        
                     </CardDeck>
@@ -56,8 +56,8 @@ export default class ngoding101 extends Component {
                     <CardDeck>
                         { latihan.map( site => (
                             <Card key={site.name} className="subcard">
-                                <Card.Body className="d-flex flex-column justify-content-center"><img alt="" src={require(`../../assets/iconlogo/${site.name}.png`)} /></Card.Body>
-                                <a href={site.to} target="blank"><Card.Footer>{site.title}</Card.Footer></a>
+                                <Card.Body className="d-flex flex-column justify-content-center"><a href={site.to} target="blank"><img alt="" src={require(`../../assets/iconlogo/${site.name}.png`)} /></a></Card.Body>
+                                <Card.Footer><a href={site.to} target="blank">{site.title}</a></Card.Footer>
                             </Card>
                         ))}                        
                     </CardDeck>
