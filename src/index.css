@@ -26,6 +26,10 @@ h3 {
   transition: all 0.5s ease-in-out;
 }
 
+.dropdown-item:hover{
+  background-color:transparent;
+}
+
 .navbar-light .navbar-toggler {
   color: rgba(0,0,0,1);
   border-color: rgba(0,0,0,.5);
