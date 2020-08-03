@@ -29,6 +29,16 @@ h3 {
     padding: 2rem;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #333333;
+}
+
+::selection {
+  color: white;
+  background: #181818;
+}
+
 @media (max-width:576px) {
   .card {
       padding: 1rem;
