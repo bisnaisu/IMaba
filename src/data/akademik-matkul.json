@@ -4,31 +4,31 @@
             "name": "DDP 1",
             "prodi": "IK/SI",
             "sks": "4",
-            "desc": "Dasar-dasar Pemrograman 1 atau singkatnya disebut DDP 1 adalah mata kuliah yang mempelajari pemrograman pada tingkat yang menadasar. Pada DDP 1 ini, kamu akan belajar mengenai bahasa pemrograman Python. DDP 1 ini akan menjadi syarat kelulusan untuk DDP 2 yang akan kamu pelajari di semester 2 nanti."
+            "desc": "Dasar-Dasar Pemrograman 1 atau singkatnya disebut DDP 1 adalah mata kuliah yang mempelajari pemrograman pada tingkat yang mendasar. Di matkul ini, kamu akan belajar mengenai bahasa pemrograman Python. DDP 1 menjadi matkul prasyarat untuk DDP 2 yang akan kamu pelajari di semester 2 nanti."
         },
         {
             "name": "MD 1",
             "prodi": "IK/SI",
             "sks": "3",
-            "desc": "Matematika Diskret 1 atau singkatnya Matdis 1 adalah mata kuliah yang dapat disebut “matematika menggunakan logika.” Matkul ini akan mengajak kamu untuk dapat menganalisis dan membuktikan sebuah masalah. Matematika diskret sangat banyak menggunakan pembuktian dan analisis."
+            "desc": "Matematika Diskret 1 atau singkatnya Matdis 1 adalah mata kuliah yang dapat disebut “matematika menggunakan logika.” Matkul ini akan mengajak kamu untuk dapat menganalisis dan membuktikan penyelesaian sebuah masalah. Matematika diskret banyak menggunakan metode pembuktian dan analisis."
         },
         {
-            "name": "FisDas",
+            "name": "Fisdas",
             "prodi": "IK/SI",
             "sks": "3",
-            "desc": "Fisika Dasar atau FisDas adalah mata kuliah yang belajar tentang fisika. Fisika yang dipelajari adalah fisika yang mungkin sudah kamu pelajari sebelumnya, misalnya besaran dan satuan, gaya, energi, dan lain-lain. Ett..! Tapi jangan salah, walaupun kesannya sangat mendasar, tingkat kesulitan soal-soalnya tentu lebih susah saat kuliah."
+            "desc": "Fisika Dasar atau Fisdas adalah mata kuliah yang mempelajari fisika. Fisika yang dipelajari adalah fisika yang mungkin sudah kamu pelajari di sekolah, misalnya besaran dan satuan, gaya, energi, dan lain-lain. Ett..! Tapi jangan salah, walaupun kesannya sangat mendasar, tingkat kesulitan soal-soalnya tentu lebih sulit."
         },
         {
             "name": "MPKT-B",
             "prodi": "IK/SI",
             "sks": "6",
-            "desc": "MPKT B adalah mata kuliah yang mempelajari tentang pengetahuan dasar. Di sini kamu akan sering diberi pokok masalah yang sedang/sering terjadi, kemudian kamu harus menganalisis masalah tersebut bersama teman kelompokmu. Untuk MPKT B, topik yang sering diangkat berhubungan dengan masalah-masalah yang berbau saintek."
+            "desc": "MPKT B adalah mata kuliah yang mempelajari tentang pengetahuan sains dasar. Di sini kamu akan sering diberi pokok masalah yang sedang/sering terjadi, kemudian kamu harus menganalisis masalah tersebut bersama teman kelompokmu. Untuk MPKT B, topik yang sering diangkat berhubungan dengan masalah-masalah yang berbau saintek."
         },
         {
             "name": "MPK B. Inggris",
             "prodi": "IK",
             "sks": "3",
-            "desc": "MPK Bahasa Inggris adalah mata kuliah yang mengajarkan tentang bahasa Inggris. Setelah diterima di UI, kamu akan menjalankan tes EPT. Nah, tes EPT ini bisa menjadi penentu nilai kamu di matkul ini lho! Jika tes EPT kamu mendapat nilai >= C, maka kamu tidak perlu ikut kelas setiap minggunya."
+            "desc": "MPK Bahasa Inggris adalah mata kuliah yang mengajarkan tentang bahasa Inggris. Setelah diterima di UI, kamu akan menjalankan tes EPT. Nah, tes EPT ini bisa menjadi penentu nilai kamu di matkul ini lho! Jika nilai EPT kamu >= C, maka kamu boleh tidak ikut kelas setiap minggunya."
         },
         {
             "name": "MPKS/MPKO",
@@ -37,7 +37,7 @@
             "desc": "MPK Seni dan Olahraga merupakan mata kuliah yang fokus terhadap skill seni maupun olahraga kamu. Beberapa orang lebih memilih MPK Olahraga, namun ada juga orang yang lebih memilih MPK Seni. Di sini, kamu bebas memilih seni atau olahraga, ikuti saja passionmu!"
         },
         {
-            "name": "MatDas 1",
+            "name": "Matdas 1",
             "prodi": "SI",
             "sks": "3",
             "desc": "Pada mata kuliah ini, kamu akan belajar mengenai turunan dan integral. Tapi hati-hati nih! Walaupun terkesan sangat mendasar, di sini kamu akan belajar kedua materi tersebut secara lebih detail dan pastinya soal-soalnya akan lebih kompleks."
@@ -48,13 +48,13 @@
             "name": "DDP 2",
             "prodi": "IK/SI",
             "sks": "4",
-            "desc": "Dasar-dasar Pemrograman 2 adalah mata kuliah lanjutan dari DDP 1, maka dari itu kamu harus lulus DDP 1 terlebih dahulu untuk mengambil matkul ini. Di DDP 2 kamu akan belajar mengenai bahasa pemrograman Java. Secara garis besar, mirip dengan materi DDP 1, hanya saja kali ini kamu akan menggunakan Java, bukan Python."
+            "desc": "Dasar-dasar Pemrograman 2 adalah mata kuliah lanjutan dari DDP 1. Maka dari itu, kamu harus lulus DDP 1 terlebih dahulu untuk mengambil matkul ini. Di DDP 2 kamu akan belajar mengenai bahasa pemrograman Java. Secara garis besar, mirip dengan materi DDP 1, hanya saja kali ini kamu akan menggunakan Java, bukan Python."
         },
         {
             "name": "MD 2",
             "prodi": "IK/SI",
             "sks": "3",
-            "desc": "Matematika Diskret 2 atau Matdis 2 adalah mata kuliah lanjutan dari Matdis 1. Berbeda dengan DDP 2, Matdis 1 tidak menjadi syarat kamu bisa mengambil matkul ini. Di Matdis 2 ini kamu akan belajar tentang number theory, relasi, dan graf."
+            "desc": "Matematika Diskret 2 atau Matdis 2 adalah mata kuliah lanjutan dari Matdis 1. Berbeda dengan DDP 2, Matdis 1 tidak menjadi syarat kamu bisa mengambil matkul ini. Di Matdis 2 ini kamu akan belajar tentang teori bilangan, relasi, dan graf."
         },
         {
             "name": "MPKT-A",
@@ -66,7 +66,7 @@
             "name": "PSD",
             "prodi": "IK",
             "sks": "4",
-            "desc": "Pengantar Sistem Digital atau singkatnya PSD adalah mata kuliah di mana kamu akan belajar tentang perangkat keras sistem digital dan komputer digital. Di sini kamu akan belajar mengenai bilangan biner, dasar rangkaian digital, dan cara merangkai sebuah sirkuit. "
+            "desc": "Pengantar Sistem Digital atau singkatnya PSD adalah mata kuliah di mana kamu akan belajar tentang perangkat keras sistem digital dan komputer. Di sini, kamu akan belajar mengenai bilangan biner, dasar rangkaian digital, dan cara merangkai sebuah sirkuit."
         },
         {
             "name": "MatDas 1",

@@ -23,7 +23,7 @@ export default class ngoding101 extends Component {
                     <Row>
                         <Col lg={5}><img alt="asset" src={asset} className="asset" /></Col>
                         <Col lg={7}>
-                            <p>Pada tahun pertama di Fasilkom, kamu akan belajar bahasa pemrograman <b>Python</b> dan <b>Java</b>. Nahh apa saja yaa tips-tips untuk belajar ngoding?</p>
+                            <p>Pada tahun pertama di Fasilkom, kamu akan belajar bahasa pemrograman <b>Python</b> dan <b>Java</b>. Nahh, apa saja yaa, tips-tips untuk belajar ngoding?</p>
                             <ListGroup variant="flush" className="tips">
                                 { tips.map( (tips, idx) => (
                                     <ListGroup.Item key={idx} className="d-flex align-items-center">

@@ -23,7 +23,7 @@ export default class infoPacil extends Component {
       
     render() {
         const title = "Info Fasilkom"
-        const desc = "Tak kenal maka tak sayang, Yuk, kenali makin dalam tentang Fasilkom! Halaman ini akan menjelaskan berbagai macam hal tentang fakultas tercinta kita."
+        const desc = "Tak kenal maka tak sayang. Yuk, kenali Fasilkom lebih dalam! Halaman ini akan menjelaskan berbagai macam hal tentang fakultas kita tercinta."
 
         return (
             <Styles>

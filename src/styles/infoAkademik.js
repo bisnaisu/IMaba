@@ -219,7 +219,7 @@ const Styles = styled.div`
     }
 
     #scele {
-
+        p { text-align: justify }
         .btn {
             margin: 10px; 
         }

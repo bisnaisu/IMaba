@@ -22,7 +22,7 @@ export default class infoKampus extends Component {
 
     render() {
         const title = "Info Kampus"
-        const desc = "Mau keliling UI tapi tidak tahu jalan? Mau ngekost tapi bingung di mana? Ingin tahu tempat-tempat iconic di UI? Semua pertanyaanmu akan terjawab di halaman ini. Ayo, makin kenal dengan kampus kita!"
+        const desc = "Mau keliling UI tapi tidak tahu jalan? Mau ngekost tapi bingung di mana? Ingin tahu tempat-tempat ikonis di UI? Semua pertanyaanmu akan terjawab di halaman ini. Ayo, makin kenal dengan kampus kita!"
 
         return (
             <Styles>

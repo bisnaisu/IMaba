@@ -39,6 +39,7 @@ const Styles = styled.div`
         span img {
             height: 18px;
         }
+        p { text-align: justify }
     }
 
     .card-columns {

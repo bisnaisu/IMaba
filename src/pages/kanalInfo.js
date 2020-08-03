@@ -19,7 +19,7 @@ export default class kanalInfo extends Component {
       
     render() {
         const title = "Kanal Informasi"
-        const desc = "Ingin tahu lebih banyak tentang informasi birokrasi dan advokasi di Fasilkom? Di halaman ini, kamu dapat menyimak beberapa kanal informasi yang dapat kamu hubungin di Fasilkom!"
+        const desc = "Ingin tahu lebih banyak tentang informasi birokrasi dan advokasi di Fasilkom? Di halaman ini, kamu dapat menyimak beberapa kanal informasi yang dapat kamu hubungi di Fasilkom!"
         const data = kanal.info
 
         return (

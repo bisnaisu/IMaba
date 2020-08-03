@@ -92,6 +92,10 @@ const Styles = styled.div`
         .subcard { padding: 1.5rem }
     }
 
+    #budaya {
+        text-align: justify;
+    }
+
     #pacilLife {  
         .kiri, .kanan {
             .row { height: 130px }

@@ -18,7 +18,7 @@
         {
             "name": "wisuda",
             "title": "Skripsi Bukan Satu-Satunya Syarat untuk Lulus",
-            "desc": "Berbeda dengan fakultas lain yang menjadikan skripsi sebagai syarat untuk lulus, di Fasilkom kamu tidak harus membuat skripsi saat semester akhir nanti. Untuk detailnya, kamu akan diberikan penjelasannya setelah masuk kuliah."
+            "desc": "Berbeda dengan fakultas lain yang menjadikan skripsi sebagai syarat untuk lulus, di Fasilkom, kamu tidak harus membuat skripsi saat semester akhir nanti. Untuk detailnya, kamu akan diberikan penjelasannya setelah masuk kuliah."
         },
         {
             "name": "sate",
@@ -28,7 +28,7 @@
         {
             "name": "kontingen",
             "title": "Maskot Panda",
-            "desc": "Maskot dari Fasilkom adalah seekor panda. Nah kebanyakan mahasiswa Fasilkom sibuk dengan tugas yang menumpuk hingga kantung mata mereka hitam akibat kurang tidur, mirip seekor panda. Maka hewan panda-lah yang dijadikan maskot fakultas ini."
+            "desc": "Maskot dari Fasilkom adalah seekor panda. Kebanyakan mahasiswa Fasilkom sibuk dengan tugas yang menumpuk hingga kantung mata mereka hitam akibat kurang tidur, mirip seekor panda. Maka hewan panda-lah yang dijadikan maskot fakultas ini."
         },
         {
             "name": "gebun",
@@ -38,7 +38,7 @@
         {
             "name": "copyright",
             "title": "Anti Plagiarisme",
-            "desc": "Fasilkom sangat ketat dengan tindakan plagiarisme dalam tugas ataupun lainnya. Jadi jangan pernah melakukan plagiarisme yaa!! atau akibat terburuknya kamu akan mendapat nilai E pada mata kuliah bersangkutan."
+            "desc": "Fasilkom sangat ketat dengan tindakan plagiarisme dalam tugas, ujian, sampai code program. Jadi jangan pernah melakukan plagiarisme yaa!! Akibat terburuknya, kamu akan mendapat nilai E pada mata kuliah bersangkutan."
         }
     ]
 }

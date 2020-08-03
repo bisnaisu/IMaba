@@ -8,7 +8,7 @@
         {
             "name": "sepeda",
             "title": "Ojek & Sepeda Kuning",
-            "desc": ["Kalau kamu ingin cepat dan lagi malas jalan, kamu bisa memakai jasa ojek di UI! Ada beberapa pangkalan ojek di UI yang di peta ditandakan dengan ikon helm.", "Atau kamu juga bisa menggunakan sepeda kuning (spekun) yang bisa dipakai setelah kamu sudah resmi menjadi mahasiswa UI."]
+            "desc": ["Kalau kamu ingin cepat dan lagi malas jalan, kamu bisa memakai jasa ojek di UI! Ada beberapa pangkalan ojek di UI yang di peta ditandakan dengan ikon helm.", "Atau kamu juga bisa menggunakan sepeda kuning (spekun) yang bisa dipakai setelah kamu sudah resmi menjadi mahasiswa UI. Ada juga sepeda Gowes yang bisa kamu gunakan setelah mengunduh aplikasinya. Gratis setiap 30 menit pertama, khusus untuk mahasiswa UI."]
         },
         {
             "name": "motor",
@@ -18,7 +18,7 @@
         {
             "name": "kereta",
             "title": "Kereta",
-            "desc": ["Buat kamu yang mau pulang pergi dari rumah, kamu bisa naik KRL dan turun di Stasiun Universitas Indonesia ataupun di stasiun Pondok Cina. Karena letak Fasilkom sudah di tengah-tengah UI, jarak Fasilkom dari kedua stasiun tersebut sudah tidak terlalu jauh."]
+            "desc": ["Buat kamu yang mau pulang pergi dari rumah, kamu bisa naik KRL dan turun di Stasiun Universitas Indonesia ataupun di Stasiun Pondok Cina. Karena letak Fasilkom ada di tengah-tengah UI, jarak Fasilkom dari kedua stasiun tersebut hampir sama dekatnya."]
         }
     ]
 }
