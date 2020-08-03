@@ -4,8 +4,13 @@ a {
 }
 
 #navbar a {
-    padding: 2px .75rem;
+    padding: 2px .2rem 2px 1rem;
     margin-left: 5px;
+}
+
+#navbar .dropdown-menu a {
+    padding: 2px .75rem;
+    margin-left: 0;
 }
 
 #navbar a:hover {
@@ -19,4 +24,18 @@ a {
 
 .dropdown-toggle:hover {
     color: white;
+}
+
+.dropdown-menu {
+    transition: all 0.5s ease-in-out;
+  }
+  
+.dropdown-item:hover{
+    background-color:transparent;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,1);
+    border-color: rgba(0,0,0,.5);
+    /* padding: .2rem .5rem; */
 }

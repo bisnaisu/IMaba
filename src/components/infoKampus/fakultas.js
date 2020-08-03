@@ -12,7 +12,7 @@ export default function fakultas() {
             <Row className="d-flex justify-content-between">
                 {fakultas.map( makara => (<Col md={2} sm={4} xs={4} className="d-flex flex-column justify-content-center" key={makara}>
                     <div className="makara">
-                        <img alt={makara} src={ require(`../../assets/infoKampus/makara/${makara}.png`) } className="img img-responsive full-width"/>
+                        <img alt={makara} draggable="false" src={ require(`../../assets/infoKampus/makara/${makara}.png`) } className="img img-responsive full-width"/>
                     </div>                    
                     <p>{makara}</p>
                 </Col>))}  

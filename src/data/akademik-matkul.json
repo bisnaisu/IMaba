@@ -4,43 +4,43 @@
             "name": "DDP 1",
             "prodi": "IK/SI",
             "sks": "4",
-            "desc": "Dasar-dasar Pemrograman 1 atau singkatnya disebut DDP 1 adalah mata kuliah wajib fakultas yang mempelajari judul dari mata kuliah itu sendiri, yaitu dasar-dasar pemrograman. Pada DDP 1 ini, kamu akan belajar mengenai bahasa pemrograman Python. DDP 1 ini akan menjadi syarat kelulusan untuk DDP 2 yang akan kamu pelajari di semester 2 nanti."
+            "desc": "Dasar-dasar Pemrograman 1 atau singkatnya disebut DDP 1 adalah mata kuliah yang mempelajari pemrograman pada tingkat yang menadasar. Pada DDP 1 ini, kamu akan belajar mengenai bahasa pemrograman Python. DDP 1 ini akan menjadi syarat kelulusan untuk DDP 2 yang akan kamu pelajari di semester 2 nanti."
         },
         {
             "name": "MD 1",
             "prodi": "IK/SI",
             "sks": "3",
-            "desc": "Matematika Diskret 1 atau singkatnya Matdis 1 adalah mata kuliah wajib fakultas yang bahasa gampangnya adalah “matematika menggunakan logika.” Matkul ini akan mengajak kamu untuk dapat menganalisis dan membuktikan sebuah masalah. Matematika diskret sangat banyak menggunakan pembuktian dan analisis."
+            "desc": "Matematika Diskret 1 atau singkatnya Matdis 1 adalah mata kuliah yang dapat disebut “matematika menggunakan logika.” Matkul ini akan mengajak kamu untuk dapat menganalisis dan membuktikan sebuah masalah. Matematika diskret sangat banyak menggunakan pembuktian dan analisis."
         },
         {
             "name": "FisDas",
             "prodi": "IK/SI",
             "sks": "3",
-            "desc": "Fisika Dasar atau FisDas adalah mata kuliah wajib rumpun yang belajar tentang fisika. Fisika yang dipelajari adalah fisika yang mungkin sudah kamu pelajari sebelumnya, misalnya besaran dan satuan, gaya, energi, dan lain-lain. Ett..! Tapi jangan salah, walaupun kesannya sangat mendasar, tingkat kesulitan soal-soalnya tentu lebih susah saat kuliah."
+            "desc": "Fisika Dasar atau FisDas adalah mata kuliah yang belajar tentang fisika. Fisika yang dipelajari adalah fisika yang mungkin sudah kamu pelajari sebelumnya, misalnya besaran dan satuan, gaya, energi, dan lain-lain. Ett..! Tapi jangan salah, walaupun kesannya sangat mendasar, tingkat kesulitan soal-soalnya tentu lebih susah saat kuliah."
         },
         {
             "name": "MPKT-B",
             "prodi": "IK/SI",
             "sks": "6",
-            "desc": "MPKT B adalah mata kuliah yang mempelajari tentang pengetahuan dasar. Disini kamu akan sering dikasih pokok masalah yang sedang/sering terjadi, kemudian harus kamu analisis masalah tersebut bersama teman kelompokmu. Untuk MPKT B, topik yang sering diangkat berhubungan dengan masalah-masalah yang berbau saintek."
+            "desc": "MPKT B adalah mata kuliah yang mempelajari tentang pengetahuan dasar. Di sini kamu akan sering diberi pokok masalah yang sedang/sering terjadi, kemudian kamu harus menganalisis masalah tersebut bersama teman kelompokmu. Untuk MPKT B, topik yang sering diangkat berhubungan dengan masalah-masalah yang berbau saintek."
         },
         {
             "name": "MPK B. Inggris",
             "prodi": "IK",
             "sks": "3",
-            "desc": "MPK Bahasa Inggris adalah mata kuliah wajib universitas yang mengajarkan kalian tentang bahasa Inggris. Saat kamu sudah diterima di UI, kamu akan disuruh menjalankan tes EPT. Nah, tes EPT ini bisa menjadi penentu nilai kamu di matkul ini loh! Jika tes EPT kamu mendapat nilai >= C, maka kamu tidak perlu ikut kelas setiap minggunya."
+            "desc": "MPK Bahasa Inggris adalah mata kuliah yang mengajarkan tentang bahasa Inggris. Setelah diterima di UI, kamu akan menjalankan tes EPT. Nah, tes EPT ini bisa menjadi penentu nilai kamu di matkul ini lho! Jika tes EPT kamu mendapat nilai >= C, maka kamu tidak perlu ikut kelas setiap minggunya."
         },
         {
             "name": "MPKS/MPKO",
             "prodi": "IK",
             "sks": "1",
-            "desc": "MPK Seni dan Olahraga merupakan mata kuliah wajib universitas yang fokus terhadap skill seni maupun olahraga kamu. Beberapa orang lebih memilih MPK Olahraga, namun ada juga orang yang lebih memilih MPK Seni. Di sini, kamu bebas memilih seni atau olahraga, ikuti saja passionmu!"
+            "desc": "MPK Seni dan Olahraga merupakan mata kuliah yang fokus terhadap skill seni maupun olahraga kamu. Beberapa orang lebih memilih MPK Olahraga, namun ada juga orang yang lebih memilih MPK Seni. Di sini, kamu bebas memilih seni atau olahraga, ikuti saja passionmu!"
         },
         {
             "name": "MatDas 1",
             "prodi": "SI",
             "sks": "3",
-            "desc": "Mata kuliah ini merupakan mata kuliah wajib rumpun. Di Matdas 1 ini, kamu akan belajar mengenai turunan dan integral. Tapi hati-hati nih! Walaupun terkesan sangat mendasar, disini kamu akan belajar kedua materi tersebut secara lebih detail dan pastinya soal-soalnya akan lebih kompleks."
+            "desc": "Pada mata kuliah ini, kamu akan belajar mengenai turunan dan integral. Tapi hati-hati nih! Walaupun terkesan sangat mendasar, di sini kamu akan belajar kedua materi tersebut secara lebih detail dan pastinya soal-soalnya akan lebih kompleks."
         }
     ],
     "term2": [
@@ -48,49 +48,49 @@
             "name": "DDP 2",
             "prodi": "IK/SI",
             "sks": "4",
-            "desc": "Dasar-dasar Pemrograman 2 adalah mata kuliah wajib fakultas yang merupakan lanjutan dari DDP 1, maka dari itu kamu harus lulus DDP 1 terlebih dahulu untuk mengambil matkul ini. Di DDP 2 kamu akan belajar mengenai bahasa pemrograman Java. Secara garis besar, mirip dengan materi DDP 1 hanya saja saat ini kamu akan menggunakan Java, bukan Python."
+            "desc": "Dasar-dasar Pemrograman 2 adalah mata kuliah lanjutan dari DDP 1, maka dari itu kamu harus lulus DDP 1 terlebih dahulu untuk mengambil matkul ini. Di DDP 2 kamu akan belajar mengenai bahasa pemrograman Java. Secara garis besar, mirip dengan materi DDP 1, hanya saja kali ini kamu akan menggunakan Java, bukan Python."
         },
         {
             "name": "MD 2",
             "prodi": "IK/SI",
             "sks": "3",
-            "desc": "Matematika Diskret 2 atau Matdis 2 adalah mata kuliah wajib fakultas yang merupakan lanjutan dari Matdis 1. Berbeda dengan DDP 2, Matdis 1 tidak menjadi syarat kamu bisa mengambil matkul ini. Di Matdis 2 ini kamu akan belajar tentang number theory, relasi, dan graf."
+            "desc": "Matematika Diskret 2 atau Matdis 2 adalah mata kuliah lanjutan dari Matdis 1. Berbeda dengan DDP 2, Matdis 1 tidak menjadi syarat kamu bisa mengambil matkul ini. Di Matdis 2 ini kamu akan belajar tentang number theory, relasi, dan graf."
         },
         {
             "name": "MPKT-A",
             "prodi": "IK/SI",
             "sks": "6",
-            "desc": "Sama seperti MPKT B, MPKT A adalah mata kuliah wajib universitas. Jika MPKT B lebih fokus ke bidang saintek, MPKT A akan lebih fokus ke bidang sosial, seperti filsafat, etika, dan lain-lain. Sama seperti MPKT B, kamu akan diberi sebuah permasalahan yang akan kamu analisis bersama teman kelompokmu."
+            "desc": "MPKT A mirip dengan MPKT B, tetapi memiliki perbedaan. Jika MPKT B lebih fokus ke bidang saintek, MPKT A akan lebih fokus ke bidang sosial, seperti filsafat, etika, dan lain-lain. Sama seperti MPKT B, kamu akan diberi sebuah permasalahan yang akan kamu analisis bersama teman kelompokmu."
         },
         {
             "name": "PSD",
             "prodi": "IK",
             "sks": "4",
-            "desc": "Pengantar Sistem Digital atau singkatnya PSD adalah mata kuliah wajib prodi Ilmu Komputer dimana kamu akan belajar tentang perangkat keras sistem digital dan komputer digital. Disini kamu akan belajar mengenai bilangan biner, dasar rangkaian digital, dan cara merangkai sebuah sirkuit. "
+            "desc": "Pengantar Sistem Digital atau singkatnya PSD adalah mata kuliah di mana kamu akan belajar tentang perangkat keras sistem digital dan komputer digital. Di sini kamu akan belajar mengenai bilangan biner, dasar rangkaian digital, dan cara merangkai sebuah sirkuit. "
         },
         {
             "name": "MatDas 1",
             "prodi": "IK",
             "sks": "3",
-            "desc": "Mata kuliah ini merupakan mata kuliah wajib rumpun. Di Matdas 1 ini, kamu akan belajar mengenai turunan dan integral. Tapi hati-hati nih! Walaupun terkesan sangat mendasar, disini kamu akan belajar kedua materi tersebut secara lebih detail dan pastinya soal-soalnya akan lebih kompleks."
+            "desc": "Di Matdas 1 ini, kamu akan belajar mengenai turunan dan integral. Tapi hati-hati nih! Walaupun terkesan sangat mendasar, di sini kamu akan belajar kedua materi tersebut secara lebih detail dan pastinya soal-soalnya akan lebih kompleks."
         },
         {
             "name": "PPSI",
             "prodi": "SI",
             "sks": "4",
-            "desc": "PPSI atau Prinsip-prinsip Sistem Informasi adalah mata kuliah yang membahas tentang konsep serta keterkaitan antara sistem dan informasi. Mata kuliah ini akan menuntut kamu untuk mengaplikasikan proses berfikir secara sistem. Di PPSI kamu akan belajar tentang peran dan pengembangan SI dalam suatu organisasi."
+            "desc": "PPSI atau Prinsip-prinsip Sistem Informasi adalah mata kuliah yang membahas tentang konsep serta keterkaitan antara sistem dan informasi. Mata kuliah ini akan menuntut kamu untuk mengaplikasikan proses berpikir secara sistem. Di PPSI kamu akan belajar tentang peran dan pengembangan SI dalam suatu organisasi."
         },
         {
             "name": "MPK B. Inggris",
             "prodi": "SI",
             "sks": "3",
-            "desc": "MPK Bahasa Inggris adalah mata kuliah wajib universitas yang mengajarkan kalian tentang bahasa Inggris. Saat kamu sudah diterima di UI, kamu akan disuruh menjalankan tes EPT. Nah, tes EPT ini bisa menjadi penentu nilai kamu di matkul ini loh! Jika tes EPT kamu mendapat nilai >= C, maka kamu tidak perlu ikut kelas setiap minggunya."
+            "desc": "MPK Bahasa Inggris adalah mata kuliah yang mengajarkan tentang bahasa Inggris. Setelah diterima di UI, kamu akan menjalankan tes EPT. Nah, tes EPT ini bisa menjadi penentu nilai kamu di matkul ini lho! Jika tes EPT kamu mendapat nilai >= C, maka kamu tidak perlu ikut kelas setiap minggunya."
         },
         {
             "name": "MPKS/MPKO",
             "prodi": "SI",
             "sks": "1",
-            "desc": "MPK Seni dan Olahraga merupakan mata kuliah wajib universitas yang fokus terhadap skill seni maupun olahraga kamu. Beberapa orang lebih memilih MPK Olahraga, namun ada juga orang yang lebih memilih MPK Seni. Di sini, kamu bebas memilih seni atau olahraga, ikuti saja passionmu!"
+            "desc": "MPK Seni dan Olahraga merupakan mata kuliah yang fokus terhadap skill seni maupun olahraga kamu. Beberapa orang lebih memilih MPK Olahraga, namun ada juga orang yang lebih memilih MPK Seni. Di sini, kamu bebas memilih seni atau olahraga, ikuti saja passionmu!"
         }
     ]
 }

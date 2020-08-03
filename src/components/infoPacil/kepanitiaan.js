@@ -53,6 +53,9 @@ export default class kepanitiaan extends Component {
         return (
             <Card id="kepanitiaan" className="mb-4">
                 <h2 className="text-center">Kepanitiaan</h2>
+                <p className="text-center">
+                    Setiap kepanitiaan di Fasilkom dibawahi oleh BEM atau DPM sebagai perwujudan program kerja dari masing-masing organisasi.
+                </p>
                 <div className="btnwrapper mx-auto">
                     <Button active={this.state.slide==="bem"} onClick={() => this.setState({ slide: "bem" })}>BEM</Button>
                     <Button active={this.state.slide==="dpm"} onClick={() => this.setState({ slide: "dpm" })}>DPM</Button>

@@ -248,6 +248,7 @@ const Styles = styled.div`
     }
 
     #badanOtonom, #kepanitiaan {
+        p { text-align: justify }
         .card-columns {
             column-count: 1;
 

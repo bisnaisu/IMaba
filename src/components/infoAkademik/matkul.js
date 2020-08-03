@@ -93,9 +93,7 @@ export default class matkul extends Component {
                 <Carousel controls={false} indicators className="carousel-sm">
                     { term.map( item => (
                         <Carousel.Item key={item.name}>
-                            <CardDeck className="my-3">
-                                {this.matkulCard(item.name, item.prodi, item.sks, item.desc)}
-                            </CardDeck>
+                            {this.matkulCard(item.name, item.prodi, item.sks, item.desc)}
                         </Carousel.Item>
                     ))}
                 </Carousel>

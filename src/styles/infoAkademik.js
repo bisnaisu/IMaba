@@ -142,12 +142,12 @@ const Styles = styled.div`
 
     #matkul {
         h3 { margin-bottom: 2px }
-        p { text-align: left }
+        p { text-align: justify }
         .badge { 
             width: 60px; 
             height: 25px; 
             border-radius: .5rem; 
-            margin: 0 3px 5px; 
+            margin: 4px 3px 15px; 
             display: flex; 
             align-items: center;
             justify-content: center; 
@@ -163,9 +163,11 @@ const Styles = styled.div`
             .card-deck  {
                 width: 90%;
                 margin: 0 5%;
+                min-height: 300px;
             }
         }
         .carousel-xl {
+            .card-deck { min-height: 355px; }
             .term1 {
                 width: 35%; 
                 margin: 0 32.5%;
@@ -174,6 +176,10 @@ const Styles = styled.div`
                 width: 70%; 
                 margin: 0 15%;
             }
+        }
+        .carousel-md .card-deck,
+        .carousel-sm .card {
+            min-height: 340px;
         }
         .carousel-lg .term1, 
         .carousel-md .term1 {
@@ -184,6 +190,9 @@ const Styles = styled.div`
         .carousel-sm { 
             display: block;
             margin: 0 1rem;
+            .card {
+                margin-bottom: 1rem;
+            }
         }
         @media (min-width: 768px) {
             .carousel-xl, .carousel-lg, .carousel-sm { display: none }

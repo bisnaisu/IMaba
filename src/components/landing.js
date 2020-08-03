@@ -45,10 +45,10 @@ export default class landing extends Component {
                 align-items: flex-end;
                 justify-content: center;
                 text-align: center;
-                -webkit-background-size: contain;
-                -moz-background-size: contain;
-                -o-background-size: contain;
-                background-size: contain;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
                 background-repeat: no-repeat;
                 .container {
                     padding-bottom: 25vh;
