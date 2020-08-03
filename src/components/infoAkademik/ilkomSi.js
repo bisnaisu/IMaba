@@ -21,7 +21,7 @@ export default function ilkomSi() {
                     <br /><br /><br />
                     <h3>Sistem Informasi</h3>
                     <p>Jurusan Sistem Informasi (Information Systems) mengkaji pengembangan, pemanfaatan, dan pengelolaan Sistem Informasi dalam suatu organisasi. Jurusan tersebut memadukan konsep komputer dengan bisnis dan manajemen dengan tujuan menjembatani kebutuhan bisnis dengan aplikasi yang dirancang.</p>
-                    <p>Prospek alumnus dapat menjadi Data Analyst, Database Administrator, UI/UX Developer, Graphic Designer, dll. </p>
+                    <p>Prospek alumnus dapat menjadi Data Analyst, Database Administrator, UI/UX Designer, Graphic Designer, dll. </p>
                 </Col>    
             </Row>
         </Card>
