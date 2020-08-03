@@ -15,7 +15,7 @@ const selected = {
 
 const navbar = (props) => {
     return (
-        <Navbar variant="light" expand="md" sticky="top">
+        <Navbar variant="light" expand="md" fixed="top">
             <Container className="d-flex justify-content-between">
                 <Navbar.Brand><Link to="/"><img src={Brand} alt="iMaba"/></Link></Navbar.Brand>
                 

@@ -37,5 +37,5 @@ a {
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,1);
     border-color: rgba(0,0,0,.5);
-    /* padding: .2rem .5rem; */
+    padding: .2rem .5rem;
 }

@@ -9,7 +9,8 @@ export default class landing extends Component {
 
     render() {
         const Landing = styled.div`
-            height: 100vh; 
+            height: calc(100vh - 56px); 
+            margin-top: 56px;
             background: url(${this.bg});
             -webkit-background-position: center ${this.props.title === "Info Kampus" ? "top" : "bottom"};
             -moz-background-position: center ${this.props.title === "Info Kampus" ? "top" : "bottom"};
