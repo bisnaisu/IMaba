@@ -40,7 +40,7 @@
     "biaya": [
         {
             "title": "Kost",
-            "desc": "Uang bulanan untuk kamar kost, biaya listrik (kalau kostanmu dibayar terpisah), dan biaya laundry kalau kamu nggak ada mesin cuci atau ngga mau nyuci sendiri."
+            "desc": "Uang bulanan untuk kamar kost, biaya listrik (kalau kostanmu dibayar terpisah), dan biaya laundry kalau kamu nggak ada mesin cuci atau nggak mau nyuci sendiri."
         },
         {
             "title": "Makan",
@@ -52,7 +52,7 @@
         },
         {
             "title": "Kebutuhan Kuliah",
-            "desc": "Kertas binder, alat tulis, ongkos fotokopi dan print, buku teks (ini bisa dihemat dengan meminjam di perpustakaan, dan biaya kuota atau wifi untuk saat kamu berkegiatan di luar kampus."
+            "desc": "Kertas binder, alat tulis, ongkos fotokopi dan print, buku teks (ini bisa dihemat dengan meminjam di perpustakaan), dan biaya kuota atau wifi untuk saat kamu berkegiatan di luar kampus."
         },
         {
             "title": "Kebutuhan Pribadi",

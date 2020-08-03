@@ -9,7 +9,7 @@ export default function badanOtonom() {
     const bo = data.bo
     return (
         <Card id="badanOtonom" className="mb-4">
-            <h2 className="text-center">Organisasi &xamp; Badan Otonom</h2>
+            <h2 className="text-center">Organisasi &amp; Badan Otonom</h2>
             <CardColumns>
                 { bo.map( item => (
                     <Card key={item.name} className="subcard">
