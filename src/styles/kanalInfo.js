@@ -5,7 +5,7 @@ const Styles = styled.div`
     min-height: 100vh;
 
     .navbar-light{ background: #FF62D1 }
-    .dropdown-menu { background-color: #FC9CD6; border: none; }  
+    .dropdown-item { background-color: #FC9CD6; border: none; }  
 
     .cardHeader {
         display: flex;

@@ -19,8 +19,9 @@ export default class kurikulum extends Component {
         ]
 
         const si = [
-            "Teknologi Informasi",
-            "Sistem Enterprise"
+            "Tata Kelola SI/TI",
+            "E-Bisnis",
+            "Ekonomi Digital"
         ]
 
         return (

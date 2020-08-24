@@ -4,7 +4,7 @@ const Styles = styled.div`
     background-color: #20CB91;
     min-height: 100vh;
     .navbar-light{ background: #05AC72 }
-    .dropdown-menu { background-color: #20CB91; border: none; }
+    .dropdown-item { background-color: #20CB91; border: none; }
     .dropdown-item.active, .dropdown-item:active { background-color: #05AC72 }
     h2 { margin: 0 0 1.5rem 0; }
 
@@ -168,11 +168,11 @@ const Styles = styled.div`
         }
         .carousel-xl {
             .card-deck { min-height: 355px; }
-            .term1 {
-                width: 35%; 
-                margin: 0 32.5%;
-            }
-            .term2 {
+            // .term1 {
+            //     width: 35%; 
+            //     margin: 0 32.5%;
+            // }
+            .term1, .term2 {
                 width: 70%; 
                 margin: 0 15%;
             }
@@ -181,11 +181,11 @@ const Styles = styled.div`
         .carousel-sm .card {
             min-height: 340px;
         }
-        .carousel-lg .term1, 
-        .carousel-md .term1 {
-            width: 50%;
-            margin: 0 25%;             
-        }
+        // .carousel-lg .term1, 
+        // .carousel-md .term1 {
+        //     width: 50%;
+        //     margin: 0 25%;             
+        // }
         .carousel-xl, .carousel-lg, .carousel-md { display: none }
         .carousel-sm { 
             display: block;
@@ -194,6 +194,7 @@ const Styles = styled.div`
                 margin-bottom: 1rem;
             }
         }
+        .comingsoon { min-height: 340px }
         @media (min-width: 768px) {
             .carousel-xl, .carousel-lg, .carousel-sm { display: none }
             .carousel-md { display: block }
@@ -201,13 +202,16 @@ const Styles = styled.div`
         @media (min-width: 992px) {
             .carousel-xl, .carousel-md, .carousel-sm { display: none }
             .carousel-lg { display: block }
+            .comingsoon { min-height: 300px }
         }
         @media (min-width: 1200px) {
             .carousel-lg, .carousel-md, .carousel-sm { display: none }
             .carousel-xl { display: block }
+            .comingsoon { min-height: 300px }
         }
         @media (max-width:375px) {
             padding: 1rem 0;
+            .comingsoon { margin: 1rem }
         }
     }
 

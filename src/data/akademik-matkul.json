@@ -13,54 +13,22 @@
             "desc": "Matematika Diskret 1 atau singkatnya Matdis 1 adalah mata kuliah yang dapat disebut “matematika menggunakan logika.” Matkul ini akan mengajak kamu untuk dapat menganalisis dan membuktikan penyelesaian sebuah masalah. Matematika diskret banyak menggunakan metode pembuktian dan analisis."
         },
         {
-            "name": "Fisdas",
+            "name": "Kalkulus 1",
             "prodi": "IK/SI",
             "sks": "3",
-            "desc": "Fisika Dasar atau Fisdas adalah mata kuliah yang mempelajari fisika. Fisika yang dipelajari adalah fisika yang mungkin sudah kamu pelajari di sekolah, misalnya besaran dan satuan, gaya, energi, dan lain-lain. Ett..! Tapi jangan salah, walaupun kesannya sangat mendasar, tingkat kesulitan soal-soalnya tentu lebih sulit."
+            "desc": "Pada mata kuliah ini, kamu akan belajar mengenai turunan dan integral. Tapi hati-hati nih! Walaupun terkesan sangat mendasar, di sini kamu akan belajar kedua materi tersebut secara lebih detail dan pastinya soal-soalnya akan lebih kompleks."
         },
         {
-            "name": "MPKT-B",
+            "name": "MPK Agama",
             "prodi": "IK/SI",
-            "sks": "6",
-            "desc": "MPKT B adalah mata kuliah yang mempelajari tentang pengetahuan sains dasar. Di sini kamu akan sering diberi pokok masalah yang sedang/sering terjadi, kemudian kamu harus menganalisis masalah tersebut bersama teman kelompokmu. Untuk MPKT B, topik yang sering diangkat berhubungan dengan masalah-masalah yang berbau saintek."
+            "sks": "2",
+            "desc": "MPK Agama adalah mata kuliah yang mempelajari keagamaan. Setiap mahasiswa akan mengambil mata kuliiah agama sesuai dengan kepercayaannya masing-masing yang tercatat di IDM. Jadi, pastikan identitas kalian di IDM sudah tepat, ya!"
         },
         {
             "name": "MPK B. Inggris",
-            "prodi": "IK",
+            "prodi": "IK/SI",
             "sks": "3",
             "desc": "MPK Bahasa Inggris adalah mata kuliah yang mengajarkan tentang bahasa Inggris. Setelah diterima di UI, kamu akan menjalankan tes EPT. Nah, tes EPT ini bisa menjadi penentu nilai kamu di matkul ini lho! Jika nilai EPT kamu >= C, maka kamu boleh tidak ikut kelas setiap minggunya."
-        },
-        {
-            "name": "MPKS/MPKO",
-            "prodi": "IK",
-            "sks": "1",
-            "desc": "MPK Seni dan Olahraga merupakan mata kuliah yang fokus terhadap skill seni maupun olahraga kamu. Beberapa orang lebih memilih MPK Olahraga, namun ada juga orang yang lebih memilih MPK Seni. Di sini, kamu bebas memilih seni atau olahraga, ikuti saja passionmu!"
-        },
-        {
-            "name": "Matdas 1",
-            "prodi": "SI",
-            "sks": "3",
-            "desc": "Pada mata kuliah ini, kamu akan belajar mengenai turunan dan integral. Tapi hati-hati nih! Walaupun terkesan sangat mendasar, di sini kamu akan belajar kedua materi tersebut secara lebih detail dan pastinya soal-soalnya akan lebih kompleks."
-        }
-    ],
-    "term2": [
-        {
-            "name": "DDP 2",
-            "prodi": "IK/SI",
-            "sks": "4",
-            "desc": "Dasar-dasar Pemrograman 2 adalah mata kuliah lanjutan dari DDP 1. Maka dari itu, kamu harus lulus DDP 1 terlebih dahulu untuk mengambil matkul ini. Di DDP 2 kamu akan belajar mengenai bahasa pemrograman Java. Secara garis besar, mirip dengan materi DDP 1, hanya saja kali ini kamu akan menggunakan Java, bukan Python."
-        },
-        {
-            "name": "MD 2",
-            "prodi": "IK/SI",
-            "sks": "3",
-            "desc": "Matematika Diskret 2 atau Matdis 2 adalah mata kuliah lanjutan dari Matdis 1. Berbeda dengan DDP 2, Matdis 1 tidak menjadi syarat kamu bisa mengambil matkul ini. Di Matdis 2 ini kamu akan belajar tentang teori bilangan, relasi, dan graf."
-        },
-        {
-            "name": "MPKT-A",
-            "prodi": "IK/SI",
-            "sks": "6",
-            "desc": "MPKT A mirip dengan MPKT B, tetapi memiliki perbedaan. Jika MPKT B lebih fokus ke bidang saintek, MPKT A akan lebih fokus ke bidang sosial, seperti filsafat, etika, dan lain-lain. Sama seperti MPKT B, kamu akan diberi sebuah permasalahan yang akan kamu analisis bersama teman kelompokmu."
         },
         {
             "name": "PSD",
@@ -69,28 +37,17 @@
             "desc": "Pengantar Sistem Digital atau singkatnya PSD adalah mata kuliah di mana kamu akan belajar tentang perangkat keras sistem digital dan komputer. Di sini, kamu akan belajar mengenai bilangan biner, dasar rangkaian digital, dan cara merangkai sebuah sirkuit."
         },
         {
-            "name": "MatDas 1",
-            "prodi": "IK",
-            "sks": "3",
-            "desc": "Di Matdas 1 ini, kamu akan belajar mengenai turunan dan integral. Tapi hati-hati nih! Walaupun terkesan sangat mendasar, di sini kamu akan belajar kedua materi tersebut secara lebih detail dan pastinya soal-soalnya akan lebih kompleks."
-        },
-        {
-            "name": "PPSI",
-            "prodi": "SI",
-            "sks": "4",
-            "desc": "PPSI atau Prinsip-prinsip Sistem Informasi adalah mata kuliah yang membahas tentang konsep serta keterkaitan antara sistem dan informasi. Mata kuliah ini akan menuntut kamu untuk mengaplikasikan proses berpikir secara sistem. Di PPSI kamu akan belajar tentang peran dan pengembangan SI dalam suatu organisasi."
-        },
-        {
-            "name": "MPK B. Inggris",
+            "name": "Kombistek",
             "prodi": "SI",
             "sks": "3",
-            "desc": "MPK Bahasa Inggris adalah mata kuliah yang mengajarkan tentang bahasa Inggris. Setelah diterima di UI, kamu akan menjalankan tes EPT. Nah, tes EPT ini bisa menjadi penentu nilai kamu di matkul ini lho! Jika tes EPT kamu mendapat nilai >= C, maka kamu tidak perlu ikut kelas setiap minggunya."
+            "desc": "Mata kuliah Kombistek (Komunikasi Bisnis dan Teknis) adalah mata kuliah yang akan fokus ke penggunaan teknologi dalam komunikasi bisnis. Selain tentang komunikasi, di matkul ini kalian juga bakal diajarkan tentang proses penulisan laporan, pendataan, serta penelitian yang baik dalam bisnis."
         },
         {
-            "name": "MPKS/MPKO",
+            "name": "ManBis",
             "prodi": "SI",
-            "sks": "1",
-            "desc": "MPK Seni dan Olahraga merupakan mata kuliah yang fokus terhadap skill seni maupun olahraga kamu. Beberapa orang lebih memilih MPK Olahraga, namun ada juga orang yang lebih memilih MPK Seni. Di sini, kamu bebas memilih seni atau olahraga, ikuti saja passionmu!"
+            "sks": "3",
+            "desc": "Manajemen Bisnis adalah mata kuliah yang baru diadakan tahun ini, jadi belum banyak informasi tentangnya. Tapi sesuai namanya, di sini kalian akan mempelajari tentang bisnis. Mulai dari prinsip-prinsip, teori-teori dasar, sampai ke proses administrasinya."
         }
-    ]
+    ],
+    "term2": []
 }
