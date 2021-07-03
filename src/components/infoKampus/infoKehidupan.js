@@ -22,14 +22,16 @@ export default class infoKehidupan extends Component {
                     <p className="text-center">
                         <b>Kostan</b><br/>
                         <small>(hover/tap to flip)</small>
+                        <br/>
+                        <small>(Peta yang lengkap dapat dilihat di Peta UI di atas)</small>
                     </p>                    
                     <Carousel controls indicators={false} className="carousel-lg">
-                        <Carousel.Item>
+                        <Carousel.Item >
                             <CardDeck>
-                                { kost.slice(0,3).map( place => (
+                                { kost.slice(0,2).map( place => (
                                     <FlipCard 
                                     key={place.name}
-                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/kos-${place.name}.svg`)} />}
+                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/${place.name}-map.png`)} />}
                                     back={ <div><p>{place.desc}</p><p>Range biaya:<br/>{place.price}</p></div> } 
                                     footer={place.loc} />
                                 ))}                            
@@ -37,10 +39,21 @@ export default class infoKehidupan extends Component {
                         </Carousel.Item>
                         <Carousel.Item>
                             <CardDeck>
-                                { kost.slice(3).map( place => (
+                                { kost.slice(2,4).map( place => (
                                     <FlipCard 
                                     key={place.name}
-                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/kos-${place.name}.svg`)} />}
+                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/${place.name}-map.png`)} />}
+                                    back={ <div><p>{place.desc}</p><p>Range biaya:<br/>{place.price}</p></div> } 
+                                    footer={place.loc} />
+                                ))}                            
+                            </CardDeck>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <CardDeck>
+                                { kost.slice(4,6).map( place => (
+                                    <FlipCard 
+                                    key={place.name}
+                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/${place.name}-map.png`)} />}
                                     back={ <div><p>{place.desc}</p><p>Range biaya:<br/>{place.price}</p></div> } 
                                     footer={place.loc} />
                                 ))}                            
@@ -53,7 +66,7 @@ export default class infoKehidupan extends Component {
                                 { kost.slice(0,2).map( place => (
                                     <FlipCard 
                                     key={place.name}
-                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/kos-${place.name}.svg`)} />}
+                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/${place.name}-map.png`)} />}
                                     back={ <div><p>{place.desc}</p><p>Range biaya:<br/>{place.price}</p></div> } 
                                     footer={place.loc} />
                                 ))}                            
@@ -64,29 +77,19 @@ export default class infoKehidupan extends Component {
                                 { kost.slice(2,4).map( place => (
                                     <FlipCard 
                                     key={place.name}
-                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/kos-${place.name}.svg`)} />}
+                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/${place.name}-map.png`)} />}
                                     back={ <div><p>{place.desc}</p><p>Range biaya:<br/>{place.price}</p></div> } 
                                     footer={place.loc} />
                                 ))}                            
                             </CardDeck>
                         </Carousel.Item>
-                        <Carousel.Item>
-                            <CardDeck>
-                                { kost.slice(4).map( place => (
-                                    <FlipCard 
-                                    key={place.name}
-                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/kos-${place.name}.svg`)} />}
-                                    back={ <div><p>{place.desc}</p><p>Range biaya:<br/>{place.price}</p></div> } 
-                                    footer={place.loc} />
-                                ))}                            
-                            </CardDeck>
-                        </Carousel.Item>
+                       
                     </Carousel>
                     <Carousel indicators className="carousel-sm">
                         { kost.map( place => (
                             <Carousel.Item key={place.name}>
                                 <FlipCard                             
-                                front={<img alt={place.name} src={require(`../../assets/infoKampus/kos-${place.name}.svg`)} />}
+                                front={<img alt={place.name} src={require(`../../assets/infoKampus/${place.name}-map.png`)} />}
                                 back={ <div><p>{place.desc}</p><p>Range biaya:<br/>{place.price}</p></div> } 
                                 footer={place.loc} />
                             </Carousel.Item>

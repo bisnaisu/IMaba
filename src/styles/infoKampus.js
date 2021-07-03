@@ -166,11 +166,14 @@ const Styles = styled.div`
             padding-left: 0!important;
             .carousel-lg, .carousel-md {
                 .card-deck  {
-                    width: 85%;
+                    width: 90%;
                     margin: 0 7.5%;
                 }
             }
             .carousel-lg, .carousel-md { display: none }
+            .carousel-md{
+                margin-bottom : 100px;
+            }
             .carousel-sm { 
                 display: block;
                 margin: 0 1rem;
@@ -184,7 +187,7 @@ const Styles = styled.div`
                 .carousel-md, .carousel-sm { display: none }
                 .carousel-lg { display: block }
             }
-            .subcard { padding: 0; }
+            .subcard { padding: 0; height : 500px; }
             .card-footer { 
                 background: #FFB400;
                 color: white;
@@ -197,13 +200,15 @@ const Styles = styled.div`
                 box-shadow: none!important;
                 padding:0;
                 width: 100%;
-                height: 300px;
+                height: 500px;
                 perspective: 1000px;
             }
             .flipcard {
                 position: relative;
                 width: 100%;
-                height: 100%;
+                height: 500px;
+                background-position: center;
+                background-size: cover;
                 transition: transform .8s;
                 transform-style: preserve-3d;
             }
@@ -212,11 +217,20 @@ const Styles = styled.div`
             }
             .flipcard-f, .flipcard-b {
                 .card-body {
-                    height: 250px;
+                    height: 100%;
                     display: flex; 
                     align-items: center;
+                    padding : 2%;
                     img {
-                        height: 210px;
+                        height: 100%;
+                        width : 100%;
+                        @media (max-width: 767px) {
+                            height : 60%;
+                            width :90%;
+                            left : 5%;
+                            position : relative;
+                            top : -15%;
+                        }
                     }
                 }
                 position: absolute;
@@ -312,6 +326,29 @@ const Styles = styled.div`
                 .subcard:not(:first-child) {
                     margin-top: 20%;
                 }
+            }
+        }
+    }
+
+    #ukm{
+        margin-top: 1.5rem;
+    }
+
+    #ukm, #fitur {
+        a {
+            font-weight: bold;
+            color: #FFB400; 
+        }
+    
+        a:hover {
+            color: #FFDB00;
+        }
+        @media (max-width:767px) {
+            .subtitle {
+                flex-direction: column-reverse;
+            }
+            .asset {
+                margin-bottom: 1.5rem;
             }
         }
     }

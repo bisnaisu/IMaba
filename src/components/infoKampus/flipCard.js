@@ -2,8 +2,9 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 
 export default function flipCard(props) {
+    console.log(props.front)
     return (
-        <Card className="glue">
+        <Card className="glue" >
             <div className="flipcard">
                 <div className="flipcard-f">
                     <Card className="subcard">

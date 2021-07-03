@@ -49,6 +49,7 @@ const navbar = (props) => {
                                             <Dropdown.Item href="/imaba/kampus#infoKehidupan">Info Kehidupan</Dropdown.Item>
                                             <Dropdown.Item href="/imaba/kampus#fitur">Fitur Sivitas UI</Dropdown.Item>
                                             <Dropdown.Item href="/imaba/kampus#beasiswa">Beasiswa</Dropdown.Item>
+                                            <Dropdown.Item href="/imaba/kampus#ukm">Info UKM</Dropdown.Item>
                                         </Dropdown.Menu>
                                     </Dropdown>
                                 </Nav.Item>

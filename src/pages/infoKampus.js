@@ -12,6 +12,7 @@ import InfoKehidupan from '../components/infoKampus/infoKehidupan'
 import Landmark from '../components/infoKampus/landmark'
 import PetaUI from '../components/infoKampus/petaUI'
 import Transportasi from '../components/infoKampus/transportasi'
+import InfoUKM from '../components/infoKampus/ukm'
 
 import Styles from '../styles/infoKampus'
 
@@ -36,6 +37,7 @@ export default class infoKampus extends Component {
                     <InfoKehidupan />
                     <FiturSivitas />
                     <Beasiswa />
+                    <InfoUKM/>
                 </Container>
                 <div className="gap"></div>
                 <Footer />
