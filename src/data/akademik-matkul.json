@@ -49,5 +49,49 @@
             "desc": "Manajemen Bisnis adalah mata kuliah yang baru diadakan tahun ini, jadi belum banyak informasi tentangnya. Tapi sesuai namanya, di sini kalian akan mempelajari tentang bisnis. Mulai dari prinsip-prinsip, teori-teori dasar, sampai ke proses administrasinya."
         }
     ],
-    "term2": []
+    "term2": [
+        {
+            "name": "DDP 2",
+            "prodi": "IK/SI",
+            "sks": "4",
+            "desc": "Dasar-dasar Pemrograman 2 adalah mata kuliah wajib fakultas yang merupakan lanjutan dari DDP 1, maka dari itu kamu harus lulus DDP 1 terlebih dahulu untuk mengambil matkul ini. Di DDP 2 kamu akan belajar mengenai bahasa pemrograman Java. Secara garis besar, mirip dengan materi DDP 1 hanya saja saat ini kamu akan menggunakan Java, bukan Python."
+        },
+        {
+            "name": "MD 2",
+            "prodi": "IK/SI",
+            "sks": "3",
+            "desc": "Matematika Diskret 2 atau Matdis 2 adalah mata kuliah wajib fakultas yang merupakan lanjutan dari Matdis 1. Berbeda dengan DDP 2, Matdis 1 tidak menjadi syarat kamu bisa mengambil matkul ini. Di Matdis 2 ini kamu akan belajar tentang number theory, relasi, dan graf."
+        },
+        {
+            "name": "POK",
+            "prodi": "IK",
+            "sks": "4",
+            "desc": "Pengantar Organisasi Komputer merupakan mata kuliah lanjutan PSD yang sudah kalian dapatkan di semser 1. Disini, kamu akan berlajar mengenai struktur arsitektur komputer, RAM, Prosesor, CPU, bahasa assembly atau bahasa mesin seperti MIPS dan AVR x. Kalian juga akan belajar mengenai struktur stack dan recursive"
+        },
+        {
+            "name": "Kalkulus",
+            "prodi": "IK",
+            "sks": "3",
+            "desc": "Kalkulus 2 atau Mat Dasar 2merupakan mata kuliah lanjutan dari Kalkulus 1. Sama seperti mata kuliah pendahulunya, disini kalian akan belajar mengenai integral, turunan, limit. Namun, kalian juga akan belajar mengenai penggunaan limit dalam deret dan penggunaan integral untuk menghitung volume lipat dari benda."
+        },
+        {
+            "name": "PPSI",
+            "prodi": "SI",
+            "sks": "3",
+            "desc": "PPSI atau Prinsip-prinsip Sistem Informasi adalah mata kuliah yang membahas tentang konsep serta keterkaitan antara sistem dan informasi. Mata kuliah ini akan menuntut kamu untuk mengaplikasikan proses berfikir secara sistem. Di PPSI kamu akan belajar tentang peran dan pengembangan SI dalam suatu organisasi."
+        },
+        {
+            "name": "DDAK",
+            "prodi": "IK/SI",
+            "sks": "5",
+            "desc": "MPKT merupakan mata kuliah wajib universitas.  Mata kuliah ini berfokus dalam pengembangan karakter, kemampuan bekerja sama dan berpikir kritis dalam penyelesaian. Kamu akan diberi sebuah permasalahan yang akan kamu analisis bersama teman kelompokmu, membuat makalah dan dokumentasi berdasarkan hasil diskusi."
+        },
+        {
+            "name": "MPKT",
+            "prodi": "SI",
+            "sks": "1",
+            "desc": "Dasar Dasar Arsitektur Komputer merupakan mata kuliah yang mempelajari. Diisini kamu akan belajar mengenaii komponen-komponen dasar komputer dan hubungannya satu sama lain. Sebagian dari mata kuliah ini akan mengulang Sistem Digital, dan sisanya mempelajari arsitektur komputer, assembly, dll."
+        }
+
+    ]
 }
