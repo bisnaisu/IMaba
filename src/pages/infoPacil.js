@@ -13,13 +13,15 @@ import Kepanitiaan from '../components/infoPacil/kepanitiaan'
 import Ngoding101 from '../components/infoPacil/ngoding101'
 import PacilLife from '../components/infoPacil/pacilLife'
 import YelYel from '../components/infoPacil/yelyel'
+import Ukf from '../components/infoPacil/ukf'
+import Ukor from '../components/infoPacil/ukor'
 
 import Styles from '../styles/infoPacil'
 
 export default class infoPacil extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)
-      }
+    }
       
     render() {
         const title = "Info Fasilkom"
@@ -38,6 +40,8 @@ export default class infoPacil extends Component {
                     <BadanOtonom />
                     <Kepanitiaan />
                     <FunFacts />
+                    <Ukf/>
+                    <Ukor/>
                 </Container>
                 <div className="gap"></div>
                 <Footer />

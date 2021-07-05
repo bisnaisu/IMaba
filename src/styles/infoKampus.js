@@ -172,7 +172,12 @@ const Styles = styled.div`
             }
             .carousel-lg, .carousel-md { display: none }
             .carousel-md{
-                margin-bottom : 100px;
+                margin-bottom : 0px;
+            }
+            .carousel-md .subcard{
+                height : 70%;
+                top : 20%;
+                margin-bottom : -40px;
             }
             .carousel-sm { 
                 display: block;

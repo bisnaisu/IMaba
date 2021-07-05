@@ -28,7 +28,7 @@ export default function welcome() {
                 <Container>
                     <div className="gap"></div>
                     <h2>Selamat Datang,</h2>
-                    <h1><b>Mahasiswa Baru Fasilkom UI 2020!</b></h1>
+                    <h1><b>Mahasiswa Baru Fasilkom UI 2021!</b></h1>
                     <p>iMaba hadir untuk memberikan informasi-informasi penting dan menarik seputar akademik, kampus UI, Fasilkom, serta kanal informasi yang dapat kamu hubungi. </p>
                     <CardDeck>
                         {directory.map( card => (                    

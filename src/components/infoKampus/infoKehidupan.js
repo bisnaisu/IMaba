@@ -83,6 +83,17 @@ export default class infoKehidupan extends Component {
                                 ))}                            
                             </CardDeck>
                         </Carousel.Item>
+                        <Carousel.Item>
+                            <CardDeck>
+                                { kost.slice(4).map( place => (
+                                    <FlipCard 
+                                    key={place.name}
+                                    front={<img alt={place.name} src={require(`../../assets/infoKampus/${place.name}-map.png`)} />}
+                                    back={ <div><p>{place.desc}</p><p>Range biaya:<br/>{place.price}</p></div> } 
+                                    footer={place.loc} />
+                                ))}                            
+                            </CardDeck>
+                        </Carousel.Item>
                        
                     </Carousel>
                     <Carousel indicators className="carousel-sm">

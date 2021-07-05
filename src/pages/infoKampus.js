@@ -5,6 +5,7 @@ import Footer from '../components/footer'
 import Landing from '../components/landing'
 import Container from 'react-bootstrap/Container'
 
+
 import Beasiswa from '../components/infoKampus/beasiswa'
 import Fakultas from '../components/infoKampus/fakultas'
 import FiturSivitas from '../components/infoKampus/fiturSivitas'
