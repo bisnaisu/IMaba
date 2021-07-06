@@ -1,0 +1,49 @@
+{
+    "UKOR" : [
+        {
+            "title" : "Voli",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang olahraga voli"
+        },
+        {
+            "title" : "Sepak Bola",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang olahraga sepak bola"
+        },
+        {
+            "title" : "Bulu Tangkis",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang olahraga bulu tangkis"
+        },
+        {
+            "title" : "Atletik",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang olahraga atletik"
+        },
+        {
+            "title" : "Futsal",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang olahraga futsal"
+        },
+        {
+            "title" : "Tenis Lapangan",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang olahraga tenis lapangan"
+        }
+        ,
+        {
+            "title" : "Taekwondo",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang olahraga taekwondo"
+        },
+        {
+            "title" : "Basket",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang olahraga basket"
+        },
+        {
+            "title" : "Tenis Meja",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang olahraga tenis meja"
+        },
+        {
+            "title" : "Renang",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang olahraga renang"
+        },
+        {
+            "title" : "E-Sport",
+            "Desc" : "Unit Kegiatan Olahraga yang mewadahi minat dan bakat mahasiswa dan elemen Fasilkom UI lainnya di cabang E-Sports"
+        }
+    ]
+}

@@ -64,6 +64,10 @@ const navbar = (props) => {
                                             <Dropdown.Item href="/imaba/fasilkom#ngoding101">Ngoding101</Dropdown.Item>
                                             <Dropdown.Item href="/imaba/fasilkom#denah">Denah Fasilkom</Dropdown.Item>
                                             <Dropdown.Item href="/imaba/fasilkom#yelyel">Mars dan Yel-Yel</Dropdown.Item>
+                                            <Dropdown.Item href="/imaba/fasilkom#badanOtonom">Badan Otonom</Dropdown.Item>
+                                            <Dropdown.Item href="/imaba/fasilkom#kepanitiaan">Kepanitiaan</Dropdown.Item>
+                                            <Dropdown.Item href="/imaba/fasilkom#ukf">Info UKF</Dropdown.Item>
+                                            <Dropdown.Item href="/imaba/fasilkom#ukor">Info UKOR</Dropdown.Item>
                                         </Dropdown.Menu>
                                     </Dropdown>
                                 </Nav.Item>   

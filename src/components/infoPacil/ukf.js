@@ -19,14 +19,17 @@ export default function ukf() {
                                 <img alt="" src={data.img}/>
                                 <h2>{data.title}</h2>
                             </div>
-                            <p>{data.contain}</p>                          
+                            <p>{data.contain}</p>
+                            <div className="link">            
                             {data.link.map(link=>(
-                                <div>
-                                    <a href={link.url} target="blank">{link.url}</a>
-                                    <br/>
-                                </div>
+                                
+                                   <div>
+                                        <a href={link.url} target="blank">{link.url}</a>
+                                        <br/>
+                                   </div>
                                 
                             ))}
+                            </div>
                         </Card.Body>
                     </Card>
                     ))}
@@ -61,13 +64,18 @@ export default function ukf() {
                                 <h2>{data.title}</h2>
                             </div>
                             <p>{data.contain}</p>                          
-                            {data.link.map(url=>(
-                                <a href="www.google.com" target="blank">www.google.com</a>
+                            {data.link.map(link=>(
+                                <div>
+                                    <a href={link.url} target="blank">{link.url}</a>
+                                    <br/>
+                                </div>
+                                
                             ))}
                         </Card.Body>
                     </Card>
                     ))}
                 </CardColumns>
+                
             </Card>
     )
 }

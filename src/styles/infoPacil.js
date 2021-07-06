@@ -381,6 +381,70 @@ const Styles = styled.div`
             }
         }
 
+        .subcard{
+            
+            height : 400px;
+        }
+        
+        .link{
+            
+        }
+
+    }
+
+    #ukor{
+        p { text-align: justify }
+        a{
+            font-weight: normal;
+            color: #6699FF; 
+        }
+        .cardHeader{
+            h2 { margin: 0 }
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            @media (max-width: 374px) {
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+    
+            img {
+                height: 100px;
+                width: auto;
+                margin: 0 1rem 0 0;
+                border-radius : 50%;
+                @media (max-width:992px) { 
+                    height: 85px;
+                    margin: 0 .5rem 0 0; 
+                }
+            }
+        }
+        #Column{
+            justify-content: center;
+        }
+        .Last{
+            justify-content : center;
+            .subcard{
+                width : 50%;
+                margin : auto auto;
+            }
+        }
+
+        .md{
+            display : none;
+            @media (max-width:768px){
+                display : block;
+            }
+        }
+
+        .lg{
+            @media (max-width:768px){
+                display : none;
+            }
+        }
+
+        
     }
 `
 export default Styles
