@@ -394,6 +394,14 @@ const Styles = styled.div`
 
     #ukor{
         p { text-align: justify }
+        p ul li{
+            position : relative;
+            margin : 0px 30%;
+            text-align: left;
+            @media (max-width:762px){
+                margin : 0px;
+            }
+        }
         a{
             font-weight: normal;
             color: #6699FF; 
