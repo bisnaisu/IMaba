@@ -84,13 +84,14 @@
             "name": "DDAK",
             "prodi": "IK/SI",
             "sks": "5",
-            "desc": "MPKT merupakan mata kuliah wajib universitas.  Mata kuliah ini berfokus dalam pengembangan karakter, kemampuan bekerja sama dan berpikir kritis dalam penyelesaian. Kamu akan diberi sebuah permasalahan yang akan kamu analisis bersama teman kelompokmu, membuat makalah dan dokumentasi berdasarkan hasil diskusi."
+            "desc": "Dasar Dasar Arsitektur Komputer merupakan mata kuliah yang mempelajari. Diisini kamu akan belajar mengenaii komponen-komponen dasar komputer dan hubungannya satu sama lain. Sebagian dari mata kuliah ini akan mengulang Sistem Digital, dan sisanya mempelajari arsitektur komputer, assembly, dll."
+            
         },
         {
             "name": "MPKT",
             "prodi": "SI",
             "sks": "1",
-            "desc": "Dasar Dasar Arsitektur Komputer merupakan mata kuliah yang mempelajari. Diisini kamu akan belajar mengenaii komponen-komponen dasar komputer dan hubungannya satu sama lain. Sebagian dari mata kuliah ini akan mengulang Sistem Digital, dan sisanya mempelajari arsitektur komputer, assembly, dll."
+            "desc": "MPKT merupakan mata kuliah wajib universitas.  Mata kuliah ini berfokus dalam pengembangan karakter, kemampuan bekerja sama dan berpikir kritis dalam penyelesaian. Kamu akan diberi sebuah permasalahan yang akan kamu analisis bersama teman kelompokmu, membuat makalah dan dokumentasi berdasarkan hasil diskusi."
         }
 
     ]

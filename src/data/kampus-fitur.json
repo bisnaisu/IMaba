@@ -31,10 +31,17 @@
             "link": "https://scele.ui.ac.id/"
         },
         {
+            "name": "EMAS 2 UI",
+            "title": "EMAS 2 UI",
+            "desc": "Media pembelajaran online UI yang dikhususkan untuk mata kuliah-mata kuliah wajib kampus seperti MPKT, Bahasa Inggris dan Agama",
+            "link": " https://emas2.ui.ac.id/login/forgot_password.php"
+        },
+        {
             "name": "figma",
             "title": "Figma",
             "desc": "Kamu bisa mendapatkan Student Plan Figma dengan menggunakan email UI kamu. Dengan Student Plan, project Figma dapat dikerjakan bersama dengan account lain.",
             "link": "https://www.figma.com/education/"
         }
+        
     ]
 }

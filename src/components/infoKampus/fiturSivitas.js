@@ -23,7 +23,7 @@ export default function fiturSivitas() {
                         <img alt="" className="imgtopper" src={require(`../../assets/infoKampus/fitur-${item.name}.png`)} />
                         <h3>{item.title}</h3>
                         <p>{item.desc}</p>
-                        <p>More info: <a href={item.link} target="blank">{item.link}</a></p>
+                        <p><a href={item.link} target="blank">{item.link}</a></p>
                     </Card>
                 ))}                
             </CardColumns> 
