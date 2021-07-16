@@ -17,6 +17,7 @@ export default function fiturSivitas() {
                 <Col md={6}><img alt="fitur" src={asset} style={{width:"100%"}} /></Col>
                 <Col md={4}><p>Sebagai anak UI, yuk kenali beberapa fitur-fitur yang bisa kamu manfaatkan selama masa perkuliahan!</p></Col>
             </Row>
+            <br/>
             <CardColumns>
                 { fitur.map( item => (
                     <Card className="subcard" key={item.name}>
@@ -25,7 +26,8 @@ export default function fiturSivitas() {
                         <p>{item.desc}</p>
                         <p><a href={item.link} target="blank">{item.link}</a></p>
                     </Card>
-                ))}                
+                ))}
+                                    
             </CardColumns> 
         </Card>
     )

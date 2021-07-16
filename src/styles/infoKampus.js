@@ -306,7 +306,7 @@ const Styles = styled.div`
         a { font-weight: normal }
         .imgtopper {
             width: 30%;
-            margin-top: -20%;
+            margin-top: 0px;
         }
         .card-columns {
             .card {
