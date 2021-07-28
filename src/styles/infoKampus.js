@@ -166,7 +166,7 @@ const Styles = styled.div`
             padding-left: 0!important;
             .carousel-lg, .carousel-md {
                 .card-deck  {
-                    width: 90%;
+                    width: auto;
                     margin: 0 7.5%;
                 }
             }
