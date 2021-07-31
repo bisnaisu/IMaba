@@ -275,6 +275,7 @@ const Styles = styled.div`
                 height: 100px;
                 width: auto;
                 margin: 0 1rem 0 0;
+                border-radius : 50%;
                 @media (max-width:992px) { 
                     height: 85px;
                     margin: 0 .5rem 0 0; 
