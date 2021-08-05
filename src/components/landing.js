@@ -7,7 +7,7 @@ export default class landing extends Component {
     bg = require(`../assets/${this.props.page}/bg.jpg`)
     mobile = require(`../assets/${this.props.page}/bg-mobile.jpg`)    
 
-    render() {
+    render() {  
         const Landing = styled.div`
             height: calc(100vh - 56px); 
             margin-top: 56px;

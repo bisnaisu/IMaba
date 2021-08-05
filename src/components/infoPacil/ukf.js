@@ -16,18 +16,16 @@ export default function ukf() {
                         <Card className="subcard ml-auto mr-auto">
                         <Card.Body>
                             <div className="cardHeader">
-                                <img alt="" src={data.img}/>
+                                <img alt={data.title} src={ require(`../../assets/iconlogo/${data.img}.png`) } />
                                 <h2>{data.title}</h2>
                             </div>
                             <p>{data.contain}</p>
                             <div className="link">            
                             {data.link.map(link=>(
-                                
                                    <div>
                                         <a href={link.url} target="blank">{link.url}</a>
                                         <br/>
                                    </div>
-                                
                             ))}
                             </div>
                         </Card.Body>
@@ -39,7 +37,7 @@ export default function ukf() {
                         <Card className="subcard">
                         <Card.Body>
                             <div className="cardHeader">
-                                <img alt="" src={data.img}/>
+                            <img alt={data.title} src={ require(`../../assets/iconlogo/${data.img}.png`) } />
                                 <h2>{data.title}</h2>
                             </div>
                             <p>{data.contain}</p>                          
