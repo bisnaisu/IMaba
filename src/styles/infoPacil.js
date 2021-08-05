@@ -349,7 +349,7 @@ const Styles = styled.div`
     
             img {
                 height: 100px;
-                width: auto;
+                width: 100px;
                 margin: 0 1rem 0 0;
                 border-radius : 50%;
                 @media (max-width:992px) { 
